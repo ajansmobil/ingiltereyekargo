@@ -1,7 +1,7 @@
 
  
 
-  .ztkpt {
+  .kwm87 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .ztkpttitle {
+  .kwm87title {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .ztkpttitle:has(.ztkpttitlebodylang:empty),
-  .ztkpttitle:has(.ztkpttitlebodylang ul:empty) {
+  .kwm87title:has(.kwm87titlebodylang:empty),
+  .kwm87title:has(.kwm87titlebodylang ul:empty) {
     display: none;
   }
 
-  .ztkpttitlebody {
+  .kwm87titlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -31,29 +31,29 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .ztkpttitlebodytitle {
+  .kwm87titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .ztkpttitlebodylang {
+  .kwm87titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .ztkpttitlebodylang:empty,
-  .ztkpttitlebodylang ul:empty {
+  .kwm87titlebodylang:empty,
+  .kwm87titlebodylang ul:empty {
     display: none;
   }
 
-  .ztkpttitlebodylang ul {
+  .kwm87titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .ztkptbody {
+  .kwm87body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@
     position: relative;
   }
 
-  .ztkpt-mobile-toggle {
+  .kwm87-mobile-toggle {
     display: none;
     background: #1e3046;
     color: #ffffff;
@@ -76,18 +76,18 @@
     right: 0;
   }
 
-  .ztkpt-mobile-toggle span {
+  .kwm87-mobile-toggle span {
     font-size: 24px;
   }
 
-  .ztkptmenu {
+  .kwm87menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .ztkptmenulist {
+  .kwm87menulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -96,7 +96,7 @@
     display: flex;
   }
 
-  .ztkptmenubody {
+  .kwm87menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .ztkptmenulist ul {
+  .kwm87menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -113,7 +113,7 @@
     padding: 0;
   }
 
-  .ztkptmenulist ul a {
+  .kwm87menulist ul a {
     padding: 10px 15px;
     font-size: 16px;
     color: #ffffff !important;
@@ -126,40 +126,40 @@
     margin: 0 2px;
   }
 
-  .ztkptmenulist ul a:hover {
+  .kwm87menulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .ztkptmenulist ul a.ztkpt-menu-list-active {
+  .kwm87menulist ul a.kwm87-menu-list-active {
     color: #000000 !important;
   }
 
-  .ztkpt-menu-list-active {
+  .kwm87-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .ztkptmenulistbody {
+  .kwm87menulistbody {
     width: 100%;
   }
 
-  .ztkptlanguages-mobile {
+  .kwm87languages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .ztkptlanguages-mobile:empty,
-  .ztkptlanguages-mobile ul:empty {
+  .kwm87languages-mobile:empty,
+  .kwm87languages-mobile ul:empty {
     display: none !important;
   }
 
-  .ztkptlanguages-mobile ul {
+  .kwm87languages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -168,7 +168,7 @@
     justify-content: center;
   }
 
-  .ztkptlanguages-mobile li {
+  .kwm87languages-mobile li {
     list-style: none;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 8px;
@@ -183,25 +183,25 @@
     transition: all 0.3s ease;
   }
 
-  .ztkptlanguages-mobile li a {
+  .kwm87languages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .ztkptlanguages-mobile li:hover {
+  .kwm87languages-mobile li:hover {
     background-color: #ffffff;
     border-color: #000000;
   }
 
   @media screen and (min-width: 1024px) {
-    .ztkptbodylogo {
+    .kwm87bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .ztkpttitle {
+    .kwm87title {
     margin-bottom: -30px;
   }
 
@@ -209,77 +209,77 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .ztkptbody {
+    .kwm87body {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .ztkptmenulist ul {
+    .kwm87menulist ul {
       flex-direction: row;
     }
 
-    .ztkptbodylogo {
+    .kwm87bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .ztkpttitlebody {
+    .kwm87titlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .ztkpttitlebodytitle {
+    .kwm87titlebodytitle {
       text-align: center;
       font-size: 14px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .ztkpttitlebodylang {
+    .kwm87titlebodylang {
       display: none;
     }
 
-    .ztkptbody {
+    .kwm87body {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .ztkpt-mobile-toggle {
+    .kwm87-mobile-toggle {
       display: inline-flex;
     }
 
-    .ztkptbodylogo {
+    .kwm87bodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
-    .ztkptmenulist {
+    .kwm87menulist {
       display: none;
       flex-direction: column;
       width: calc(100% - 24px);
       padding: 12px;
     }
 
-    .ztkptmenu.ztkptmenu-open .ztkptmenulist {
+    .kwm87menu.kwm87menu-open .kwm87menulist {
       display: flex;
     }
 
-    .ztkptmenu.ztkptmenu-open .ztkptlanguages-mobile {
+    .kwm87menu.kwm87menu-open .kwm87languages-mobile {
       display: block;
     }
 
-    .ztkptmenulist ul {
+    .kwm87menulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .ztkptmenulist ul a {
+    .kwm87menulist ul a {
       font-size: 14px;
       width: 100%;
       padding: 12px;
@@ -288,16 +288,16 @@
       border-radius: 0;
     }
 
-    .ztkptmenulist ul a:last-child {
+    .kwm87menulist ul a:last-child {
       border-bottom: none;
     }
 
-    .ztkptmenulist ul a:hover {
+    .kwm87menulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .ztkpttitlebodytitle {
+    .kwm87titlebodytitle {
       font-size: 12px;
     }
   }
@@ -307,7 +307,7 @@
 #content {
     justify-content: start;
   }
-.wjvtq-title {
+.f6s15-title {
     width: 100%;
     height: 100px;
     background-color: #e95e32;
@@ -320,7 +320,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .wjvtq-title::before {
+  .f6s15-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -335,12 +335,12 @@
     z-index: 1;
   }
 
-  .wjvtq-title h1 {
+  .f6s15-title h1 {
     position: relative;
     z-index: 2;
     font-size: 32px;
   }
-  .wjvtq {
+  .f6s15 {
     width: var(--max);
     display: flex;
     flex-direction: column;
@@ -348,7 +348,7 @@
     margin-top: 20px;
   }
   @media screen and (max-width: 1024px) {
-    .wjvtq {
+    .f6s15 {
       width: calc(100% - 20px);
       padding: 10px;
       margin-top: 10px;
@@ -496,7 +496,7 @@
     box-sizing: border-box;
   }
 
-  .pxj42-wa-advanced-button {
+  .vodvi-wa-advanced-button {
     position: relative;
     width: 64px;
     height: 64px;
@@ -510,18 +510,18 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
-  .pxj42-wa-advanced-button:hover {
+  .vodvi-wa-advanced-button:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
   }
 
-  .pxj42-wa-advanced-icon svg {
+  .vodvi-wa-advanced-icon svg {
     width: 32px;
     height: 32px;
     fill: #fff;
   }
 
-  .pxj42-wa-advanced-pulse {
+  .vodvi-wa-advanced-pulse {
     position: absolute;
     top: -2px;
     left: -2px;
@@ -544,7 +544,7 @@
     }
   }
 
-  .pxj42-wa-advanced-panel {
+  .vodvi-wa-advanced-panel {
     position: absolute;
     bottom: 80px;
     right: 0;
@@ -558,7 +558,7 @@
     box-sizing: border-box;
   }
 
-  .pxj42-wa-advanced-header {
+  .vodvi-wa-advanced-header {
     background: #25D366;
     color: #fff;
     padding: 16px;
@@ -568,20 +568,20 @@
     position: relative;
   }
 
-  .pxj42-wa-advanced-avatar {
+  .vodvi-wa-advanced-avatar {
     position: relative;
     width: 48px;
     height: 48px;
   }
 
-  .pxj42-wa-advanced-avatar img {
+  .vodvi-wa-advanced-avatar img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
   }
 
-  .pxj42-wa-advanced-status {
+  .vodvi-wa-advanced-status {
     position: absolute;
     bottom: 2px;
     right: 2px;
@@ -591,23 +591,23 @@
     border: 2px solid #fff;
   }
 
-  .pxj42-wa-advanced-status.online {
+  .vodvi-wa-advanced-status.online {
     background: #4caf50;
   }
 
-  .pxj42-wa-advanced-info h4 {
+  .vodvi-wa-advanced-info h4 {
     margin: 0;
     font-size: 16px;
     font-weight: 600;
   }
 
-  .pxj42-wa-advanced-info p {
+  .vodvi-wa-advanced-info p {
     margin: 4px 0 0 0;
     font-size: 12px;
     opacity: 0.9;
   }
 
-  .pxj42-wa-advanced-close {
+  .vodvi-wa-advanced-close {
     position: absolute;
     top: 12px;
     right: 12px;
@@ -619,16 +619,16 @@
     opacity: 0.8;
   }
 
-  .pxj42-wa-advanced-close:hover {
+  .vodvi-wa-advanced-close:hover {
     opacity: 1;
   }
 
-  .pxj42-wa-advanced-body {
+  .vodvi-wa-advanced-body {
     padding: 16px;
     background: #f8f9fa;
   }
 
-  .pxj42-wa-advanced-message {
+  .vodvi-wa-advanced-message {
     background: #fff;
     padding: 12px 16px;
     border-radius: 8px;
@@ -639,29 +639,29 @@
     justify-content: flex-end;
   }
 
-  .pxj42-wa-advanced-message p {
+  .vodvi-wa-advanced-message p {
     font-size: 14px;
     color: #333;
     text-align: right;
     margin: 0;
   }
 
-  .pxj42-wa-advanced-time {
+  .vodvi-wa-advanced-time {
     font-size: 10px;
     color: #999;
     margin: 4px 0 0 0;
   }
 
-  .pxj42-wa-advanced-footer {
+  .vodvi-wa-advanced-footer {
     padding: 16px;
   }
 
-  .pxj42-wa-advanced-footer a {
+  .vodvi-wa-advanced-footer a {
     text-decoration: none;
     color: #fff !important;
   }
 
-  .pxj42-wa-advanced-chat-btn {
+  .vodvi-wa-advanced-chat-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -677,7 +677,7 @@
     transition: transform 0.3s ease;
   }
 
-  .pxj42-wa-advanced-chat-btn:hover {
+  .vodvi-wa-advanced-chat-btn:hover {
     transform: translateY(-2px);
   }
 
@@ -689,7 +689,7 @@
       max-width: calc(100vw - 40px);
     }
     
-    .pxj42-wa-advanced-panel {
+    .vodvi-wa-advanced-panel {
       width: calc(100vw - 40px);
       max-width: 320px;
       right: 0;

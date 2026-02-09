@@ -1,7 +1,7 @@
 
  
 
-  .bioti {
+  .dbhgd {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .biotititle {
+  .dbhgdtitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .biotititle:has(.biotititlebodylang:empty),
-  .biotititle:has(.biotititlebodylang ul:empty) {
+  .dbhgdtitle:has(.dbhgdtitlebodylang:empty),
+  .dbhgdtitle:has(.dbhgdtitlebodylang ul:empty) {
     display: none;
   }
 
-  .biotititlebody {
+  .dbhgdtitlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -31,29 +31,29 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .biotititlebodytitle {
+  .dbhgdtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .biotititlebodylang {
+  .dbhgdtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .biotititlebodylang:empty,
-  .biotititlebodylang ul:empty {
+  .dbhgdtitlebodylang:empty,
+  .dbhgdtitlebodylang ul:empty {
     display: none;
   }
 
-  .biotititlebodylang ul {
+  .dbhgdtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .biotibody {
+  .dbhgdbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@
     position: relative;
   }
 
-  .bioti-mobile-toggle {
+  .dbhgd-mobile-toggle {
     display: none;
     background: #1e3046;
     color: #ffffff;
@@ -76,18 +76,18 @@
     right: 0;
   }
 
-  .bioti-mobile-toggle span {
+  .dbhgd-mobile-toggle span {
     font-size: 24px;
   }
 
-  .biotimenu {
+  .dbhgdmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .biotimenulist {
+  .dbhgdmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -96,7 +96,7 @@
     display: flex;
   }
 
-  .biotimenubody {
+  .dbhgdmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .biotimenulist ul {
+  .dbhgdmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -113,7 +113,7 @@
     padding: 0;
   }
 
-  .biotimenulist ul a {
+  .dbhgdmenulist ul a {
     padding: 10px 15px;
     font-size: 16px;
     color: #ffffff !important;
@@ -126,40 +126,40 @@
     margin: 0 2px;
   }
 
-  .biotimenulist ul a:hover {
+  .dbhgdmenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .biotimenulist ul a.bioti-menu-list-active {
+  .dbhgdmenulist ul a.dbhgd-menu-list-active {
     color: #000000 !important;
   }
 
-  .bioti-menu-list-active {
+  .dbhgd-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .biotimenulistbody {
+  .dbhgdmenulistbody {
     width: 100%;
   }
 
-  .biotilanguages-mobile {
+  .dbhgdlanguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .biotilanguages-mobile:empty,
-  .biotilanguages-mobile ul:empty {
+  .dbhgdlanguages-mobile:empty,
+  .dbhgdlanguages-mobile ul:empty {
     display: none !important;
   }
 
-  .biotilanguages-mobile ul {
+  .dbhgdlanguages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -168,7 +168,7 @@
     justify-content: center;
   }
 
-  .biotilanguages-mobile li {
+  .dbhgdlanguages-mobile li {
     list-style: none;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 8px;
@@ -183,25 +183,25 @@
     transition: all 0.3s ease;
   }
 
-  .biotilanguages-mobile li a {
+  .dbhgdlanguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .biotilanguages-mobile li:hover {
+  .dbhgdlanguages-mobile li:hover {
     background-color: #ffffff;
     border-color: #000000;
   }
 
   @media screen and (min-width: 1024px) {
-    .biotibodylogo {
+    .dbhgdbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .biotititle {
+    .dbhgdtitle {
     margin-bottom: -30px;
   }
 
@@ -209,77 +209,77 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .biotibody {
+    .dbhgdbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .biotimenulist ul {
+    .dbhgdmenulist ul {
       flex-direction: row;
     }
 
-    .biotibodylogo {
+    .dbhgdbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .biotititlebody {
+    .dbhgdtitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .biotititlebodytitle {
+    .dbhgdtitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .biotititlebodylang {
+    .dbhgdtitlebodylang {
       display: none;
     }
 
-    .biotibody {
+    .dbhgdbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .bioti-mobile-toggle {
+    .dbhgd-mobile-toggle {
       display: inline-flex;
     }
 
-    .biotibodylogo {
+    .dbhgdbodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
-    .biotimenulist {
+    .dbhgdmenulist {
       display: none;
       flex-direction: column;
       width: calc(100% - 24px);
       padding: 12px;
     }
 
-    .biotimenu.biotimenu-open .biotimenulist {
+    .dbhgdmenu.dbhgdmenu-open .dbhgdmenulist {
       display: flex;
     }
 
-    .biotimenu.biotimenu-open .biotilanguages-mobile {
+    .dbhgdmenu.dbhgdmenu-open .dbhgdlanguages-mobile {
       display: block;
     }
 
-    .biotimenulist ul {
+    .dbhgdmenulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .biotimenulist ul a {
+    .dbhgdmenulist ul a {
       font-size: 14px;
       width: 100%;
       padding: 12px;
@@ -288,16 +288,16 @@
       border-radius: 0;
     }
 
-    .biotimenulist ul a:last-child {
+    .dbhgdmenulist ul a:last-child {
       border-bottom: none;
     }
 
-    .biotimenulist ul a:hover {
+    .dbhgdmenulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .biotititlebodytitle {
+    .dbhgdtitlebodytitle {
       font-size: 12px;
     }
   }
@@ -307,7 +307,7 @@
 #content {
     justify-content: start;
   }
-.mbqwo-title {
+.f8wxl-title {
     width: 100%;
     height: 100px;
     background-color: #e95e32;
@@ -320,7 +320,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .mbqwo-title::before {
+  .f8wxl-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -335,12 +335,12 @@
     z-index: 1;
   }
 
-  .mbqwo-title h1 {
+  .f8wxl-title h1 {
     position: relative;
     z-index: 2;
     font-size: 32px;
   }
-  .mbqwo {
+  .f8wxl {
     width: var(--max);
     display: flex;
     flex-direction: column;
@@ -348,7 +348,7 @@
     margin-top: 20px;
   }
   @media screen and (max-width: 1024px) {
-    .mbqwo {
+    .f8wxl {
       width: calc(100% - 20px);
       padding: 10px;
       margin-top: 10px;
@@ -496,7 +496,7 @@
     box-sizing: border-box;
   }
 
-  .mumkd-wa-advanced-button {
+  .gfoam-wa-advanced-button {
     position: relative;
     width: 64px;
     height: 64px;
@@ -510,18 +510,18 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
-  .mumkd-wa-advanced-button:hover {
+  .gfoam-wa-advanced-button:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
   }
 
-  .mumkd-wa-advanced-icon svg {
+  .gfoam-wa-advanced-icon svg {
     width: 32px;
     height: 32px;
     fill: #fff;
   }
 
-  .mumkd-wa-advanced-pulse {
+  .gfoam-wa-advanced-pulse {
     position: absolute;
     top: -2px;
     left: -2px;
@@ -544,7 +544,7 @@
     }
   }
 
-  .mumkd-wa-advanced-panel {
+  .gfoam-wa-advanced-panel {
     position: absolute;
     bottom: 80px;
     right: 0;
@@ -558,7 +558,7 @@
     box-sizing: border-box;
   }
 
-  .mumkd-wa-advanced-header {
+  .gfoam-wa-advanced-header {
     background: #25D366;
     color: #fff;
     padding: 16px;
@@ -568,20 +568,20 @@
     position: relative;
   }
 
-  .mumkd-wa-advanced-avatar {
+  .gfoam-wa-advanced-avatar {
     position: relative;
     width: 48px;
     height: 48px;
   }
 
-  .mumkd-wa-advanced-avatar img {
+  .gfoam-wa-advanced-avatar img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
   }
 
-  .mumkd-wa-advanced-status {
+  .gfoam-wa-advanced-status {
     position: absolute;
     bottom: 2px;
     right: 2px;
@@ -591,23 +591,23 @@
     border: 2px solid #fff;
   }
 
-  .mumkd-wa-advanced-status.online {
+  .gfoam-wa-advanced-status.online {
     background: #4caf50;
   }
 
-  .mumkd-wa-advanced-info h4 {
+  .gfoam-wa-advanced-info h4 {
     margin: 0;
     font-size: 16px;
     font-weight: 600;
   }
 
-  .mumkd-wa-advanced-info p {
+  .gfoam-wa-advanced-info p {
     margin: 4px 0 0 0;
     font-size: 12px;
     opacity: 0.9;
   }
 
-  .mumkd-wa-advanced-close {
+  .gfoam-wa-advanced-close {
     position: absolute;
     top: 12px;
     right: 12px;
@@ -619,16 +619,16 @@
     opacity: 0.8;
   }
 
-  .mumkd-wa-advanced-close:hover {
+  .gfoam-wa-advanced-close:hover {
     opacity: 1;
   }
 
-  .mumkd-wa-advanced-body {
+  .gfoam-wa-advanced-body {
     padding: 16px;
     background: #f8f9fa;
   }
 
-  .mumkd-wa-advanced-message {
+  .gfoam-wa-advanced-message {
     background: #fff;
     padding: 12px 16px;
     border-radius: 8px;
@@ -639,29 +639,29 @@
     justify-content: flex-end;
   }
 
-  .mumkd-wa-advanced-message p {
+  .gfoam-wa-advanced-message p {
     font-size: 14px;
     color: #333;
     text-align: right;
     margin: 0;
   }
 
-  .mumkd-wa-advanced-time {
+  .gfoam-wa-advanced-time {
     font-size: 10px;
     color: #999;
     margin: 4px 0 0 0;
   }
 
-  .mumkd-wa-advanced-footer {
+  .gfoam-wa-advanced-footer {
     padding: 16px;
   }
 
-  .mumkd-wa-advanced-footer a {
+  .gfoam-wa-advanced-footer a {
     text-decoration: none;
     color: #fff !important;
   }
 
-  .mumkd-wa-advanced-chat-btn {
+  .gfoam-wa-advanced-chat-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -677,7 +677,7 @@
     transition: transform 0.3s ease;
   }
 
-  .mumkd-wa-advanced-chat-btn:hover {
+  .gfoam-wa-advanced-chat-btn:hover {
     transform: translateY(-2px);
   }
 
@@ -689,7 +689,7 @@
       max-width: calc(100vw - 40px);
     }
     
-    .mumkd-wa-advanced-panel {
+    .gfoam-wa-advanced-panel {
       width: calc(100vw - 40px);
       max-width: 320px;
       right: 0;
