@@ -1,0 +1,36 @@
+{
+  "name": {
+    "tr": "Kurumsal",
+    "en": "Corporate"
+  },
+  "status": "play",
+  "category": "",
+  "id": "yvi9dlb59o",
+  "url": "",
+  "path": "kurumsal",
+  "index": 0,
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "pathnext": "hakkimizda",
+  "description": {
+    "tr": "Kurumsal sayfalar. Hakkımızda, misyon, vizyon ve iletişim.",
+    "en": "Corporate pages. About us, mission, vision and contact."
+  },
+  "spot": {
+    "tr": ""
+  },
+  "desc": {},
+  "keyword": {
+    "tr": "kurumsal, hakkımızda, iletişim",
+    "en": "corporate, about us, contact"
+  },
+  "text": {
+    "tr": "",
+    "en": "<h2>Corporate</h2><p>Welcome to our corporate section. Here you can find information about our company, mission, vision and contact details.</p>"
+  },
+  "update": "2026-02-09T10:30:03.998Z",
+  "date": "2026-02-03T19:25:14.523Z"
+}

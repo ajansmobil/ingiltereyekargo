@@ -1,0 +1,95 @@
+{
+  "name": "Sayfalar",
+  "path": "page",
+  "desc": [],
+  "data": [
+    {
+      "name": {
+        "tr": "Kurumsal",
+        "en": "Corporate"
+      },
+      "status": "play",
+      "category": "",
+      "id": "yvi9dlb59o",
+      "url": "",
+      "path": "kurumsal",
+      "index": 0,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "hakkimizda",
+      "description": {
+        "tr": "Kurumsal sayfalar. Hakkımızda, misyon, vizyon ve iletişim.",
+        "en": "Corporate pages. About us, mission, vision and contact."
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Bilgi bankası",
+        "en": "Knowledge Base"
+      },
+      "status": "play",
+      "category": "",
+      "id": "hs54qzyeyo",
+      "url": "",
+      "path": "bilgibankasi",
+      "index": 1,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [
+          "sa503p"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere kargo ve nakliye bilgi bankası. Eve den eve taşıma rehberi.",
+        "en": "England cargo and shipping knowledge base. Door to door moving guide."
+      },
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İletişim",
+        "en": "Contact"
+      },
+      "status": "play",
+      "category": "",
+      "id": "xnzu5au0ag",
+      "url": "",
+      "path": "iletisim",
+      "index": 2,
+      "icon": "home",
+      "desing": {
+        "header": [],
+        "body": [
+          "fhxr98",
+          "bi4hta"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İletişim. İngiltere kargo ve nakliye için bize ulaşın.",
+        "en": "Contact us for England cargo and shipping."
+      },
+      "desc": {}
+    }
+  ],
+  "index": 0,
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "modulestatus": {
+    "page": true,
+    "bgimg": false,
+    "detail": true,
+    "body": true
+  }
+}

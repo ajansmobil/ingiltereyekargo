@@ -1,0 +1,2420 @@
+{
+  "name": "Bilgi Bankası",
+  "path": "products",
+  "desc": [],
+  "data": [
+    {
+      "name": {
+        "tr": "İngiltere Eve Den Eve Taşıma",
+        "en": "Door to Door Moving to England"
+      },
+      "status": "play",
+      "category": "",
+      "id": "lkg27w8tm7",
+      "url": "",
+      "path": "ingiltere-eve-den-eve-tasima",
+      "index": 0,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Eve Den Eve Taşıma ile İngiltere'ye güvenli taşıma. Kapıdan kapıya, gümrük ve sigorta. Fiyat için iletişime geçin.",
+        "en": "Door to Door Moving to England service. England cargo, door to door delivery. Customs and insurance. Get a quote for Door to Door Moving to England."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Nakliyat Hizmetleri",
+        "en": "England Shipping Services"
+      },
+      "status": "play",
+      "category": "",
+      "id": "y1ufk2gkh2",
+      "url": "",
+      "path": "ingiltere-nakliyat-hizmetleri",
+      "index": 1,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere kargo: İngiltere Nakliyat Hizmetleri hizmeti. Eve den eve, gümrük destekli. İngiltere Nakliyat Hizmetleri teklifi alın.",
+        "en": "England Shipping Services service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Shipping Services."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Uluslararası Nakliye",
+        "en": "International Moving to England"
+      },
+      "status": "play",
+      "category": "",
+      "id": "knh19akwnx",
+      "url": "",
+      "path": "ingiltere-uluslararasi-nakliye",
+      "index": 2,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Uluslararası Nakliye hizmeti sunuyoruz. İngiltere nakliye, kapıdan kapıya teslimat. İngiltere Uluslararası Nakliye detayları için bize yazın.",
+        "en": "International Moving to England service. England cargo, door to door delivery. Customs and insurance. Get a quote for International Moving to England."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere'ye Eşya Gönderimi",
+        "en": "Sending Goods to England"
+      },
+      "status": "play",
+      "category": "",
+      "id": "eo1grzqhqh",
+      "url": "",
+      "path": "ingiltereye-esya-gonderimi",
+      "index": 3,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere'ye Eşya Gönderimi ile İngiltere'ye güvenli taşıma. Kapıdan kapıya, gümrük ve sigorta. Fiyat için iletişime geçin.",
+        "en": "Sending Goods to England service. England cargo, door to door delivery. Customs and insurance. Get a quote for Sending Goods to England."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Kargo Fiyatları",
+        "en": "England Cargo Prices"
+      },
+      "status": "play",
+      "category": "",
+      "id": "om8x4beras",
+      "url": "",
+      "path": "ingiltere-kargo-fiyatlari",
+      "index": 4,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere kargo: İngiltere Kargo Fiyatları hizmeti. Eve den eve, gümrük destekli. İngiltere Kargo Fiyatları teklifi alın.",
+        "en": "England Cargo Prices service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Cargo Prices."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Ev Taşıma Fiyatları",
+        "en": "England House Moving Prices"
+      },
+      "status": "play",
+      "category": "",
+      "id": "9zwn0hinyz",
+      "url": "",
+      "path": "ingiltere-ev-tasima-fiyatlari",
+      "index": 5,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Ev Taşıma Fiyatları hizmeti sunuyoruz. İngiltere nakliye, kapıdan kapıya teslimat. İngiltere Ev Taşıma Fiyatları detayları için bize yazın.",
+        "en": "England House Moving Prices service. England cargo, door to door delivery. Customs and insurance. Get a quote for England House Moving Prices."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Gümrük İşlemleri",
+        "en": "England Customs Procedures"
+      },
+      "status": "play",
+      "category": "",
+      "id": "m4bdwh115c",
+      "url": "",
+      "path": "ingiltere-gumruk-islemleri",
+      "index": 6,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Gümrük İşlemleri ile İngiltere'ye güvenli taşıma. Kapıdan kapıya, gümrük ve sigorta. Fiyat için iletişime geçin.",
+        "en": "England Customs Procedures service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Customs Procedures."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Londra'ya Taşıma ve Nakliye",
+        "en": "Moving and Shipping to London"
+      },
+      "status": "play",
+      "category": "",
+      "id": "jxsa6e4uu6",
+      "url": "",
+      "path": "londraya-tasima-ve-nakliye",
+      "index": 7,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere kargo: Londra'ya Taşıma ve Nakliye hizmeti. Eve den eve, gümrük destekli. Londra'ya Taşıma ve Nakliye teklifi alın.",
+        "en": "Moving and Shipping to London service. England cargo, door to door delivery. Customs and insurance. Get a quote for Moving and Shipping to London."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Deniz Yolu Taşımacılık",
+        "en": "England Sea Freight"
+      },
+      "status": "play",
+      "category": "",
+      "id": "r120a2ktm3",
+      "url": "",
+      "path": "ingiltere-deniz-yolu-tasimacilik",
+      "index": 8,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Deniz Yolu Taşımacılık hizmeti sunuyoruz. İngiltere nakliye, kapıdan kapıya teslimat. İngiltere Deniz Yolu Taşımacılık detayları için bize yazın.",
+        "en": "England Sea Freight service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Sea Freight."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Hava Kargo",
+        "en": "England Air Cargo"
+      },
+      "status": "play",
+      "category": "",
+      "id": "og033372qy",
+      "url": "",
+      "path": "ingiltere-hava-kargo",
+      "index": 9,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Hava Kargo ile İngiltere'ye güvenli taşıma. Kapıdan kapıya, gümrük ve sigorta. Fiyat için iletişime geçin.",
+        "en": "England Air Cargo service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Air Cargo."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Türkiye İngiltere Nakliyat",
+        "en": "Turkey to England Shipping"
+      },
+      "status": "play",
+      "category": "",
+      "id": "6umsruyfz0",
+      "url": "",
+      "path": "turkiye-ingiltere-nakliyat",
+      "index": 10,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere kargo: Türkiye İngiltere Nakliyat hizmeti. Eve den eve, gümrük destekli. Türkiye İngiltere Nakliyat teklifi alın.",
+        "en": "Turkey to England Shipping service. England cargo, door to door delivery. Customs and insurance. Get a quote for Turkey to England Shipping."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Evden Eve Nakliye Fiyatları",
+        "en": "England Door to Door Moving Prices"
+      },
+      "status": "play",
+      "category": "",
+      "id": "sxxfo100j0",
+      "url": "",
+      "path": "ingiltere-evden-eve-nakliye-fiyatlari",
+      "index": 11,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Evden Eve Nakliye Fiyatları hizmeti sunuyoruz. İngiltere nakliye, kapıdan kapıya teslimat. İngiltere Evden Eve Nakliye Fiyatları detayları için biz...",
+        "en": "England Door to Door Moving Prices service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Door to Door Moving Prices."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere'ye Taşınmak",
+        "en": "Moving to England"
+      },
+      "status": "play",
+      "category": "",
+      "id": "mkrb5ya8kt",
+      "url": "",
+      "path": "ingiltereye-tasinmak",
+      "index": 12,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere'ye Taşınmak ile İngiltere'ye güvenli taşıma. Kapıdan kapıya, gümrük ve sigorta. Fiyat için iletişime geçin.",
+        "en": "Moving to England service. England cargo, door to door delivery. Customs and insurance. Get a quote for Moving to England."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Eşya Taşıma Şirketleri",
+        "en": "England Furniture Moving Companies"
+      },
+      "status": "play",
+      "category": "",
+      "id": "b4c9bfcayl",
+      "url": "",
+      "path": "ingiltere-esya-tasima-sirketleri",
+      "index": 13,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere kargo: İngiltere Eşya Taşıma Şirketleri hizmeti. Eve den eve, gümrük destekli. İngiltere Eşya Taşıma Şirketleri teklifi alın.",
+        "en": "England Furniture Moving Companies service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Furniture Moving Companies."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Uluslararası Kargo",
+        "en": "England International Cargo"
+      },
+      "status": "play",
+      "category": "",
+      "id": "x0q1dgf5ff",
+      "url": "",
+      "path": "ingiltere-uluslararasi-kargo",
+      "index": 14,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Uluslararası Kargo hizmeti sunuyoruz. İngiltere nakliye, kapıdan kapıya teslimat. İngiltere Uluslararası Kargo detayları için bize yazın.",
+        "en": "England International Cargo service. England cargo, door to door delivery. Customs and insurance. Get a quote for England International Cargo."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Kapıdan Kapıya Taşıma",
+        "en": "England Door to Door Delivery"
+      },
+      "status": "play",
+      "category": "",
+      "id": "b7r5lkgmm9",
+      "url": "",
+      "path": "ingiltere-kapidan-kapiya-tasima",
+      "index": 15,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Kapıdan Kapıya Taşıma ile İngiltere'ye güvenli taşıma. Kapıdan kapıya, gümrük ve sigorta. Fiyat için iletişime geçin.",
+        "en": "England Door to Door Delivery service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Door to Door Delivery."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Nakliye Firmaları",
+        "en": "England Moving Companies"
+      },
+      "status": "play",
+      "category": "",
+      "id": "un0j4yczgk",
+      "url": "",
+      "path": "ingiltere-nakliye-firmalari",
+      "index": 16,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere kargo: İngiltere Nakliye Firmaları hizmeti. Eve den eve, gümrük destekli. İngiltere Nakliye Firmaları teklifi alın.",
+        "en": "England Moving Companies service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Moving Companies."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Ev Eşyası Taşıma",
+        "en": "England Household Goods Moving"
+      },
+      "status": "play",
+      "category": "",
+      "id": "vd1rsx0ue1",
+      "url": "",
+      "path": "ingiltere-ev-esyasi-tasima",
+      "index": 17,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Ev Eşyası Taşıma hizmeti sunuyoruz. İngiltere nakliye, kapıdan kapıya teslimat. İngiltere Ev Eşyası Taşıma detayları için bize yazın.",
+        "en": "England Household Goods Moving service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Household Goods Moving."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Kargo Süreleri",
+        "en": "England Cargo Delivery Times"
+      },
+      "status": "play",
+      "category": "",
+      "id": "si14ee5t47",
+      "url": "",
+      "path": "ingiltere-kargo-sureleri",
+      "index": 18,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Kargo Süreleri ile İngiltere'ye güvenli taşıma. Kapıdan kapıya, gümrük ve sigorta. Fiyat için iletişime geçin.",
+        "en": "England Cargo Delivery Times service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Cargo Delivery Times."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İstanbul İngiltere Nakliyat",
+        "en": "Istanbul to England Shipping"
+      },
+      "status": "play",
+      "category": "",
+      "id": "qxvu9hw6w5",
+      "url": "",
+      "path": "istanbul-ingiltere-nakliyat",
+      "index": 19,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere kargo: İstanbul İngiltere Nakliyat hizmeti. Eve den eve, gümrük destekli. İstanbul İngiltere Nakliyat teklifi alın.",
+        "en": "Istanbul to England Shipping service. England cargo, door to door delivery. Customs and insurance. Get a quote for Istanbul to England Shipping."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Ankara İngiltere Kargo",
+        "en": "Ankara to England Cargo"
+      },
+      "status": "play",
+      "category": "",
+      "id": "hu45btxkw7",
+      "url": "",
+      "path": "ankara-ingiltere-kargo",
+      "index": 20,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Ankara İngiltere Kargo hizmeti sunuyoruz. İngiltere nakliye, kapıdan kapıya teslimat. Ankara İngiltere Kargo detayları için bize yazın.",
+        "en": "Ankara to England Cargo service. England cargo, door to door delivery. Customs and insurance. Get a quote for Ankara to England Cargo."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İzmir İngiltere Taşıma",
+        "en": "Izmir to England Moving"
+      },
+      "status": "play",
+      "category": "",
+      "id": "qsh2pvzkas",
+      "url": "",
+      "path": "izmir-ingiltere-tasima",
+      "index": 21,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İzmir İngiltere Taşıma ile İngiltere'ye güvenli taşıma. Kapıdan kapıya, gümrük ve sigorta. Fiyat için iletişime geçin.",
+        "en": "Izmir to England Moving service. England cargo, door to door delivery. Customs and insurance. Get a quote for Izmir to England Moving."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere'ye Araba Gönderimi",
+        "en": "Sending Car to England"
+      },
+      "status": "play",
+      "category": "",
+      "id": "9soj0ecbk9",
+      "url": "",
+      "path": "ingiltereye-araba-gonderimi",
+      "index": 22,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere kargo: İngiltere'ye Araba Gönderimi hizmeti. Eve den eve, gümrük destekli. İngiltere'ye Araba Gönderimi teklifi alın.",
+        "en": "Sending Car to England service. England cargo, door to door delivery. Customs and insurance. Get a quote for Sending Car to England."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Deniz Kargo",
+        "en": "England Sea Cargo"
+      },
+      "status": "play",
+      "category": "",
+      "id": "hr4ytrd57j",
+      "url": "",
+      "path": "ingiltere-deniz-kargo",
+      "index": 23,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Deniz Kargo hizmeti sunuyoruz. İngiltere nakliye, kapıdan kapıya teslimat. İngiltere Deniz Kargo detayları için bize yazın.",
+        "en": "England Sea Cargo service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Sea Cargo."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Parsiyel Kargo",
+        "en": "England Groupage Cargo"
+      },
+      "status": "play",
+      "category": "",
+      "id": "uxjrxvwjob",
+      "url": "",
+      "path": "ingiltere-parsiyel-kargo",
+      "index": 24,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Parsiyel Kargo ile İngiltere'ye güvenli taşıma. Kapıdan kapıya, gümrük ve sigorta. Fiyat için iletişime geçin.",
+        "en": "England Groupage Cargo service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Groupage Cargo."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Konteyner Taşımacılık",
+        "en": "England Container Shipping"
+      },
+      "status": "play",
+      "category": "",
+      "id": "uzkna9czsx",
+      "url": "",
+      "path": "ingiltere-konteyner-tasimacilik",
+      "index": 25,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere kargo: İngiltere Konteyner Taşımacılık hizmeti. Eve den eve, gümrük destekli. İngiltere Konteyner Taşımacılık teklifi alın.",
+        "en": "England Container Shipping service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Container Shipping."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Lojistik Hizmetleri",
+        "en": "England Logistics Services"
+      },
+      "status": "play",
+      "category": "",
+      "id": "edhekdoke3",
+      "url": "",
+      "path": "ingiltere-lojistik-hizmetleri",
+      "index": 26,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Lojistik Hizmetleri hizmeti sunuyoruz. İngiltere nakliye, kapıdan kapıya teslimat. İngiltere Lojistik Hizmetleri detayları için bize yazın.",
+        "en": "England Logistics Services service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Logistics Services."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Ev Taşıma Paketleri",
+        "en": "England House Moving Packages"
+      },
+      "status": "play",
+      "category": "",
+      "id": "sull0ezjft",
+      "url": "",
+      "path": "ingiltere-ev-tasima-paketleri",
+      "index": 27,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Ev Taşıma Paketleri ile İngiltere'ye güvenli taşıma. Kapıdan kapıya, gümrük ve sigorta. Fiyat için iletişime geçin.",
+        "en": "England House Moving Packages service. England cargo, door to door delivery. Customs and insurance. Get a quote for England House Moving Packages."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Öğrenci Eşyası Taşıma",
+        "en": "England Student Belongings Moving"
+      },
+      "status": "play",
+      "category": "",
+      "id": "meqel9m3ux",
+      "url": "",
+      "path": "ingiltere-ogrenci-esyasi-tasima",
+      "index": 28,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere kargo: İngiltere Öğrenci Eşyası Taşıma hizmeti. Eve den eve, gümrük destekli. İngiltere Öğrenci Eşyası Taşıma teklifi alın.",
+        "en": "England Student Belongings Moving service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Student Belongings Moving."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Tır Nakliyat",
+        "en": "England Truck Shipping"
+      },
+      "status": "play",
+      "category": "",
+      "id": "e61ppze778",
+      "url": "",
+      "path": "ingiltere-tir-nakliyat",
+      "index": 29,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Tır Nakliyat hizmeti sunuyoruz. İngiltere nakliye, kapıdan kapıya teslimat. İngiltere Tır Nakliyat detayları için bize yazın.",
+        "en": "England Truck Shipping service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Truck Shipping."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Adresine Teslimat",
+        "en": "Delivery to England Address"
+      },
+      "status": "play",
+      "category": "",
+      "id": "0n1lwr5kas",
+      "url": "",
+      "path": "ingiltere-adresine-teslimat",
+      "index": 30,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Adresine Teslimat ile İngiltere'ye güvenli taşıma. Kapıdan kapıya, gümrük ve sigorta. Fiyat için iletişime geçin.",
+        "en": "Delivery to England Address service. England cargo, door to door delivery. Customs and insurance. Get a quote for Delivery to England Address."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Taşıma Sigortası",
+        "en": "England Moving Insurance"
+      },
+      "status": "play",
+      "category": "",
+      "id": "86pwdg2i6c",
+      "url": "",
+      "path": "ingiltere-tasima-sigortasi",
+      "index": 31,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere kargo: İngiltere Taşıma Sigortası hizmeti. Eve den eve, gümrük destekli. İngiltere Taşıma Sigortası teklifi alın.",
+        "en": "England Moving Insurance service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Moving Insurance."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Gümrük Danışmanlığı",
+        "en": "England Customs Consulting"
+      },
+      "status": "play",
+      "category": "",
+      "id": "26ir0i3hv8",
+      "url": "",
+      "path": "ingiltere-gumruk-danismanligi",
+      "index": 32,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Gümrük Danışmanlığı hizmeti sunuyoruz. İngiltere nakliye, kapıdan kapıya teslimat. İngiltere Gümrük Danışmanlığı detayları için bize yazın.",
+        "en": "England Customs Consulting service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Customs Consulting."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Depolama Hizmeti",
+        "en": "England Storage Service"
+      },
+      "status": "play",
+      "category": "",
+      "id": "bjcl7tocmj",
+      "url": "",
+      "path": "ingiltere-depolama-hizmeti",
+      "index": 33,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Depolama Hizmeti ile İngiltere'ye güvenli taşıma. Kapıdan kapıya, gümrük ve sigorta. Fiyat için iletişime geçin.",
+        "en": "England Storage Service service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Storage Service."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Ev Taşıma Rehberi",
+        "en": "England House Moving Guide"
+      },
+      "status": "play",
+      "category": "",
+      "id": "rt8bgsgig4",
+      "url": "",
+      "path": "ingiltere-ev-tasima-rehberi",
+      "index": 34,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere kargo: İngiltere Ev Taşıma Rehberi hizmeti. Eve den eve, gümrük destekli. İngiltere Ev Taşıma Rehberi teklifi alın.",
+        "en": "England House Moving Guide service. England cargo, door to door delivery. Customs and insurance. Get a quote for England House Moving Guide."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere'ye Göç Eşyası Taşıma",
+        "en": "Moving Belongings to England"
+      },
+      "status": "play",
+      "category": "",
+      "id": "hlhklpzzxl",
+      "url": "",
+      "path": "ingiltereye-goc-esyasi-tasima",
+      "index": 35,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere'ye Göç Eşyası Taşıma hizmeti sunuyoruz. İngiltere nakliye, kapıdan kapıya teslimat. İngiltere'ye Göç Eşyası Taşıma detayları için bize yazın.",
+        "en": "Moving Belongings to England service. England cargo, door to door delivery. Customs and insurance. Get a quote for Moving Belongings to England."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Kargo Takip",
+        "en": "England Cargo Tracking"
+      },
+      "status": "play",
+      "category": "",
+      "id": "1v7cvebs8h",
+      "url": "",
+      "path": "ingiltere-kargo-takip",
+      "index": 36,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Kargo Takip ile İngiltere'ye güvenli taşıma. Kapıdan kapıya, gümrük ve sigorta. Fiyat için iletişime geçin.",
+        "en": "England Cargo Tracking service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Cargo Tracking."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Ekonomik Taşıma",
+        "en": "England Budget Moving"
+      },
+      "status": "play",
+      "category": "",
+      "id": "4lzblrwt1p",
+      "url": "",
+      "path": "ingiltere-ekonomik-tasima",
+      "index": 37,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere kargo: İngiltere Ekonomik Taşıma hizmeti. Eve den eve, gümrük destekli. İngiltere Ekonomik Taşıma teklifi alın.",
+        "en": "England Budget Moving service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Budget Moving."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Express Kargo",
+        "en": "England Express Cargo"
+      },
+      "status": "play",
+      "category": "",
+      "id": "s3k2hlbea4",
+      "url": "",
+      "path": "ingiltere-express-kargo",
+      "index": 38,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Express Kargo hizmeti sunuyoruz. İngiltere nakliye, kapıdan kapıya teslimat. İngiltere Express Kargo detayları için bize yazın.",
+        "en": "England Express Cargo service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Express Cargo."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Paletli Taşıma",
+        "en": "England Palletised Shipping"
+      },
+      "status": "play",
+      "category": "",
+      "id": "ydjgg6921o",
+      "url": "",
+      "path": "ingiltere-paletli-tasima",
+      "index": 39,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Paletli Taşıma ile İngiltere'ye güvenli taşıma. Kapıdan kapıya, gümrük ve sigorta. Fiyat için iletişime geçin.",
+        "en": "England Palletised Shipping service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Palletised Shipping."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Manchester'a Nakliye",
+        "en": "Shipping to Manchester"
+      },
+      "status": "play",
+      "category": "",
+      "id": "brqbi498pn",
+      "url": "",
+      "path": "manchestera-nakliye",
+      "index": 40,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere kargo: Manchester'a Nakliye hizmeti. Eve den eve, gümrük destekli. Manchester'a Nakliye teklifi alın.",
+        "en": "Shipping to Manchester service. England cargo, door to door delivery. Customs and insurance. Get a quote for Shipping to Manchester."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Birmingham'a Taşıma",
+        "en": "Moving to Birmingham"
+      },
+      "status": "play",
+      "category": "",
+      "id": "co7tqkut5o",
+      "url": "",
+      "path": "birminghama-tasima",
+      "index": 41,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Birmingham'a Taşıma hizmeti sunuyoruz. İngiltere nakliye, kapıdan kapıya teslimat. Birmingham'a Taşıma detayları için bize yazın.",
+        "en": "Moving to Birmingham service. England cargo, door to door delivery. Customs and insurance. Get a quote for Moving to Birmingham."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Leeds'e Kargo",
+        "en": "Cargo to Leeds"
+      },
+      "status": "play",
+      "category": "",
+      "id": "qc2kqusysc",
+      "url": "",
+      "path": "leedse-kargo",
+      "index": 42,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Leeds'e Kargo ile İngiltere'ye güvenli taşıma. Kapıdan kapıya, gümrük ve sigorta. Fiyat için iletişime geçin.",
+        "en": "Cargo to Leeds service. England cargo, door to door delivery. Customs and insurance. Get a quote for Cargo to Leeds."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Liverpool'a Eşya Gönderimi",
+        "en": "Sending Goods to Liverpool"
+      },
+      "status": "play",
+      "category": "",
+      "id": "b2f5uru17h",
+      "url": "",
+      "path": "liverpoola-esya-gonderimi",
+      "index": 43,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere kargo: Liverpool'a Eşya Gönderimi hizmeti. Eve den eve, gümrük destekli. Liverpool'a Eşya Gönderimi teklifi alın.",
+        "en": "Sending Goods to Liverpool service. England cargo, door to door delivery. Customs and insurance. Get a quote for Sending Goods to Liverpool."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "Bristol'a Nakliyat",
+        "en": "Shipping to Bristol"
+      },
+      "status": "play",
+      "category": "",
+      "id": "zvsohxx38z",
+      "url": "",
+      "path": "bristola-nakliyat",
+      "index": 44,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Bristol'a Nakliyat hizmeti sunuyoruz. İngiltere nakliye, kapıdan kapıya teslimat. Bristol'a Nakliyat detayları için bize yazın.",
+        "en": "Shipping to Bristol service. England cargo, door to door delivery. Customs and insurance. Get a quote for Shipping to Bristol."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Kırsal Bölge Teslimat",
+        "en": "England Rural Area Delivery"
+      },
+      "status": "play",
+      "category": "",
+      "id": "3oal92pb00",
+      "url": "",
+      "path": "ingiltere-kirsal-bolge-teslimat",
+      "index": 45,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Kırsal Bölge Teslimat ile İngiltere'ye güvenli taşıma. Kapıdan kapıya, gümrük ve sigorta. Fiyat için iletişime geçin.",
+        "en": "England Rural Area Delivery service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Rural Area Delivery."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Ev Ofis Taşıma",
+        "en": "England Home Office Moving"
+      },
+      "status": "play",
+      "category": "",
+      "id": "xwnqicc19o",
+      "url": "",
+      "path": "ingiltere-ev-ofis-tasima",
+      "index": 46,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere kargo: İngiltere Ev Ofis Taşıma hizmeti. Eve den eve, gümrük destekli. İngiltere Ev Ofis Taşıma teklifi alın.",
+        "en": "England Home Office Moving service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Home Office Moving."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Antika Eşya Taşıma",
+        "en": "England Antique Moving"
+      },
+      "status": "play",
+      "category": "",
+      "id": "s3k151niov",
+      "url": "",
+      "path": "ingiltere-antika-esya-tasima",
+      "index": 47,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Antika Eşya Taşıma hizmeti sunuyoruz. İngiltere nakliye, kapıdan kapıya teslimat. İngiltere Antika Eşya Taşıma detayları için bize yazın.",
+        "en": "England Antique Moving service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Antique Moving."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Beyaz Eşya Nakliye",
+        "en": "England White Goods Shipping"
+      },
+      "status": "play",
+      "category": "",
+      "id": "gf7pz607uv",
+      "url": "",
+      "path": "ingiltere-beyaz-esya-nakliye",
+      "index": 48,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Beyaz Eşya Nakliye ile İngiltere'ye güvenli taşıma. Kapıdan kapıya, gümrük ve sigorta. Fiyat için iletişime geçin.",
+        "en": "England White Goods Shipping service. England cargo, door to door delivery. Customs and insurance. Get a quote for England White Goods Shipping."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Kitaplık ve Eşya Taşıma",
+        "en": "England Books and Belongings Moving"
+      },
+      "status": "play",
+      "category": "",
+      "id": "hi7az6n78u",
+      "url": "",
+      "path": "ingiltere-kitaplik-ve-esya-tasima",
+      "index": 49,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere kargo: İngiltere Kitaplık ve Eşya Taşıma hizmeti. Eve den eve, gümrük destekli. İngiltere Kitaplık ve Eşya Taşıma teklifi alın.",
+        "en": "England Books and Belongings Moving service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Books and Belongings Moving."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Taşınma Maliyeti",
+        "en": "England Moving Cost"
+      },
+      "status": "play",
+      "category": "",
+      "id": "g975iogm97",
+      "url": "",
+      "path": "ingiltere-tasinma-maliyeti",
+      "index": 50,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Taşınma Maliyeti hizmeti sunuyoruz. İngiltere nakliye, kapıdan kapıya teslimat. İngiltere Taşınma Maliyeti detayları için bize yazın.",
+        "en": "England Moving Cost service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Moving Cost."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Nakliyat Süresi",
+        "en": "England Shipping Duration"
+      },
+      "status": "play",
+      "category": "",
+      "id": "0gefz7ig2l",
+      "url": "",
+      "path": "ingiltere-nakliyat-suresi",
+      "index": 51,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Nakliyat Süresi ile İngiltere'ye güvenli taşıma. Kapıdan kapıya, gümrük ve sigorta. Fiyat için iletişime geçin.",
+        "en": "England Shipping Duration service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Shipping Duration."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Kargo Hesaplama",
+        "en": "England Cargo Calculator"
+      },
+      "status": "play",
+      "category": "",
+      "id": "jy1oomdcun",
+      "url": "",
+      "path": "ingiltere-kargo-hesaplama",
+      "index": 52,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere kargo: İngiltere Kargo Hesaplama hizmeti. Eve den eve, gümrük destekli. İngiltere Kargo Hesaplama teklifi alın.",
+        "en": "England Cargo Calculator service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Cargo Calculator."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Kapıda Ödeme Kargo",
+        "en": "England Cash on Delivery Cargo"
+      },
+      "status": "play",
+      "category": "",
+      "id": "njgx1jb936",
+      "url": "",
+      "path": "ingiltere-kapida-odeme-kargo",
+      "index": 53,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Kapıda Ödeme Kargo hizmeti sunuyoruz. İngiltere nakliye, kapıdan kapıya teslimat. İngiltere Kapıda Ödeme Kargo detayları için bize yazın.",
+        "en": "England Cash on Delivery Cargo service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Cash on Delivery Cargo."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Vergi Muafiyeti Eşya",
+        "en": "England Duty Free Goods"
+      },
+      "status": "play",
+      "category": "",
+      "id": "rluvg6hhv2",
+      "url": "",
+      "path": "ingiltere-vergi-muafiyeti-esya",
+      "index": 54,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Vergi Muafiyeti Eşya ile İngiltere'ye güvenli taşıma. Kapıdan kapıya, gümrük ve sigorta. Fiyat için iletişime geçin.",
+        "en": "England Duty Free Goods service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Duty Free Goods."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere İkinci El Eşya Taşıma",
+        "en": "England Second Hand Goods Moving"
+      },
+      "status": "play",
+      "category": "",
+      "id": "kn62yxg25x",
+      "url": "",
+      "path": "ingiltere-ikinci-el-esya-tasima",
+      "index": 55,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere kargo: İngiltere İkinci El Eşya Taşıma hizmeti. Eve den eve, gümrük destekli. İngiltere İkinci El Eşya Taşıma teklifi alın.",
+        "en": "England Second Hand Goods Moving service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Second Hand Goods Moving."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Ticari Kargo",
+        "en": "England Commercial Cargo"
+      },
+      "status": "play",
+      "category": "",
+      "id": "m04w87hpw6",
+      "url": "",
+      "path": "ingiltere-ticari-kargo",
+      "index": 56,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Ticari Kargo hizmeti sunuyoruz. İngiltere nakliye, kapıdan kapıya teslimat. İngiltere Ticari Kargo detayları için bize yazın.",
+        "en": "England Commercial Cargo service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Commercial Cargo."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Numune Gönderimi",
+        "en": "England Sample Shipping"
+      },
+      "status": "play",
+      "category": "",
+      "id": "1em0f73pru",
+      "url": "",
+      "path": "ingiltere-numune-gonderimi",
+      "index": 57,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Numune Gönderimi ile İngiltere'ye güvenli taşıma. Kapıdan kapıya, gümrük ve sigorta. Fiyat için iletişime geçin.",
+        "en": "England Sample Shipping service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Sample Shipping."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Doküman Kargo",
+        "en": "England Document Cargo"
+      },
+      "status": "play",
+      "category": "",
+      "id": "bhkg8sboh3",
+      "url": "",
+      "path": "ingiltere-dokuman-kargo",
+      "index": 58,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere kargo: İngiltere Doküman Kargo hizmeti. Eve den eve, gümrük destekli. İngiltere Doküman Kargo teklifi alın.",
+        "en": "England Document Cargo service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Document Cargo."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Soğuk Zincir Taşıma",
+        "en": "England Cold Chain Shipping"
+      },
+      "status": "play",
+      "category": "",
+      "id": "8chexxecfi",
+      "url": "",
+      "path": "ingiltere-soguk-zincir-tasima",
+      "index": 59,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Soğuk Zincir Taşıma hizmeti sunuyoruz. İngiltere nakliye, kapıdan kapıya teslimat. İngiltere Soğuk Zincir Taşıma detayları için bize yazın.",
+        "en": "England Cold Chain Shipping service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Cold Chain Shipping."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Tehlikeli Madde Taşıma",
+        "en": "England Dangerous Goods Shipping"
+      },
+      "status": "play",
+      "category": "",
+      "id": "um9glt8q4a",
+      "url": "",
+      "path": "ingiltere-tehlikeli-madde-tasima",
+      "index": 60,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Tehlikeli Madde Taşıma ile İngiltere'ye güvenli taşıma. Kapıdan kapıya, gümrük ve sigorta. Fiyat için iletişime geçin.",
+        "en": "England Dangerous Goods Shipping service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Dangerous Goods Shipping."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Proje Nakliyesi",
+        "en": "England Project Moving"
+      },
+      "status": "play",
+      "category": "",
+      "id": "t6e4d60pvy",
+      "url": "",
+      "path": "ingiltere-proje-nakliyesi",
+      "index": 61,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere kargo: İngiltere Proje Nakliyesi hizmeti. Eve den eve, gümrük destekli. İngiltere Proje Nakliyesi teklifi alın.",
+        "en": "England Project Moving service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Project Moving."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Fuara Mal Taşıma",
+        "en": "England Trade Fair Cargo"
+      },
+      "status": "play",
+      "category": "",
+      "id": "gg1lccsuk4",
+      "url": "",
+      "path": "ingiltere-fuara-mal-tasima",
+      "index": 62,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Fuara Mal Taşıma hizmeti sunuyoruz. İngiltere nakliye, kapıdan kapıya teslimat. İngiltere Fuara Mal Taşıma detayları için bize yazın.",
+        "en": "England Trade Fair Cargo service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Trade Fair Cargo."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Şirket Taşınması",
+        "en": "England Office Relocation"
+      },
+      "status": "play",
+      "category": "",
+      "id": "1da4uigztu",
+      "url": "",
+      "path": "ingiltere-sirket-tasinmasi",
+      "index": 63,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Şirket Taşınması ile İngiltere'ye güvenli taşıma. Kapıdan kapıya, gümrük ve sigorta. Fiyat için iletişime geçin.",
+        "en": "England Office Relocation service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Office Relocation."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Depo Taşıma",
+        "en": "England Warehouse Moving"
+      },
+      "status": "play",
+      "category": "",
+      "id": "ulsj083un2",
+      "url": "",
+      "path": "ingiltere-depo-tasima",
+      "index": 64,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere kargo: İngiltere Depo Taşıma hizmeti. Eve den eve, gümrük destekli. İngiltere Depo Taşıma teklifi alın.",
+        "en": "England Warehouse Moving service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Warehouse Moving."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Kombine Taşımacılık",
+        "en": "England Combined Transport"
+      },
+      "status": "play",
+      "category": "",
+      "id": "off563h931",
+      "url": "",
+      "path": "ingiltere-kombine-tasimacilik",
+      "index": 65,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Kombine Taşımacılık hizmeti sunuyoruz. İngiltere nakliye, kapıdan kapıya teslimat. İngiltere Kombine Taşımacılık detayları için bize yazın.",
+        "en": "England Combined Transport service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Combined Transport."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Ro-Ro Taşımacılık",
+        "en": "England Ro-Ro Shipping"
+      },
+      "status": "play",
+      "category": "",
+      "id": "rsimtnwura",
+      "url": "",
+      "path": "ingiltere-ro-ro-tasimacilik",
+      "index": 66,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Ro-Ro Taşımacılık ile İngiltere'ye güvenli taşıma. Kapıdan kapıya, gümrük ve sigorta. Fiyat için iletişime geçin.",
+        "en": "England Ro-Ro Shipping service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Ro-Ro Shipping."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere FCL Konteyner",
+        "en": "England FCL Container"
+      },
+      "status": "play",
+      "category": "",
+      "id": "l5y8yr2e45",
+      "url": "",
+      "path": "ingiltere-fcl-konteyner",
+      "index": 67,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere kargo: İngiltere FCL Konteyner hizmeti. Eve den eve, gümrük destekli. İngiltere FCL Konteyner teklifi alın.",
+        "en": "England FCL Container service. England cargo, door to door delivery. Customs and insurance. Get a quote for England FCL Container."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere LCL Kargo",
+        "en": "England LCL Cargo"
+      },
+      "status": "play",
+      "category": "",
+      "id": "czgfbxyyar",
+      "url": "",
+      "path": "ingiltere-lcl-kargo",
+      "index": 68,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere LCL Kargo hizmeti sunuyoruz. İngiltere nakliye, kapıdan kapıya teslimat. İngiltere LCL Kargo detayları için bize yazın.",
+        "en": "England LCL Cargo service. England cargo, door to door delivery. Customs and insurance. Get a quote for England LCL Cargo."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Hava Yolu Lojistik",
+        "en": "England Air Freight Logistics"
+      },
+      "status": "play",
+      "category": "",
+      "id": "118frglmb9",
+      "url": "",
+      "path": "ingiltere-hava-yolu-lojistik",
+      "index": 69,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Hava Yolu Lojistik ile İngiltere'ye güvenli taşıma. Kapıdan kapıya, gümrük ve sigorta. Fiyat için iletişime geçin.",
+        "en": "England Air Freight Logistics service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Air Freight Logistics."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Karayolu Nakliyat",
+        "en": "England Road Freight"
+      },
+      "status": "play",
+      "category": "",
+      "id": "56r6sqfl2q",
+      "url": "",
+      "path": "ingiltere-karayolu-nakliyat",
+      "index": 70,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere kargo: İngiltere Karayolu Nakliyat hizmeti. Eve den eve, gümrük destekli. İngiltere Karayolu Nakliyat teklifi alın.",
+        "en": "England Road Freight service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Road Freight."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Demiryolu Taşıma",
+        "en": "England Rail Freight"
+      },
+      "status": "play",
+      "category": "",
+      "id": "3orwg3kzcv",
+      "url": "",
+      "path": "ingiltere-demiryolu-tasima",
+      "index": 71,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Demiryolu Taşıma hizmeti sunuyoruz. İngiltere nakliye, kapıdan kapıya teslimat. İngiltere Demiryolu Taşıma detayları için bize yazın.",
+        "en": "England Rail Freight service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Rail Freight."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Çok Modlu Taşıma",
+        "en": "England Multimodal Transport"
+      },
+      "status": "play",
+      "category": "",
+      "id": "nzd03h5jhi",
+      "url": "",
+      "path": "ingiltere-cok-modlu-tasima",
+      "index": 72,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Çok Modlu Taşıma ile İngiltere'ye güvenli taşıma. Kapıdan kapıya, gümrük ve sigorta. Fiyat için iletişime geçin.",
+        "en": "England Multimodal Transport service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Multimodal Transport."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Tam Zamanında Teslimat",
+        "en": "England Just-in-Time Delivery"
+      },
+      "status": "play",
+      "category": "",
+      "id": "s9d945crvh",
+      "url": "",
+      "path": "ingiltere-tam-zamaninda-teslimat",
+      "index": 73,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere kargo: İngiltere Tam Zamanında Teslimat hizmeti. Eve den eve, gümrük destekli. İngiltere Tam Zamanında Teslimat teklifi alın.",
+        "en": "England Just-in-Time Delivery service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Just-in-Time Delivery."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Özel Eşya Taşıma",
+        "en": "England Special Items Moving"
+      },
+      "status": "play",
+      "category": "",
+      "id": "n34k7g1f2j",
+      "url": "",
+      "path": "ingiltere-ozel-esya-tasima",
+      "index": 74,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Özel Eşya Taşıma hizmeti sunuyoruz. İngiltere nakliye, kapıdan kapıya teslimat. İngiltere Özel Eşya Taşıma detayları için bize yazın.",
+        "en": "England Special Items Moving service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Special Items Moving."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Sanat Eseri Nakliye",
+        "en": "England Artwork Shipping"
+      },
+      "status": "play",
+      "category": "",
+      "id": "ei2tt6p28t",
+      "url": "",
+      "path": "ingiltere-sanat-eseri-nakliye",
+      "index": 75,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Sanat Eseri Nakliye ile İngiltere'ye güvenli taşıma. Kapıdan kapıya, gümrük ve sigorta. Fiyat için iletişime geçin.",
+        "en": "England Artwork Shipping service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Artwork Shipping."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Piyano Taşıma",
+        "en": "England Piano Moving"
+      },
+      "status": "play",
+      "category": "",
+      "id": "jdvzydzxpn",
+      "url": "",
+      "path": "ingiltere-piyano-tasima",
+      "index": 76,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere kargo: İngiltere Piyano Taşıma hizmeti. Eve den eve, gümrük destekli. İngiltere Piyano Taşıma teklifi alın.",
+        "en": "England Piano Moving service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Piano Moving."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Spor Ekipmanı Taşıma",
+        "en": "England Sports Equipment Moving"
+      },
+      "status": "play",
+      "category": "",
+      "id": "iv7gjkf35e",
+      "url": "",
+      "path": "ingiltere-spor-ekipmani-tasima",
+      "index": 77,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Spor Ekipmanı Taşıma hizmeti sunuyoruz. İngiltere nakliye, kapıdan kapıya teslimat. İngiltere Spor Ekipmanı Taşıma detayları için bize yazın.",
+        "en": "England Sports Equipment Moving service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Sports Equipment Moving."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Bahçe Eşyası Nakliye",
+        "en": "England Garden Furniture Shipping"
+      },
+      "status": "play",
+      "category": "",
+      "id": "p0q6gru88v",
+      "url": "",
+      "path": "ingiltere-bahce-esyasi-nakliye",
+      "index": 78,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Bahçe Eşyası Nakliye ile İngiltere'ye güvenli taşıma. Kapıdan kapıya, gümrük ve sigorta. Fiyat için iletişime geçin.",
+        "en": "England Garden Furniture Shipping service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Garden Furniture Shipping."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Yat ve Tekne Taşıma",
+        "en": "England Boat and Yacht Shipping"
+      },
+      "status": "play",
+      "category": "",
+      "id": "xnuc5xk65i",
+      "url": "",
+      "path": "ingiltere-yat-ve-tekne-tasima",
+      "index": 79,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere kargo: İngiltere Yat ve Tekne Taşıma hizmeti. Eve den eve, gümrük destekli. İngiltere Yat ve Tekne Taşıma teklifi alın.",
+        "en": "England Boat and Yacht Shipping service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Boat and Yacht Shipping."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Motosiklet Kargo",
+        "en": "England Motorcycle Cargo"
+      },
+      "status": "play",
+      "category": "",
+      "id": "29l9m84pju",
+      "url": "",
+      "path": "ingiltere-motosiklet-kargo",
+      "index": 80,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Motosiklet Kargo hizmeti sunuyoruz. İngiltere nakliye, kapıdan kapıya teslimat. İngiltere Motosiklet Kargo detayları için bize yazın.",
+        "en": "England Motorcycle Cargo service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Motorcycle Cargo."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Bisiklet Taşıma",
+        "en": "England Bicycle Moving"
+      },
+      "status": "play",
+      "category": "",
+      "id": "hndzdexlk7",
+      "url": "",
+      "path": "ingiltere-bisiklet-tasima",
+      "index": 81,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Bisiklet Taşıma ile İngiltere'ye güvenli taşıma. Kapıdan kapıya, gümrük ve sigorta. Fiyat için iletişime geçin.",
+        "en": "England Bicycle Moving service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Bicycle Moving."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Pet Taşıma",
+        "en": "England Pet Relocation"
+      },
+      "status": "play",
+      "category": "",
+      "id": "4xo641lg33",
+      "url": "",
+      "path": "ingiltere-pet-tasima",
+      "index": 82,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere kargo: İngiltere Pet Taşıma hizmeti. Eve den eve, gümrük destekli. İngiltere Pet Taşıma teklifi alın.",
+        "en": "England Pet Relocation service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Pet Relocation."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Taşınma Checklist",
+        "en": "England Moving Checklist"
+      },
+      "status": "play",
+      "category": "",
+      "id": "0zcxzptafd",
+      "url": "",
+      "path": "ingiltere-tasinma-checklist",
+      "index": 83,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Taşınma Checklist hizmeti sunuyoruz. İngiltere nakliye, kapıdan kapıya teslimat. İngiltere Taşınma Checklist detayları için bize yazın.",
+        "en": "England Moving Checklist service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Moving Checklist."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Gümrük Vergisi Hesaplama",
+        "en": "England Customs Duty Calculator"
+      },
+      "status": "play",
+      "category": "",
+      "id": "a7awp6938y",
+      "url": "",
+      "path": "ingiltere-gumruk-vergisi-hesaplama",
+      "index": 84,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Gümrük Vergisi Hesaplama ile İngiltere'ye güvenli taşıma. Kapıdan kapıya, gümrük ve sigorta. Fiyat için iletişime geçin.",
+        "en": "England Customs Duty Calculator service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Customs Duty Calculator."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere VAT ve Eşya",
+        "en": "England VAT and Goods"
+      },
+      "status": "play",
+      "category": "",
+      "id": "q3c6rclel5",
+      "url": "",
+      "path": "ingiltere-vat-ve-esya",
+      "index": 85,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere kargo: İngiltere VAT ve Eşya hizmeti. Eve den eve, gümrük destekli. İngiltere VAT ve Eşya teklifi alın.",
+        "en": "England VAT and Goods service. England cargo, door to door delivery. Customs and insurance. Get a quote for England VAT and Goods."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Brexit Sonrası Nakliyat",
+        "en": "England Post-Brexit Shipping"
+      },
+      "status": "play",
+      "category": "",
+      "id": "dzbdm429zo",
+      "url": "",
+      "path": "ingiltere-brexit-sonrasi-nakliyat",
+      "index": 86,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Brexit Sonrası Nakliyat hizmeti sunuyoruz. İngiltere nakliye, kapıdan kapıya teslimat. İngiltere Brexit Sonrası Nakliyat detayları için bize yazın.",
+        "en": "England Post-Brexit Shipping service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Post-Brexit Shipping."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere'ye Yeni Ev Taşınma",
+        "en": "Moving to New Home in England"
+      },
+      "status": "play",
+      "category": "",
+      "id": "h41mrke2ee",
+      "url": "",
+      "path": "ingiltereye-yeni-ev-tasinma",
+      "index": 87,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere'ye Yeni Ev Taşınma ile İngiltere'ye güvenli taşıma. Kapıdan kapıya, gümrük ve sigorta. Fiyat için iletişime geçin.",
+        "en": "Moving to New Home in England service. England cargo, door to door delivery. Customs and insurance. Get a quote for Moving to New Home in England."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Kısa Süreli Taşıma",
+        "en": "England Short Term Moving"
+      },
+      "status": "play",
+      "category": "",
+      "id": "2q5o56jc70",
+      "url": "",
+      "path": "ingiltere-kisa-sureli-tasima",
+      "index": 88,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere kargo: İngiltere Kısa Süreli Taşıma hizmeti. Eve den eve, gümrük destekli. İngiltere Kısa Süreli Taşıma teklifi alın.",
+        "en": "England Short Term Moving service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Short Term Moving."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Acil Kargo",
+        "en": "England Urgent Cargo"
+      },
+      "status": "play",
+      "category": "",
+      "id": "gal48a9eoh",
+      "url": "",
+      "path": "ingiltere-acil-kargo",
+      "index": 89,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Acil Kargo hizmeti sunuyoruz. İngiltere nakliye, kapıdan kapıya teslimat. İngiltere Acil Kargo detayları için bize yazın.",
+        "en": "England Urgent Cargo service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Urgent Cargo."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Aynı Gün Teslimat",
+        "en": "England Same Day Delivery"
+      },
+      "status": "play",
+      "category": "",
+      "id": "kdj6zn3hzx",
+      "url": "",
+      "path": "ingiltere-ayni-gun-teslimat",
+      "index": 90,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Aynı Gün Teslimat ile İngiltere'ye güvenli taşıma. Kapıdan kapıya, gümrük ve sigorta. Fiyat için iletişime geçin.",
+        "en": "England Same Day Delivery service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Same Day Delivery."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Şehirler Arası Nakliye",
+        "en": "England Intercity Shipping"
+      },
+      "status": "play",
+      "category": "",
+      "id": "0vb0x5h0qu",
+      "url": "",
+      "path": "ingiltere-sehirler-arasi-nakliye",
+      "index": 91,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere kargo: İngiltere Şehirler Arası Nakliye hizmeti. Eve den eve, gümrük destekli. İngiltere Şehirler Arası Nakliye teklifi alın.",
+        "en": "England Intercity Shipping service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Intercity Shipping."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Adres İçi Taşıma",
+        "en": "England Local Moving"
+      },
+      "status": "play",
+      "category": "",
+      "id": "7kpuubhdu3",
+      "url": "",
+      "path": "ingiltere-adres-ici-tasima",
+      "index": 92,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Adres İçi Taşıma hizmeti sunuyoruz. İngiltere nakliye, kapıdan kapıya teslimat. İngiltere Adres İçi Taşıma detayları için bize yazın.",
+        "en": "England Local Moving service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Local Moving."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Asansörlü Taşıma",
+        "en": "England Moving with Lift"
+      },
+      "status": "play",
+      "category": "",
+      "id": "07ws6kxbwp",
+      "url": "",
+      "path": "ingiltere-asansorlu-tasima",
+      "index": 93,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Asansörlü Taşıma ile İngiltere'ye güvenli taşıma. Kapıdan kapıya, gümrük ve sigorta. Fiyat için iletişime geçin.",
+        "en": "England Moving with Lift service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Moving with Lift."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Paketleme Hizmeti",
+        "en": "England Packing Service"
+      },
+      "status": "play",
+      "category": "",
+      "id": "l2134rjabj",
+      "url": "",
+      "path": "ingiltere-paketleme-hizmeti",
+      "index": 94,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere kargo: İngiltere Paketleme Hizmeti hizmeti. Eve den eve, gümrük destekli. İngiltere Paketleme Hizmeti teklifi alın.",
+        "en": "England Packing Service service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Packing Service."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Montaj ve Kurulum",
+        "en": "England Assembly and Installation"
+      },
+      "status": "play",
+      "category": "",
+      "id": "6ig9z5oyah",
+      "url": "",
+      "path": "ingiltere-montaj-ve-kurulum",
+      "index": 95,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Montaj ve Kurulum hizmeti sunuyoruz. İngiltere nakliye, kapıdan kapıya teslimat. İngiltere Montaj ve Kurulum detayları için bize yazın.",
+        "en": "England Assembly and Installation service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Assembly and Installation."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Geri Dönüş Taşıma",
+        "en": "England Return Shipping"
+      },
+      "status": "play",
+      "category": "",
+      "id": "p5krz6be21",
+      "url": "",
+      "path": "ingiltere-geri-donus-tasima",
+      "index": 96,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Geri Dönüş Taşıma ile İngiltere'ye güvenli taşıma. Kapıdan kapıya, gümrük ve sigorta. Fiyat için iletişime geçin.",
+        "en": "England Return Shipping service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Return Shipping."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere İade Kargo",
+        "en": "England Return Cargo"
+      },
+      "status": "play",
+      "category": "",
+      "id": "n4br6hptx8",
+      "url": "",
+      "path": "ingiltere-iade-kargo",
+      "index": 97,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere kargo: İngiltere İade Kargo hizmeti. Eve den eve, gümrük destekli. İngiltere İade Kargo teklifi alın.",
+        "en": "England Return Cargo service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Return Cargo."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Müşteri Memnuniyeti",
+        "en": "England Customer Satisfaction"
+      },
+      "status": "play",
+      "category": "",
+      "id": "wdicspfib2",
+      "url": "",
+      "path": "ingiltere-musteri-memnuniyeti",
+      "index": 98,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Müşteri Memnuniyeti hizmeti sunuyoruz. İngiltere nakliye, kapıdan kapıya teslimat. İngiltere Müşteri Memnuniyeti detayları için bize yazın.",
+        "en": "England Customer Satisfaction service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Customer Satisfaction."
+      },
+      "icon": "home",
+      "desc": {}
+    },
+    {
+      "name": {
+        "tr": "İngiltere Nakliyat Yorumları",
+        "en": "England Shipping Reviews"
+      },
+      "status": "play",
+      "category": "",
+      "id": "p3l1zp2kd9",
+      "url": "",
+      "path": "ingiltere-nakliyat-yorumlari",
+      "index": 99,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "İngiltere Nakliyat Yorumları ile İngiltere'ye güvenli taşıma. Kapıdan kapıya, gümrük ve sigorta. Fiyat için iletişime geçin.",
+        "en": "England Shipping Reviews service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Shipping Reviews."
+      },
+      "icon": "home",
+      "desc": {}
+    }
+  ],
+  "index": 1,
+  "desing": {
+    "header": [],
+    "body": [
+      "guyi6e"
+    ],
+    "footer": []
+  },
+  "modulestatus": {
+    "img": false,
+    "bgimg": false,
+    "detail": true
+  }
+}

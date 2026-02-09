@@ -1,0 +1,32 @@
+{
+  "name": {
+    "tr": "Kalite Politikamız",
+    "en": "Quality Policy"
+  },
+  "status": "play",
+  "id": "kalitepolitikamiz",
+  "path": "kalite-politikamiz",
+  "category": "",
+  "text": {
+    "tr": "<h2 style=\"font-size: 24px;\">Kalite Politikamız</h2><p style=\" font-size: 16px;\">Kalite politikamız, müşteri memnuniyetini en üst seviyede tutmayı ve sürekli iyileştirmeyi hedefleyen bir yaklaşıma dayanır. Her projede, en iyi kalite standartlarını sağlamak için çalışıyor ve tüm süreçlerimizi bu doğrultuda sürekli gözden geçiriyoruz.</p>",
+    "en": "<h2>Quality Policy</h2><p>Our quality policy aims to keep customer satisfaction at the highest level and to continuously improve our processes. We work to maintain the best standards in every project.</p>"
+  },
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "desc": {},
+  "index": 3,
+  "icon": "home",
+  "description": {
+    "tr": "Kalite politikamız. Sürekli iyileştirme ve müşteri odaklı hizmet.",
+    "en": "Our quality policy. Continuous improvement and customer-focused service."
+  },
+  "keyword": {
+    "tr": "kalite politikası, müşteri memnuniyeti",
+    "en": "quality policy, customer satisfaction"
+  },
+  "update": "2026-02-09T10:30:04.710Z",
+  "date": "2026-02-03T19:25:14.571Z"
+}

@@ -1,0 +1,40 @@
+{
+  "name": {
+    "tr": "İletişim",
+    "en": "Contact"
+  },
+  "status": "play",
+  "category": "",
+  "id": "xnzu5au0ag",
+  "url": "",
+  "path": "iletisim",
+  "index": 2,
+  "icon": "home",
+  "desing": {
+    "header": [],
+    "body": [
+      "fhxr98",
+      "bi4hta"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "İletişim. İngiltere kargo ve nakliye için bize ulaşın.",
+    "en": "Contact us for England cargo and shipping."
+  },
+  "spot": {
+    "tr": ""
+  },
+  "desc": {},
+  "keyword": {
+    "tr": "iletişim, ingiltere kargo, teklif",
+    "en": "contact, england cargo, quote"
+  },
+  "text": {
+    "tr": "",
+    "en": "<h2>Contact</h2><p>Contact us for England cargo, door to door moving and shipping quotes. Our team is here to answer your questions.</p>"
+  },
+  "update": "2026-02-09T10:30:04.011Z",
+  "date": "2026-02-03T19:25:14.538Z"
+}

@@ -1,0 +1,32 @@
+{
+  "name": {
+    "tr": "Misyon",
+    "en": "Mission"
+  },
+  "status": "play",
+  "id": "misyon",
+  "path": "misyon",
+  "category": "",
+  "text": {
+    "tr": "<h2 style=\"font-size: 24px;\">Misyonumuz</h2>\n    <p style=\" font-size: 16px;\">\n        Misyonumuz, çevre dostu uygulamalarla, sürdürülebilir bir gelecek için katkıda bulunmaktır. Çalışma şeklimiz, doğaya zarar vermeden, en iyi sonuçları elde etmek üzerine kuruludur. Bu bağlamda, teknolojinin sunduğu yeniliklerden yararlanarak, enerji verimliliğini artırmaya ve kaynakları en verimli şekilde kullanmaya özen gösteriyoruz. Bu sayede, sadece müşterilerimize değil, aynı zamanda topluma ve çevreye de olumlu bir etki yaratmayı amaçlıyoruz. İleriye dönük hedeflerimiz, bu misyon doğrultusunda daha fazla proje geliştirmek ve daha fazla insanın hayatına dokunmaktır.\n    </p>",
+    "en": "<h2>Mission</h2><p>Our mission is to contribute to a sustainable future with environmentally friendly practices. We aim to use resources efficiently and provide the best service to our customers.</p>"
+  },
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "desc": {},
+  "index": 1,
+  "icon": "home",
+  "description": {
+    "tr": "Misyonumuz. Çevre dostu ve sürdürülebilir lojistik hizmeti.",
+    "en": "Our mission. Environmentally friendly and sustainable logistics."
+  },
+  "keyword": {
+    "tr": "misyon, sürdürülebilirlik, lojistik",
+    "en": "mission, sustainability, logistics"
+  },
+  "update": "2026-02-09T10:30:04.699Z",
+  "date": "2026-02-03T19:25:14.554Z"
+}
