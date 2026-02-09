@@ -1,7 +1,7 @@
 
  
 
-  .qgjjl {
+  .kxdul {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .qgjjltitle {
+  .kxdultitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .qgjjltitle:has(.qgjjltitlebodylang:empty),
-  .qgjjltitle:has(.qgjjltitlebodylang ul:empty) {
+  .kxdultitle:has(.kxdultitlebodylang:empty),
+  .kxdultitle:has(.kxdultitlebodylang ul:empty) {
     display: none;
   }
 
-  .qgjjltitlebody {
+  .kxdultitlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -31,29 +31,29 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .qgjjltitlebodytitle {
+  .kxdultitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .qgjjltitlebodylang {
+  .kxdultitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .qgjjltitlebodylang:empty,
-  .qgjjltitlebodylang ul:empty {
+  .kxdultitlebodylang:empty,
+  .kxdultitlebodylang ul:empty {
     display: none;
   }
 
-  .qgjjltitlebodylang ul {
+  .kxdultitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .qgjjlbody {
+  .kxdulbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@
     position: relative;
   }
 
-  .qgjjl-mobile-toggle {
+  .kxdul-mobile-toggle {
     display: none;
     background: #1e3046;
     color: #ffffff;
@@ -76,18 +76,18 @@
     right: 0;
   }
 
-  .qgjjl-mobile-toggle span {
+  .kxdul-mobile-toggle span {
     font-size: 24px;
   }
 
-  .qgjjlmenu {
+  .kxdulmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .qgjjlmenulist {
+  .kxdulmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -96,7 +96,7 @@
     display: flex;
   }
 
-  .qgjjlmenubody {
+  .kxdulmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .qgjjlmenulist ul {
+  .kxdulmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -113,7 +113,7 @@
     padding: 0;
   }
 
-  .qgjjlmenulist ul a {
+  .kxdulmenulist ul a {
     padding: 10px 15px;
     font-size: 16px;
     color: #ffffff !important;
@@ -126,40 +126,40 @@
     margin: 0 2px;
   }
 
-  .qgjjlmenulist ul a:hover {
+  .kxdulmenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .qgjjlmenulist ul a.qgjjl-menu-list-active {
+  .kxdulmenulist ul a.kxdul-menu-list-active {
     color: #000000 !important;
   }
 
-  .qgjjl-menu-list-active {
+  .kxdul-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .qgjjlmenulistbody {
+  .kxdulmenulistbody {
     width: 100%;
   }
 
-  .qgjjllanguages-mobile {
+  .kxdullanguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .qgjjllanguages-mobile:empty,
-  .qgjjllanguages-mobile ul:empty {
+  .kxdullanguages-mobile:empty,
+  .kxdullanguages-mobile ul:empty {
     display: none !important;
   }
 
-  .qgjjllanguages-mobile ul {
+  .kxdullanguages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -168,7 +168,7 @@
     justify-content: center;
   }
 
-  .qgjjllanguages-mobile li {
+  .kxdullanguages-mobile li {
     list-style: none;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 8px;
@@ -183,25 +183,25 @@
     transition: all 0.3s ease;
   }
 
-  .qgjjllanguages-mobile li a {
+  .kxdullanguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .qgjjllanguages-mobile li:hover {
+  .kxdullanguages-mobile li:hover {
     background-color: #ffffff;
     border-color: #000000;
   }
 
   @media screen and (min-width: 1024px) {
-    .qgjjlbodylogo {
+    .kxdulbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .qgjjltitle {
+    .kxdultitle {
     margin-bottom: -30px;
   }
 
@@ -209,77 +209,77 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .qgjjlbody {
+    .kxdulbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .qgjjlmenulist ul {
+    .kxdulmenulist ul {
       flex-direction: row;
     }
 
-    .qgjjlbodylogo {
+    .kxdulbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .qgjjltitlebody {
+    .kxdultitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .qgjjltitlebodytitle {
+    .kxdultitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .qgjjltitlebodylang {
+    .kxdultitlebodylang {
       display: none;
     }
 
-    .qgjjlbody {
+    .kxdulbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .qgjjl-mobile-toggle {
+    .kxdul-mobile-toggle {
       display: inline-flex;
     }
 
-    .qgjjlbodylogo {
+    .kxdulbodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
-    .qgjjlmenulist {
+    .kxdulmenulist {
       display: none;
       flex-direction: column;
       width: calc(100% - 24px);
       padding: 12px;
     }
 
-    .qgjjlmenu.qgjjlmenu-open .qgjjlmenulist {
+    .kxdulmenu.kxdulmenu-open .kxdulmenulist {
       display: flex;
     }
 
-    .qgjjlmenu.qgjjlmenu-open .qgjjllanguages-mobile {
+    .kxdulmenu.kxdulmenu-open .kxdullanguages-mobile {
       display: block;
     }
 
-    .qgjjlmenulist ul {
+    .kxdulmenulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .qgjjlmenulist ul a {
+    .kxdulmenulist ul a {
       font-size: 14px;
       width: 100%;
       padding: 12px;
@@ -288,16 +288,16 @@
       border-radius: 0;
     }
 
-    .qgjjlmenulist ul a:last-child {
+    .kxdulmenulist ul a:last-child {
       border-bottom: none;
     }
 
-    .qgjjlmenulist ul a:hover {
+    .kxdulmenulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .qgjjltitlebodytitle {
+    .kxdultitlebodytitle {
       font-size: 12px;
     }
   }
@@ -307,7 +307,7 @@
 #content {
     justify-content: start;
   }
-.achex-title {
+.hk7sr-title {
     width: 100%;
     height: 100px;
     background-color: #e95e32;
@@ -320,7 +320,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .achex-title::before {
+  .hk7sr-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -335,12 +335,12 @@
     z-index: 1;
   }
 
-  .achex-title h1 {
+  .hk7sr-title h1 {
     position: relative;
     z-index: 2;
     font-size: 32px;
   }
-  .achex {
+  .hk7sr {
     width: var(--max);
     display: flex;
     flex-direction: column;
@@ -348,7 +348,7 @@
     margin-top: 20px;
   }
   @media screen and (max-width: 1024px) {
-    .achex {
+    .hk7sr {
       width: calc(100% - 20px);
       padding: 10px;
       margin-top: 10px;
@@ -496,7 +496,7 @@
     box-sizing: border-box;
   }
 
-  .izobk-wa-advanced-button {
+  .mvuau-wa-advanced-button {
     position: relative;
     width: 64px;
     height: 64px;
@@ -510,18 +510,18 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
-  .izobk-wa-advanced-button:hover {
+  .mvuau-wa-advanced-button:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
   }
 
-  .izobk-wa-advanced-icon svg {
+  .mvuau-wa-advanced-icon svg {
     width: 32px;
     height: 32px;
     fill: #fff;
   }
 
-  .izobk-wa-advanced-pulse {
+  .mvuau-wa-advanced-pulse {
     position: absolute;
     top: -2px;
     left: -2px;
@@ -544,7 +544,7 @@
     }
   }
 
-  .izobk-wa-advanced-panel {
+  .mvuau-wa-advanced-panel {
     position: absolute;
     bottom: 80px;
     right: 0;
@@ -558,7 +558,7 @@
     box-sizing: border-box;
   }
 
-  .izobk-wa-advanced-header {
+  .mvuau-wa-advanced-header {
     background: #25D366;
     color: #fff;
     padding: 16px;
@@ -568,20 +568,20 @@
     position: relative;
   }
 
-  .izobk-wa-advanced-avatar {
+  .mvuau-wa-advanced-avatar {
     position: relative;
     width: 48px;
     height: 48px;
   }
 
-  .izobk-wa-advanced-avatar img {
+  .mvuau-wa-advanced-avatar img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
   }
 
-  .izobk-wa-advanced-status {
+  .mvuau-wa-advanced-status {
     position: absolute;
     bottom: 2px;
     right: 2px;
@@ -591,23 +591,23 @@
     border: 2px solid #fff;
   }
 
-  .izobk-wa-advanced-status.online {
+  .mvuau-wa-advanced-status.online {
     background: #4caf50;
   }
 
-  .izobk-wa-advanced-info h4 {
+  .mvuau-wa-advanced-info h4 {
     margin: 0;
     font-size: 16px;
     font-weight: 600;
   }
 
-  .izobk-wa-advanced-info p {
+  .mvuau-wa-advanced-info p {
     margin: 4px 0 0 0;
     font-size: 12px;
     opacity: 0.9;
   }
 
-  .izobk-wa-advanced-close {
+  .mvuau-wa-advanced-close {
     position: absolute;
     top: 12px;
     right: 12px;
@@ -619,16 +619,16 @@
     opacity: 0.8;
   }
 
-  .izobk-wa-advanced-close:hover {
+  .mvuau-wa-advanced-close:hover {
     opacity: 1;
   }
 
-  .izobk-wa-advanced-body {
+  .mvuau-wa-advanced-body {
     padding: 16px;
     background: #f8f9fa;
   }
 
-  .izobk-wa-advanced-message {
+  .mvuau-wa-advanced-message {
     background: #fff;
     padding: 12px 16px;
     border-radius: 8px;
@@ -639,29 +639,29 @@
     justify-content: flex-end;
   }
 
-  .izobk-wa-advanced-message p {
+  .mvuau-wa-advanced-message p {
     font-size: 14px;
     color: #333;
     text-align: right;
     margin: 0;
   }
 
-  .izobk-wa-advanced-time {
+  .mvuau-wa-advanced-time {
     font-size: 10px;
     color: #999;
     margin: 4px 0 0 0;
   }
 
-  .izobk-wa-advanced-footer {
+  .mvuau-wa-advanced-footer {
     padding: 16px;
   }
 
-  .izobk-wa-advanced-footer a {
+  .mvuau-wa-advanced-footer a {
     text-decoration: none;
     color: #fff !important;
   }
 
-  .izobk-wa-advanced-chat-btn {
+  .mvuau-wa-advanced-chat-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -677,7 +677,7 @@
     transition: transform 0.3s ease;
   }
 
-  .izobk-wa-advanced-chat-btn:hover {
+  .mvuau-wa-advanced-chat-btn:hover {
     transform: translateY(-2px);
   }
 
@@ -689,7 +689,7 @@
       max-width: calc(100vw - 40px);
     }
     
-    .izobk-wa-advanced-panel {
+    .mvuau-wa-advanced-panel {
       width: calc(100vw - 40px);
       max-width: 320px;
       right: 0;

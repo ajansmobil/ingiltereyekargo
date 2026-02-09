@@ -1,7 +1,7 @@
 
  
 
-  .ujav5 {
+  .kelco {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .ujav5title {
+  .kelcotitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .ujav5title:has(.ujav5titlebodylang:empty),
-  .ujav5title:has(.ujav5titlebodylang ul:empty) {
+  .kelcotitle:has(.kelcotitlebodylang:empty),
+  .kelcotitle:has(.kelcotitlebodylang ul:empty) {
     display: none;
   }
 
-  .ujav5titlebody {
+  .kelcotitlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -31,29 +31,29 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .ujav5titlebodytitle {
+  .kelcotitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .ujav5titlebodylang {
+  .kelcotitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .ujav5titlebodylang:empty,
-  .ujav5titlebodylang ul:empty {
+  .kelcotitlebodylang:empty,
+  .kelcotitlebodylang ul:empty {
     display: none;
   }
 
-  .ujav5titlebodylang ul {
+  .kelcotitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .ujav5body {
+  .kelcobody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@
     position: relative;
   }
 
-  .ujav5-mobile-toggle {
+  .kelco-mobile-toggle {
     display: none;
     background: #1e3046;
     color: #ffffff;
@@ -76,18 +76,18 @@
     right: 0;
   }
 
-  .ujav5-mobile-toggle span {
+  .kelco-mobile-toggle span {
     font-size: 24px;
   }
 
-  .ujav5menu {
+  .kelcomenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .ujav5menulist {
+  .kelcomenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -96,7 +96,7 @@
     display: flex;
   }
 
-  .ujav5menubody {
+  .kelcomenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .ujav5menulist ul {
+  .kelcomenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -113,7 +113,7 @@
     padding: 0;
   }
 
-  .ujav5menulist ul a {
+  .kelcomenulist ul a {
     padding: 10px 15px;
     font-size: 16px;
     color: #ffffff !important;
@@ -126,40 +126,40 @@
     margin: 0 2px;
   }
 
-  .ujav5menulist ul a:hover {
+  .kelcomenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .ujav5menulist ul a.ujav5-menu-list-active {
+  .kelcomenulist ul a.kelco-menu-list-active {
     color: #000000 !important;
   }
 
-  .ujav5-menu-list-active {
+  .kelco-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .ujav5menulistbody {
+  .kelcomenulistbody {
     width: 100%;
   }
 
-  .ujav5languages-mobile {
+  .kelcolanguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .ujav5languages-mobile:empty,
-  .ujav5languages-mobile ul:empty {
+  .kelcolanguages-mobile:empty,
+  .kelcolanguages-mobile ul:empty {
     display: none !important;
   }
 
-  .ujav5languages-mobile ul {
+  .kelcolanguages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -168,7 +168,7 @@
     justify-content: center;
   }
 
-  .ujav5languages-mobile li {
+  .kelcolanguages-mobile li {
     list-style: none;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 8px;
@@ -183,25 +183,25 @@
     transition: all 0.3s ease;
   }
 
-  .ujav5languages-mobile li a {
+  .kelcolanguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .ujav5languages-mobile li:hover {
+  .kelcolanguages-mobile li:hover {
     background-color: #ffffff;
     border-color: #000000;
   }
 
   @media screen and (min-width: 1024px) {
-    .ujav5bodylogo {
+    .kelcobodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .ujav5title {
+    .kelcotitle {
     margin-bottom: -30px;
   }
 
@@ -209,77 +209,77 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .ujav5body {
+    .kelcobody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .ujav5menulist ul {
+    .kelcomenulist ul {
       flex-direction: row;
     }
 
-    .ujav5bodylogo {
+    .kelcobodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .ujav5titlebody {
+    .kelcotitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .ujav5titlebodytitle {
+    .kelcotitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .ujav5titlebodylang {
+    .kelcotitlebodylang {
       display: none;
     }
 
-    .ujav5body {
+    .kelcobody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .ujav5-mobile-toggle {
+    .kelco-mobile-toggle {
       display: inline-flex;
     }
 
-    .ujav5bodylogo {
+    .kelcobodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
-    .ujav5menulist {
+    .kelcomenulist {
       display: none;
       flex-direction: column;
       width: calc(100% - 24px);
       padding: 12px;
     }
 
-    .ujav5menu.ujav5menu-open .ujav5menulist {
+    .kelcomenu.kelcomenu-open .kelcomenulist {
       display: flex;
     }
 
-    .ujav5menu.ujav5menu-open .ujav5languages-mobile {
+    .kelcomenu.kelcomenu-open .kelcolanguages-mobile {
       display: block;
     }
 
-    .ujav5menulist ul {
+    .kelcomenulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .ujav5menulist ul a {
+    .kelcomenulist ul a {
       font-size: 14px;
       width: 100%;
       padding: 12px;
@@ -288,16 +288,16 @@
       border-radius: 0;
     }
 
-    .ujav5menulist ul a:last-child {
+    .kelcomenulist ul a:last-child {
       border-bottom: none;
     }
 
-    .ujav5menulist ul a:hover {
+    .kelcomenulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .ujav5titlebodytitle {
+    .kelcotitlebodytitle {
       font-size: 12px;
     }
   }
@@ -307,7 +307,7 @@
 #content {
     justify-content: start;
   }
-.w5ib6-title {
+.cg35a-title {
     width: 100%;
     height: 100px;
     background-color: #e95e32;
@@ -320,7 +320,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .w5ib6-title::before {
+  .cg35a-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -335,12 +335,12 @@
     z-index: 1;
   }
 
-  .w5ib6-title h1 {
+  .cg35a-title h1 {
     position: relative;
     z-index: 2;
     font-size: 32px;
   }
-  .w5ib6 {
+  .cg35a {
     width: var(--max);
     display: flex;
     flex-direction: column;
@@ -348,7 +348,7 @@
     margin-top: 20px;
   }
   @media screen and (max-width: 1024px) {
-    .w5ib6 {
+    .cg35a {
       width: calc(100% - 20px);
       padding: 10px;
       margin-top: 10px;
@@ -496,7 +496,7 @@
     box-sizing: border-box;
   }
 
-  .w2x1d-wa-advanced-button {
+  .v3b2p-wa-advanced-button {
     position: relative;
     width: 64px;
     height: 64px;
@@ -510,18 +510,18 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
-  .w2x1d-wa-advanced-button:hover {
+  .v3b2p-wa-advanced-button:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
   }
 
-  .w2x1d-wa-advanced-icon svg {
+  .v3b2p-wa-advanced-icon svg {
     width: 32px;
     height: 32px;
     fill: #fff;
   }
 
-  .w2x1d-wa-advanced-pulse {
+  .v3b2p-wa-advanced-pulse {
     position: absolute;
     top: -2px;
     left: -2px;
@@ -544,7 +544,7 @@
     }
   }
 
-  .w2x1d-wa-advanced-panel {
+  .v3b2p-wa-advanced-panel {
     position: absolute;
     bottom: 80px;
     right: 0;
@@ -558,7 +558,7 @@
     box-sizing: border-box;
   }
 
-  .w2x1d-wa-advanced-header {
+  .v3b2p-wa-advanced-header {
     background: #25D366;
     color: #fff;
     padding: 16px;
@@ -568,20 +568,20 @@
     position: relative;
   }
 
-  .w2x1d-wa-advanced-avatar {
+  .v3b2p-wa-advanced-avatar {
     position: relative;
     width: 48px;
     height: 48px;
   }
 
-  .w2x1d-wa-advanced-avatar img {
+  .v3b2p-wa-advanced-avatar img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
   }
 
-  .w2x1d-wa-advanced-status {
+  .v3b2p-wa-advanced-status {
     position: absolute;
     bottom: 2px;
     right: 2px;
@@ -591,23 +591,23 @@
     border: 2px solid #fff;
   }
 
-  .w2x1d-wa-advanced-status.online {
+  .v3b2p-wa-advanced-status.online {
     background: #4caf50;
   }
 
-  .w2x1d-wa-advanced-info h4 {
+  .v3b2p-wa-advanced-info h4 {
     margin: 0;
     font-size: 16px;
     font-weight: 600;
   }
 
-  .w2x1d-wa-advanced-info p {
+  .v3b2p-wa-advanced-info p {
     margin: 4px 0 0 0;
     font-size: 12px;
     opacity: 0.9;
   }
 
-  .w2x1d-wa-advanced-close {
+  .v3b2p-wa-advanced-close {
     position: absolute;
     top: 12px;
     right: 12px;
@@ -619,16 +619,16 @@
     opacity: 0.8;
   }
 
-  .w2x1d-wa-advanced-close:hover {
+  .v3b2p-wa-advanced-close:hover {
     opacity: 1;
   }
 
-  .w2x1d-wa-advanced-body {
+  .v3b2p-wa-advanced-body {
     padding: 16px;
     background: #f8f9fa;
   }
 
-  .w2x1d-wa-advanced-message {
+  .v3b2p-wa-advanced-message {
     background: #fff;
     padding: 12px 16px;
     border-radius: 8px;
@@ -639,29 +639,29 @@
     justify-content: flex-end;
   }
 
-  .w2x1d-wa-advanced-message p {
+  .v3b2p-wa-advanced-message p {
     font-size: 14px;
     color: #333;
     text-align: right;
     margin: 0;
   }
 
-  .w2x1d-wa-advanced-time {
+  .v3b2p-wa-advanced-time {
     font-size: 10px;
     color: #999;
     margin: 4px 0 0 0;
   }
 
-  .w2x1d-wa-advanced-footer {
+  .v3b2p-wa-advanced-footer {
     padding: 16px;
   }
 
-  .w2x1d-wa-advanced-footer a {
+  .v3b2p-wa-advanced-footer a {
     text-decoration: none;
     color: #fff !important;
   }
 
-  .w2x1d-wa-advanced-chat-btn {
+  .v3b2p-wa-advanced-chat-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -677,7 +677,7 @@
     transition: transform 0.3s ease;
   }
 
-  .w2x1d-wa-advanced-chat-btn:hover {
+  .v3b2p-wa-advanced-chat-btn:hover {
     transform: translateY(-2px);
   }
 
@@ -689,7 +689,7 @@
       max-width: calc(100vw - 40px);
     }
     
-    .w2x1d-wa-advanced-panel {
+    .v3b2p-wa-advanced-panel {
       width: calc(100vw - 40px);
       max-width: 320px;
       right: 0;

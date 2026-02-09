@@ -1,7 +1,7 @@
 
  
 
-  .ps6z0 {
+  .iee06 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .ps6z0title {
+  .iee06title {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .ps6z0title:has(.ps6z0titlebodylang:empty),
-  .ps6z0title:has(.ps6z0titlebodylang ul:empty) {
+  .iee06title:has(.iee06titlebodylang:empty),
+  .iee06title:has(.iee06titlebodylang ul:empty) {
     display: none;
   }
 
-  .ps6z0titlebody {
+  .iee06titlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -31,29 +31,29 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .ps6z0titlebodytitle {
+  .iee06titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .ps6z0titlebodylang {
+  .iee06titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .ps6z0titlebodylang:empty,
-  .ps6z0titlebodylang ul:empty {
+  .iee06titlebodylang:empty,
+  .iee06titlebodylang ul:empty {
     display: none;
   }
 
-  .ps6z0titlebodylang ul {
+  .iee06titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .ps6z0body {
+  .iee06body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@
     position: relative;
   }
 
-  .ps6z0-mobile-toggle {
+  .iee06-mobile-toggle {
     display: none;
     background: #1e3046;
     color: #ffffff;
@@ -76,18 +76,18 @@
     right: 0;
   }
 
-  .ps6z0-mobile-toggle span {
+  .iee06-mobile-toggle span {
     font-size: 24px;
   }
 
-  .ps6z0menu {
+  .iee06menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .ps6z0menulist {
+  .iee06menulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -96,7 +96,7 @@
     display: flex;
   }
 
-  .ps6z0menubody {
+  .iee06menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .ps6z0menulist ul {
+  .iee06menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -113,7 +113,7 @@
     padding: 0;
   }
 
-  .ps6z0menulist ul a {
+  .iee06menulist ul a {
     padding: 10px 15px;
     font-size: 16px;
     color: #ffffff !important;
@@ -126,40 +126,40 @@
     margin: 0 2px;
   }
 
-  .ps6z0menulist ul a:hover {
+  .iee06menulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .ps6z0menulist ul a.ps6z0-menu-list-active {
+  .iee06menulist ul a.iee06-menu-list-active {
     color: #000000 !important;
   }
 
-  .ps6z0-menu-list-active {
+  .iee06-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .ps6z0menulistbody {
+  .iee06menulistbody {
     width: 100%;
   }
 
-  .ps6z0languages-mobile {
+  .iee06languages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .ps6z0languages-mobile:empty,
-  .ps6z0languages-mobile ul:empty {
+  .iee06languages-mobile:empty,
+  .iee06languages-mobile ul:empty {
     display: none !important;
   }
 
-  .ps6z0languages-mobile ul {
+  .iee06languages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -168,7 +168,7 @@
     justify-content: center;
   }
 
-  .ps6z0languages-mobile li {
+  .iee06languages-mobile li {
     list-style: none;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 8px;
@@ -183,25 +183,25 @@
     transition: all 0.3s ease;
   }
 
-  .ps6z0languages-mobile li a {
+  .iee06languages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .ps6z0languages-mobile li:hover {
+  .iee06languages-mobile li:hover {
     background-color: #ffffff;
     border-color: #000000;
   }
 
   @media screen and (min-width: 1024px) {
-    .ps6z0bodylogo {
+    .iee06bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .ps6z0title {
+    .iee06title {
     margin-bottom: -30px;
   }
 
@@ -209,77 +209,77 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .ps6z0body {
+    .iee06body {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .ps6z0menulist ul {
+    .iee06menulist ul {
       flex-direction: row;
     }
 
-    .ps6z0bodylogo {
+    .iee06bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .ps6z0titlebody {
+    .iee06titlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .ps6z0titlebodytitle {
+    .iee06titlebodytitle {
       text-align: center;
       font-size: 14px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .ps6z0titlebodylang {
+    .iee06titlebodylang {
       display: none;
     }
 
-    .ps6z0body {
+    .iee06body {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .ps6z0-mobile-toggle {
+    .iee06-mobile-toggle {
       display: inline-flex;
     }
 
-    .ps6z0bodylogo {
+    .iee06bodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
-    .ps6z0menulist {
+    .iee06menulist {
       display: none;
       flex-direction: column;
       width: calc(100% - 24px);
       padding: 12px;
     }
 
-    .ps6z0menu.ps6z0menu-open .ps6z0menulist {
+    .iee06menu.iee06menu-open .iee06menulist {
       display: flex;
     }
 
-    .ps6z0menu.ps6z0menu-open .ps6z0languages-mobile {
+    .iee06menu.iee06menu-open .iee06languages-mobile {
       display: block;
     }
 
-    .ps6z0menulist ul {
+    .iee06menulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .ps6z0menulist ul a {
+    .iee06menulist ul a {
       font-size: 14px;
       width: 100%;
       padding: 12px;
@@ -288,16 +288,16 @@
       border-radius: 0;
     }
 
-    .ps6z0menulist ul a:last-child {
+    .iee06menulist ul a:last-child {
       border-bottom: none;
     }
 
-    .ps6z0menulist ul a:hover {
+    .iee06menulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .ps6z0titlebodytitle {
+    .iee06titlebodytitle {
       font-size: 12px;
     }
   }
@@ -307,7 +307,7 @@
 #content {
     justify-content: start;
   }
-.psau1-title {
+.lns80-title {
     width: 100%;
     height: 100px;
     background-color: #e95e32;
@@ -320,7 +320,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .psau1-title::before {
+  .lns80-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -335,12 +335,12 @@
     z-index: 1;
   }
 
-  .psau1-title h1 {
+  .lns80-title h1 {
     position: relative;
     z-index: 2;
     font-size: 32px;
   }
-  .psau1 {
+  .lns80 {
     width: var(--max);
     display: flex;
     flex-direction: column;
@@ -348,7 +348,7 @@
     margin-top: 20px;
   }
   @media screen and (max-width: 1024px) {
-    .psau1 {
+    .lns80 {
       width: calc(100% - 20px);
       padding: 10px;
       margin-top: 10px;
@@ -496,7 +496,7 @@
     box-sizing: border-box;
   }
 
-  .m18on-wa-advanced-button {
+  .ferap-wa-advanced-button {
     position: relative;
     width: 64px;
     height: 64px;
@@ -510,18 +510,18 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
-  .m18on-wa-advanced-button:hover {
+  .ferap-wa-advanced-button:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
   }
 
-  .m18on-wa-advanced-icon svg {
+  .ferap-wa-advanced-icon svg {
     width: 32px;
     height: 32px;
     fill: #fff;
   }
 
-  .m18on-wa-advanced-pulse {
+  .ferap-wa-advanced-pulse {
     position: absolute;
     top: -2px;
     left: -2px;
@@ -544,7 +544,7 @@
     }
   }
 
-  .m18on-wa-advanced-panel {
+  .ferap-wa-advanced-panel {
     position: absolute;
     bottom: 80px;
     right: 0;
@@ -558,7 +558,7 @@
     box-sizing: border-box;
   }
 
-  .m18on-wa-advanced-header {
+  .ferap-wa-advanced-header {
     background: #25D366;
     color: #fff;
     padding: 16px;
@@ -568,20 +568,20 @@
     position: relative;
   }
 
-  .m18on-wa-advanced-avatar {
+  .ferap-wa-advanced-avatar {
     position: relative;
     width: 48px;
     height: 48px;
   }
 
-  .m18on-wa-advanced-avatar img {
+  .ferap-wa-advanced-avatar img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
   }
 
-  .m18on-wa-advanced-status {
+  .ferap-wa-advanced-status {
     position: absolute;
     bottom: 2px;
     right: 2px;
@@ -591,23 +591,23 @@
     border: 2px solid #fff;
   }
 
-  .m18on-wa-advanced-status.online {
+  .ferap-wa-advanced-status.online {
     background: #4caf50;
   }
 
-  .m18on-wa-advanced-info h4 {
+  .ferap-wa-advanced-info h4 {
     margin: 0;
     font-size: 16px;
     font-weight: 600;
   }
 
-  .m18on-wa-advanced-info p {
+  .ferap-wa-advanced-info p {
     margin: 4px 0 0 0;
     font-size: 12px;
     opacity: 0.9;
   }
 
-  .m18on-wa-advanced-close {
+  .ferap-wa-advanced-close {
     position: absolute;
     top: 12px;
     right: 12px;
@@ -619,16 +619,16 @@
     opacity: 0.8;
   }
 
-  .m18on-wa-advanced-close:hover {
+  .ferap-wa-advanced-close:hover {
     opacity: 1;
   }
 
-  .m18on-wa-advanced-body {
+  .ferap-wa-advanced-body {
     padding: 16px;
     background: #f8f9fa;
   }
 
-  .m18on-wa-advanced-message {
+  .ferap-wa-advanced-message {
     background: #fff;
     padding: 12px 16px;
     border-radius: 8px;
@@ -639,29 +639,29 @@
     justify-content: flex-end;
   }
 
-  .m18on-wa-advanced-message p {
+  .ferap-wa-advanced-message p {
     font-size: 14px;
     color: #333;
     text-align: right;
     margin: 0;
   }
 
-  .m18on-wa-advanced-time {
+  .ferap-wa-advanced-time {
     font-size: 10px;
     color: #999;
     margin: 4px 0 0 0;
   }
 
-  .m18on-wa-advanced-footer {
+  .ferap-wa-advanced-footer {
     padding: 16px;
   }
 
-  .m18on-wa-advanced-footer a {
+  .ferap-wa-advanced-footer a {
     text-decoration: none;
     color: #fff !important;
   }
 
-  .m18on-wa-advanced-chat-btn {
+  .ferap-wa-advanced-chat-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -677,7 +677,7 @@
     transition: transform 0.3s ease;
   }
 
-  .m18on-wa-advanced-chat-btn:hover {
+  .ferap-wa-advanced-chat-btn:hover {
     transform: translateY(-2px);
   }
 
@@ -689,7 +689,7 @@
       max-width: calc(100vw - 40px);
     }
     
-    .m18on-wa-advanced-panel {
+    .ferap-wa-advanced-panel {
       width: calc(100vw - 40px);
       max-width: 320px;
       right: 0;
