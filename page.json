@@ -24,7 +24,8 @@
         "tr": "Kurumsal sayfalar. Hakkımızda, misyon, vizyon ve iletişim.",
         "en": "Corporate pages. About us, mission, vision and contact."
       },
-      "desc": {}
+      "desc": {},
+      "icon": "home"
     },
     {
       "name": {
@@ -49,33 +50,6 @@
       "description": {
         "tr": "İngiltere kargo ve nakliye bilgi bankası. Eve den eve taşıma rehberi.",
         "en": "England cargo and shipping knowledge base. Door to door moving guide."
-      },
-      "desc": {}
-    },
-    {
-      "name": {
-        "tr": "İletişim",
-        "en": "Contact"
-      },
-      "status": "play",
-      "category": "",
-      "id": "xnzu5au0ag",
-      "url": "",
-      "path": "iletisim",
-      "index": 2,
-      "icon": "home",
-      "desing": {
-        "header": [],
-        "body": [
-          "fhxr98",
-          "bi4hta"
-        ],
-        "footer": []
-      },
-      "pathnext": "",
-      "description": {
-        "tr": "İletişim. İngiltere kargo ve nakliye için bize ulaşın.",
-        "en": "Contact us for England cargo and shipping."
       },
       "desc": {}
     }

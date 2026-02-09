@@ -1,7 +1,7 @@
 
  
 
-  .vim5o {
+  .eku7p {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .vim5otitle {
+  .eku7ptitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .vim5otitle:has(.vim5otitlebodylang:empty),
-  .vim5otitle:has(.vim5otitlebodylang ul:empty) {
+  .eku7ptitle:has(.eku7ptitlebodylang:empty),
+  .eku7ptitle:has(.eku7ptitlebodylang ul:empty) {
     display: none;
   }
 
-  .vim5otitlebody {
+  .eku7ptitlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -31,29 +31,29 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .vim5otitlebodytitle {
+  .eku7ptitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .vim5otitlebodylang {
+  .eku7ptitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .vim5otitlebodylang:empty,
-  .vim5otitlebodylang ul:empty {
+  .eku7ptitlebodylang:empty,
+  .eku7ptitlebodylang ul:empty {
     display: none;
   }
 
-  .vim5otitlebodylang ul {
+  .eku7ptitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .vim5obody {
+  .eku7pbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@
     position: relative;
   }
 
-  .vim5o-mobile-toggle {
+  .eku7p-mobile-toggle {
     display: none;
     background: #1e3046;
     color: #ffffff;
@@ -76,18 +76,18 @@
     right: 0;
   }
 
-  .vim5o-mobile-toggle span {
+  .eku7p-mobile-toggle span {
     font-size: 24px;
   }
 
-  .vim5omenu {
+  .eku7pmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .vim5omenulist {
+  .eku7pmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -96,7 +96,7 @@
     display: flex;
   }
 
-  .vim5omenubody {
+  .eku7pmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .vim5omenulist ul {
+  .eku7pmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -113,7 +113,7 @@
     padding: 0;
   }
 
-  .vim5omenulist ul a {
+  .eku7pmenulist ul a {
     padding: 10px 15px;
     font-size: 16px;
     color: #ffffff !important;
@@ -126,40 +126,40 @@
     margin: 0 2px;
   }
 
-  .vim5omenulist ul a:hover {
+  .eku7pmenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .vim5omenulist ul a.vim5o-menu-list-active {
+  .eku7pmenulist ul a.eku7p-menu-list-active {
     color: #000000 !important;
   }
 
-  .vim5o-menu-list-active {
+  .eku7p-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .vim5omenulistbody {
+  .eku7pmenulistbody {
     width: 100%;
   }
 
-  .vim5olanguages-mobile {
+  .eku7planguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .vim5olanguages-mobile:empty,
-  .vim5olanguages-mobile ul:empty {
+  .eku7planguages-mobile:empty,
+  .eku7planguages-mobile ul:empty {
     display: none !important;
   }
 
-  .vim5olanguages-mobile ul {
+  .eku7planguages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -168,7 +168,7 @@
     justify-content: center;
   }
 
-  .vim5olanguages-mobile li {
+  .eku7planguages-mobile li {
     list-style: none;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 8px;
@@ -183,25 +183,25 @@
     transition: all 0.3s ease;
   }
 
-  .vim5olanguages-mobile li a {
+  .eku7planguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .vim5olanguages-mobile li:hover {
+  .eku7planguages-mobile li:hover {
     background-color: #ffffff;
     border-color: #000000;
   }
 
   @media screen and (min-width: 1024px) {
-    .vim5obodylogo {
+    .eku7pbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .vim5otitle {
+    .eku7ptitle {
     margin-bottom: -30px;
   }
 
@@ -209,77 +209,77 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .vim5obody {
+    .eku7pbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .vim5omenulist ul {
+    .eku7pmenulist ul {
       flex-direction: row;
     }
 
-    .vim5obodylogo {
+    .eku7pbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .vim5otitlebody {
+    .eku7ptitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .vim5otitlebodytitle {
+    .eku7ptitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .vim5otitlebodylang {
+    .eku7ptitlebodylang {
       display: none;
     }
 
-    .vim5obody {
+    .eku7pbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .vim5o-mobile-toggle {
+    .eku7p-mobile-toggle {
       display: inline-flex;
     }
 
-    .vim5obodylogo {
+    .eku7pbodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
-    .vim5omenulist {
+    .eku7pmenulist {
       display: none;
       flex-direction: column;
       width: calc(100% - 24px);
       padding: 12px;
     }
 
-    .vim5omenu.vim5omenu-open .vim5omenulist {
+    .eku7pmenu.eku7pmenu-open .eku7pmenulist {
       display: flex;
     }
 
-    .vim5omenu.vim5omenu-open .vim5olanguages-mobile {
+    .eku7pmenu.eku7pmenu-open .eku7planguages-mobile {
       display: block;
     }
 
-    .vim5omenulist ul {
+    .eku7pmenulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .vim5omenulist ul a {
+    .eku7pmenulist ul a {
       font-size: 14px;
       width: 100%;
       padding: 12px;
@@ -288,16 +288,16 @@
       border-radius: 0;
     }
 
-    .vim5omenulist ul a:last-child {
+    .eku7pmenulist ul a:last-child {
       border-bottom: none;
     }
 
-    .vim5omenulist ul a:hover {
+    .eku7pmenulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .vim5otitlebodytitle {
+    .eku7ptitlebodytitle {
       font-size: 12px;
     }
   }
@@ -307,7 +307,7 @@
     justify-content: start;
   }
 
-  .f5e7e {
+  .ybf45 {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
@@ -316,11 +316,11 @@
     box-sizing: border-box;
   }
 
-  .f5e7e * {
+  .ybf45 * {
     box-sizing: border-box;
   }
 
-  .f5e7e-menu-btn {
+  .ybf45-menu-btn {
     display: none;
     background-color: #000;
     padding: 10px 20px;
@@ -332,11 +332,11 @@
     align-items: center;
   }
 
-  .f5e7e-menu-btn .f5e7e-icon {
+  .ybf45-menu-btn .ybf45-icon {
     font-size: 20px;
   }
 
-  .f5e7e-menu {
+  .ybf45-menu {
     width: 250px;
     background-color: var(--bgcolor);
     border-radius: 5px;
@@ -347,15 +347,15 @@
     float: left;
   }
 
-  .f5e7e-desc {
+  .ybf45-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .f5e7e-menu-link,
-  .f5e7e-top {
+  .ybf45-menu-link,
+  .ybf45-top {
     background-color: #fff;
     padding: 10px;
     border-radius: 5px;
@@ -370,52 +370,52 @@
     text-align: left;
   }
 
-  .f5e7e-menu-link.active,
-  .f5e7e-menu-link:hover,
-  .f5e7e-top.active,
-  .f5e7e-top:hover {
+  .ybf45-menu-link.active,
+  .ybf45-menu-link:hover,
+  .ybf45-top.active,
+  .ybf45-top:hover {
     background-color: #000;
     color: #fff;
   }
 
-  .f5e7e-menu-group {
+  .ybf45-menu-group {
     display: flex;
     flex-direction: column;
     gap: 5px;
   }
 
-  .f5e7e-top {
+  .ybf45-top {
     width: 100%;
     border: none;
     font-weight: 600;
     text-align: left;
   }
   
-  .f5e7e-top > div {
+  .ybf45-top > div {
     text-align: left;
   }
 
-  .f5e7e-top .f5e7e-icon {
+  .ybf45-top .ybf45-icon {
     font-size: 14px;
     transition: transform 0.2s ease;
   }
 
-  .f5e7e-menu-group.open .f5e7e-top .f5e7e-icon {
+  .ybf45-menu-group.open .ybf45-top .ybf45-icon {
     transform: rotate(180deg);
   }
 
-  .f5e7e-sub {
+  .ybf45-sub {
     display: none;
     flex-direction: column;
     gap: 5px;
     padding-left: 8px;
   }
 
-  .f5e7e-sub.show {
+  .ybf45-sub.show {
     display: flex;
   }
 
-  .f5e7e-sub-link {
+  .ybf45-sub-link {
     background-color: #fff;
     padding: 8px 10px;
     border-radius: 5px;
@@ -425,13 +425,13 @@
     text-align: left;
   }
 
-  .f5e7e-sub-link.active,
-  .f5e7e-sub-link:hover {
+  .ybf45-sub-link.active,
+  .ybf45-sub-link:hover {
     background-color: rgba(39, 156, 144, 0.12);
     color: inherit;
   }
 
-  .f5e7e-desc-menu {
+  .ybf45-desc-menu {
     width: 200px;
     background-color: #000;
     display: flex;
@@ -439,19 +439,19 @@
     border-radius: 5px;
   }
 
-  .f5e7e-desc-menu > div {
+  .ybf45-desc-menu > div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .f5e7e-desc-body {
+  .ybf45-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .f5e7e-title {
+  .ybf45-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -464,7 +464,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .f5e7e-title::before {
+  .ybf45-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -479,7 +479,7 @@
     z-index: 1;
   }
 
-  .f5e7e-title h1 {
+  .ybf45-title h1 {
     position: relative;
     z-index: 2;
     font-size: 32px;
@@ -487,39 +487,39 @@
     color: #fff !important;
   }
 
-  .f5e7e-body {
+  .ybf45-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: left;
   }
 
-  .f5e7e-img {
+  .ybf45-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: calc(var(--max) - 460px);
   }
 
-  .f5e7e-img img {
+  .ybf45-img img {
     width: 100%;
   }
 
 
   @media screen and (min-width: 1025px) {
-    .f5e7e-menu-overlay {
+    .ybf45-menu-overlay {
       display: none !important;
     }
 
-    .f5e7e-menu-close {
+    .ybf45-menu-close {
       display: none !important;
     }
 
-    .f5e7e-desc {
+    .ybf45-desc {
       width: calc(var(--max) - 290px);
     }
 
-    .f5e7e-menu {
+    .ybf45-menu {
       position: static !important;
       left: auto !important;
       width: 250px !important;
@@ -531,17 +531,17 @@
       padding: 10px;
     }
 
-    .f5e7e-menu-link {
+    .ybf45-menu-link {
       padding: 10px 10px 10px 10px;
     }
 
-    .f5e7e-top {
+    .ybf45-top {
       padding: 10px 10px 10px 10px;
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .f5e7e-menu-btn {
+    .ybf45-menu-btn {
       display: flex;
       width: 100%;
       margin: 0;
@@ -550,13 +550,13 @@
       z-index: 1;
     }
 
-    .f5e7e-menu-btn:focus {
+    .ybf45-menu-btn:focus {
       outline: 2px solid #fff;
       outline-offset: 2px;
     }
 
     /* Overlay/Backdrop */
-    .f5e7e-menu-overlay {
+    .ybf45-menu-overlay {
       display: none;
       position: fixed;
       top: 0;
@@ -570,13 +570,13 @@
       pointer-events: none;
     }
 
-    .f5e7e-menu-overlay.active {
+    .ybf45-menu-overlay.active {
       display: block;
       opacity: 1;
       pointer-events: auto;
     }
 
-    .f5e7e {
+    .ybf45 {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -585,18 +585,18 @@
       margin-top: 0px;
     }
 
-    .f5e7e-img {
+    .ybf45-img {
       width: 100%;
     }
 
-    .f5e7e-body {
+    .ybf45-body {
       width: 100%;
       order: 3;
       padding: 10px;
     }
 
     /* Slide-in Menü - Soldan */
-    .f5e7e-menu {
+    .ybf45-menu {
       position: fixed;
       top: 0;
       left: -100%;
@@ -618,13 +618,13 @@
       visibility: hidden;
     }
 
-    .f5e7e-menu.active {
+    .ybf45-menu.active {
       left: 0;
       visibility: visible;
     }
 
     /* Kapatma Butonu */
-    .f5e7e-menu-close {
+    .ybf45-menu-close {
       display: flex;
       align-items: center;
       justify-content: flex-end;
@@ -640,21 +640,21 @@
     }
 
     /* Menü içeriği için padding */
-    .f5e7e-menu > .f5e7e-menu-group,
-    .f5e7e-menu > .f5e7e-menu-link {
+    .ybf45-menu > .ybf45-menu-group,
+    .ybf45-menu > .ybf45-menu-link {
       padding: 10px;
     }
 
-    .f5e7e-menu-close span {
+    .ybf45-menu-close span {
       font-size: 28px;
     }
 
-    .f5e7e-menu-close:focus {
+    .ybf45-menu-close:focus {
       outline: 2px solid currentColor;
       outline-offset: -2px;
     }
 
-    .f5e7e-desc {
+    .ybf45-desc {
       width: 100% !important;
       order: 2;
     }
@@ -789,4 +789,218 @@
       background-positon-x: 0px;
     }
   }
+
+
+  .wa-advanced {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    font-family: "Poppins", sans-serif;
+    max-width: calc(100vw - 60px);
+    box-sizing: border-box;
+  }
+
+  .ntecf-wa-advanced-button {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    background: #25D366;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .ntecf-wa-advanced-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+  }
+
+  .ntecf-wa-advanced-icon svg {
+    width: 32px;
+    height: 32px;
+    fill: #fff;
+  }
+
+  .ntecf-wa-advanced-pulse {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    border: 2px solid #25D366;
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+
+    100% {
+      transform: scale(1.3);
+      opacity: 0;
+    }
+  }
+
+  .ntecf-wa-advanced-panel {
+    position: absolute;
+    bottom: 80px;
+    right: 0;
+    width: 320px;
+    max-width: calc(100vw - 60px);
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+    display: none;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  .ntecf-wa-advanced-header {
+    background: #25D366;
+    color: #fff;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+  }
+
+  .ntecf-wa-advanced-avatar {
+    position: relative;
+    width: 48px;
+    height: 48px;
+  }
+
+  .ntecf-wa-advanced-avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .ntecf-wa-advanced-status {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+  }
+
+  .ntecf-wa-advanced-status.online {
+    background: #4caf50;
+  }
+
+  .ntecf-wa-advanced-info h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .ntecf-wa-advanced-info p {
+    margin: 4px 0 0 0;
+    font-size: 12px;
+    opacity: 0.9;
+  }
+
+  .ntecf-wa-advanced-close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+  .ntecf-wa-advanced-close:hover {
+    opacity: 1;
+  }
+
+  .ntecf-wa-advanced-body {
+    padding: 16px;
+    background: #f8f9fa;
+  }
+
+  .ntecf-wa-advanced-message {
+    background: #fff;
+    padding: 12px 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+
+  .ntecf-wa-advanced-message p {
+    font-size: 14px;
+    color: #333;
+    text-align: right;
+    margin: 0;
+  }
+
+  .ntecf-wa-advanced-time {
+    font-size: 10px;
+    color: #999;
+    margin: 4px 0 0 0;
+  }
+
+  .ntecf-wa-advanced-footer {
+    padding: 16px;
+  }
+
+  .ntecf-wa-advanced-footer a {
+    text-decoration: none;
+    color: #fff !important;
+  }
+
+  .ntecf-wa-advanced-chat-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    background: #25D366;
+    color: #fff;
+    padding: 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    transition: transform 0.3s ease;
+  }
+
+  .ntecf-wa-advanced-chat-btn:hover {
+    transform: translateY(-2px);
+  }
+
+  @media (max-width: 768px) {
+    .wa-advanced {
+      bottom: 20px;
+      right: 30px;
+      left: auto;
+      max-width: calc(100vw - 40px);
+    }
+    
+    .ntecf-wa-advanced-panel {
+      width: calc(100vw - 40px);
+      max-width: 320px;
+      right: 0;
+      bottom: 80px;
+    }
+  }
+  
+
 
