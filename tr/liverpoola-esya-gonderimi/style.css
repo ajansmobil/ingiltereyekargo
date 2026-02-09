@@ -1,7 +1,7 @@
 
  
 
-  .uaylm {
+  .hwema {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .uaylmtitle {
+  .hwematitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .uaylmtitle:has(.uaylmtitlebodylang:empty),
-  .uaylmtitle:has(.uaylmtitlebodylang ul:empty) {
+  .hwematitle:has(.hwematitlebodylang:empty),
+  .hwematitle:has(.hwematitlebodylang ul:empty) {
     display: none;
   }
 
-  .uaylmtitlebody {
+  .hwematitlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -31,29 +31,29 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .uaylmtitlebodytitle {
+  .hwematitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .uaylmtitlebodylang {
+  .hwematitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .uaylmtitlebodylang:empty,
-  .uaylmtitlebodylang ul:empty {
+  .hwematitlebodylang:empty,
+  .hwematitlebodylang ul:empty {
     display: none;
   }
 
-  .uaylmtitlebodylang ul {
+  .hwematitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .uaylmbody {
+  .hwemabody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@
     position: relative;
   }
 
-  .uaylm-mobile-toggle {
+  .hwema-mobile-toggle {
     display: none;
     background: #1e3046;
     color: #ffffff;
@@ -76,18 +76,18 @@
     right: 0;
   }
 
-  .uaylm-mobile-toggle span {
+  .hwema-mobile-toggle span {
     font-size: 24px;
   }
 
-  .uaylmmenu {
+  .hwemamenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .uaylmmenulist {
+  .hwemamenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -96,7 +96,7 @@
     display: flex;
   }
 
-  .uaylmmenubody {
+  .hwemamenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .uaylmmenulist ul {
+  .hwemamenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -113,7 +113,7 @@
     padding: 0;
   }
 
-  .uaylmmenulist ul a {
+  .hwemamenulist ul a {
     padding: 10px 15px;
     font-size: 16px;
     color: #ffffff !important;
@@ -126,40 +126,40 @@
     margin: 0 2px;
   }
 
-  .uaylmmenulist ul a:hover {
+  .hwemamenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .uaylmmenulist ul a.uaylm-menu-list-active {
+  .hwemamenulist ul a.hwema-menu-list-active {
     color: #000000 !important;
   }
 
-  .uaylm-menu-list-active {
+  .hwema-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .uaylmmenulistbody {
+  .hwemamenulistbody {
     width: 100%;
   }
 
-  .uaylmlanguages-mobile {
+  .hwemalanguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .uaylmlanguages-mobile:empty,
-  .uaylmlanguages-mobile ul:empty {
+  .hwemalanguages-mobile:empty,
+  .hwemalanguages-mobile ul:empty {
     display: none !important;
   }
 
-  .uaylmlanguages-mobile ul {
+  .hwemalanguages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -168,7 +168,7 @@
     justify-content: center;
   }
 
-  .uaylmlanguages-mobile li {
+  .hwemalanguages-mobile li {
     list-style: none;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 8px;
@@ -183,25 +183,25 @@
     transition: all 0.3s ease;
   }
 
-  .uaylmlanguages-mobile li a {
+  .hwemalanguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .uaylmlanguages-mobile li:hover {
+  .hwemalanguages-mobile li:hover {
     background-color: #ffffff;
     border-color: #000000;
   }
 
   @media screen and (min-width: 1024px) {
-    .uaylmbodylogo {
+    .hwemabodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .uaylmtitle {
+    .hwematitle {
     margin-bottom: -30px;
   }
 
@@ -209,77 +209,77 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .uaylmbody {
+    .hwemabody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .uaylmmenulist ul {
+    .hwemamenulist ul {
       flex-direction: row;
     }
 
-    .uaylmbodylogo {
+    .hwemabodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .uaylmtitlebody {
+    .hwematitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .uaylmtitlebodytitle {
+    .hwematitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .uaylmtitlebodylang {
+    .hwematitlebodylang {
       display: none;
     }
 
-    .uaylmbody {
+    .hwemabody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .uaylm-mobile-toggle {
+    .hwema-mobile-toggle {
       display: inline-flex;
     }
 
-    .uaylmbodylogo {
+    .hwemabodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
-    .uaylmmenulist {
+    .hwemamenulist {
       display: none;
       flex-direction: column;
       width: calc(100% - 24px);
       padding: 12px;
     }
 
-    .uaylmmenu.uaylmmenu-open .uaylmmenulist {
+    .hwemamenu.hwemamenu-open .hwemamenulist {
       display: flex;
     }
 
-    .uaylmmenu.uaylmmenu-open .uaylmlanguages-mobile {
+    .hwemamenu.hwemamenu-open .hwemalanguages-mobile {
       display: block;
     }
 
-    .uaylmmenulist ul {
+    .hwemamenulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .uaylmmenulist ul a {
+    .hwemamenulist ul a {
       font-size: 14px;
       width: 100%;
       padding: 12px;
@@ -288,16 +288,16 @@
       border-radius: 0;
     }
 
-    .uaylmmenulist ul a:last-child {
+    .hwemamenulist ul a:last-child {
       border-bottom: none;
     }
 
-    .uaylmmenulist ul a:hover {
+    .hwemamenulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .uaylmtitlebodytitle {
+    .hwematitlebodytitle {
       font-size: 12px;
     }
   }
@@ -307,7 +307,7 @@
 #content {
     justify-content: start;
   }
-.macoh-title {
+.qaiu0-title {
     width: 100%;
     height: 100px;
     background-color: #e95e32;
@@ -320,7 +320,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .macoh-title::before {
+  .qaiu0-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -335,12 +335,12 @@
     z-index: 1;
   }
 
-  .macoh-title h1 {
+  .qaiu0-title h1 {
     position: relative;
     z-index: 2;
     font-size: 32px;
   }
-  .macoh {
+  .qaiu0 {
     width: var(--max);
     display: flex;
     flex-direction: column;
@@ -348,7 +348,7 @@
     margin-top: 20px;
   }
   @media screen and (max-width: 1024px) {
-    .macoh {
+    .qaiu0 {
       width: calc(100% - 20px);
       padding: 10px;
       margin-top: 10px;
@@ -496,7 +496,7 @@
     box-sizing: border-box;
   }
 
-  .fjl03-wa-advanced-button {
+  .bgeno-wa-advanced-button {
     position: relative;
     width: 64px;
     height: 64px;
@@ -510,18 +510,18 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
-  .fjl03-wa-advanced-button:hover {
+  .bgeno-wa-advanced-button:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
   }
 
-  .fjl03-wa-advanced-icon svg {
+  .bgeno-wa-advanced-icon svg {
     width: 32px;
     height: 32px;
     fill: #fff;
   }
 
-  .fjl03-wa-advanced-pulse {
+  .bgeno-wa-advanced-pulse {
     position: absolute;
     top: -2px;
     left: -2px;
@@ -544,7 +544,7 @@
     }
   }
 
-  .fjl03-wa-advanced-panel {
+  .bgeno-wa-advanced-panel {
     position: absolute;
     bottom: 80px;
     right: 0;
@@ -558,7 +558,7 @@
     box-sizing: border-box;
   }
 
-  .fjl03-wa-advanced-header {
+  .bgeno-wa-advanced-header {
     background: #25D366;
     color: #fff;
     padding: 16px;
@@ -568,20 +568,20 @@
     position: relative;
   }
 
-  .fjl03-wa-advanced-avatar {
+  .bgeno-wa-advanced-avatar {
     position: relative;
     width: 48px;
     height: 48px;
   }
 
-  .fjl03-wa-advanced-avatar img {
+  .bgeno-wa-advanced-avatar img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
   }
 
-  .fjl03-wa-advanced-status {
+  .bgeno-wa-advanced-status {
     position: absolute;
     bottom: 2px;
     right: 2px;
@@ -591,23 +591,23 @@
     border: 2px solid #fff;
   }
 
-  .fjl03-wa-advanced-status.online {
+  .bgeno-wa-advanced-status.online {
     background: #4caf50;
   }
 
-  .fjl03-wa-advanced-info h4 {
+  .bgeno-wa-advanced-info h4 {
     margin: 0;
     font-size: 16px;
     font-weight: 600;
   }
 
-  .fjl03-wa-advanced-info p {
+  .bgeno-wa-advanced-info p {
     margin: 4px 0 0 0;
     font-size: 12px;
     opacity: 0.9;
   }
 
-  .fjl03-wa-advanced-close {
+  .bgeno-wa-advanced-close {
     position: absolute;
     top: 12px;
     right: 12px;
@@ -619,16 +619,16 @@
     opacity: 0.8;
   }
 
-  .fjl03-wa-advanced-close:hover {
+  .bgeno-wa-advanced-close:hover {
     opacity: 1;
   }
 
-  .fjl03-wa-advanced-body {
+  .bgeno-wa-advanced-body {
     padding: 16px;
     background: #f8f9fa;
   }
 
-  .fjl03-wa-advanced-message {
+  .bgeno-wa-advanced-message {
     background: #fff;
     padding: 12px 16px;
     border-radius: 8px;
@@ -639,29 +639,29 @@
     justify-content: flex-end;
   }
 
-  .fjl03-wa-advanced-message p {
+  .bgeno-wa-advanced-message p {
     font-size: 14px;
     color: #333;
     text-align: right;
     margin: 0;
   }
 
-  .fjl03-wa-advanced-time {
+  .bgeno-wa-advanced-time {
     font-size: 10px;
     color: #999;
     margin: 4px 0 0 0;
   }
 
-  .fjl03-wa-advanced-footer {
+  .bgeno-wa-advanced-footer {
     padding: 16px;
   }
 
-  .fjl03-wa-advanced-footer a {
+  .bgeno-wa-advanced-footer a {
     text-decoration: none;
     color: #fff !important;
   }
 
-  .fjl03-wa-advanced-chat-btn {
+  .bgeno-wa-advanced-chat-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -677,7 +677,7 @@
     transition: transform 0.3s ease;
   }
 
-  .fjl03-wa-advanced-chat-btn:hover {
+  .bgeno-wa-advanced-chat-btn:hover {
     transform: translateY(-2px);
   }
 
@@ -689,7 +689,7 @@
       max-width: calc(100vw - 40px);
     }
     
-    .fjl03-wa-advanced-panel {
+    .bgeno-wa-advanced-panel {
       width: calc(100vw - 40px);
       max-width: 320px;
       right: 0;

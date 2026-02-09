@@ -1,7 +1,7 @@
 
  
 
-  .gyunv {
+  .kuhbj {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .gyunvtitle {
+  .kuhbjtitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .gyunvtitle:has(.gyunvtitlebodylang:empty),
-  .gyunvtitle:has(.gyunvtitlebodylang ul:empty) {
+  .kuhbjtitle:has(.kuhbjtitlebodylang:empty),
+  .kuhbjtitle:has(.kuhbjtitlebodylang ul:empty) {
     display: none;
   }
 
-  .gyunvtitlebody {
+  .kuhbjtitlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -31,29 +31,29 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .gyunvtitlebodytitle {
+  .kuhbjtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .gyunvtitlebodylang {
+  .kuhbjtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .gyunvtitlebodylang:empty,
-  .gyunvtitlebodylang ul:empty {
+  .kuhbjtitlebodylang:empty,
+  .kuhbjtitlebodylang ul:empty {
     display: none;
   }
 
-  .gyunvtitlebodylang ul {
+  .kuhbjtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .gyunvbody {
+  .kuhbjbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@
     position: relative;
   }
 
-  .gyunv-mobile-toggle {
+  .kuhbj-mobile-toggle {
     display: none;
     background: #1e3046;
     color: #ffffff;
@@ -76,18 +76,18 @@
     right: 0;
   }
 
-  .gyunv-mobile-toggle span {
+  .kuhbj-mobile-toggle span {
     font-size: 24px;
   }
 
-  .gyunvmenu {
+  .kuhbjmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .gyunvmenulist {
+  .kuhbjmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -96,7 +96,7 @@
     display: flex;
   }
 
-  .gyunvmenubody {
+  .kuhbjmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .gyunvmenulist ul {
+  .kuhbjmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -113,7 +113,7 @@
     padding: 0;
   }
 
-  .gyunvmenulist ul a {
+  .kuhbjmenulist ul a {
     padding: 10px 15px;
     font-size: 16px;
     color: #ffffff !important;
@@ -126,40 +126,40 @@
     margin: 0 2px;
   }
 
-  .gyunvmenulist ul a:hover {
+  .kuhbjmenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .gyunvmenulist ul a.gyunv-menu-list-active {
+  .kuhbjmenulist ul a.kuhbj-menu-list-active {
     color: #000000 !important;
   }
 
-  .gyunv-menu-list-active {
+  .kuhbj-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .gyunvmenulistbody {
+  .kuhbjmenulistbody {
     width: 100%;
   }
 
-  .gyunvlanguages-mobile {
+  .kuhbjlanguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .gyunvlanguages-mobile:empty,
-  .gyunvlanguages-mobile ul:empty {
+  .kuhbjlanguages-mobile:empty,
+  .kuhbjlanguages-mobile ul:empty {
     display: none !important;
   }
 
-  .gyunvlanguages-mobile ul {
+  .kuhbjlanguages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -168,7 +168,7 @@
     justify-content: center;
   }
 
-  .gyunvlanguages-mobile li {
+  .kuhbjlanguages-mobile li {
     list-style: none;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 8px;
@@ -183,25 +183,25 @@
     transition: all 0.3s ease;
   }
 
-  .gyunvlanguages-mobile li a {
+  .kuhbjlanguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .gyunvlanguages-mobile li:hover {
+  .kuhbjlanguages-mobile li:hover {
     background-color: #ffffff;
     border-color: #000000;
   }
 
   @media screen and (min-width: 1024px) {
-    .gyunvbodylogo {
+    .kuhbjbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .gyunvtitle {
+    .kuhbjtitle {
     margin-bottom: -30px;
   }
 
@@ -209,77 +209,77 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .gyunvbody {
+    .kuhbjbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .gyunvmenulist ul {
+    .kuhbjmenulist ul {
       flex-direction: row;
     }
 
-    .gyunvbodylogo {
+    .kuhbjbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .gyunvtitlebody {
+    .kuhbjtitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .gyunvtitlebodytitle {
+    .kuhbjtitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .gyunvtitlebodylang {
+    .kuhbjtitlebodylang {
       display: none;
     }
 
-    .gyunvbody {
+    .kuhbjbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .gyunv-mobile-toggle {
+    .kuhbj-mobile-toggle {
       display: inline-flex;
     }
 
-    .gyunvbodylogo {
+    .kuhbjbodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
-    .gyunvmenulist {
+    .kuhbjmenulist {
       display: none;
       flex-direction: column;
       width: calc(100% - 24px);
       padding: 12px;
     }
 
-    .gyunvmenu.gyunvmenu-open .gyunvmenulist {
+    .kuhbjmenu.kuhbjmenu-open .kuhbjmenulist {
       display: flex;
     }
 
-    .gyunvmenu.gyunvmenu-open .gyunvlanguages-mobile {
+    .kuhbjmenu.kuhbjmenu-open .kuhbjlanguages-mobile {
       display: block;
     }
 
-    .gyunvmenulist ul {
+    .kuhbjmenulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .gyunvmenulist ul a {
+    .kuhbjmenulist ul a {
       font-size: 14px;
       width: 100%;
       padding: 12px;
@@ -288,16 +288,16 @@
       border-radius: 0;
     }
 
-    .gyunvmenulist ul a:last-child {
+    .kuhbjmenulist ul a:last-child {
       border-bottom: none;
     }
 
-    .gyunvmenulist ul a:hover {
+    .kuhbjmenulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .gyunvtitlebodytitle {
+    .kuhbjtitlebodytitle {
       font-size: 12px;
     }
   }
@@ -307,7 +307,7 @@
 #content {
     justify-content: start;
   }
-.a1meo-title {
+.g6v2z-title {
     width: 100%;
     height: 100px;
     background-color: #e95e32;
@@ -320,7 +320,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .a1meo-title::before {
+  .g6v2z-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -335,12 +335,12 @@
     z-index: 1;
   }
 
-  .a1meo-title h1 {
+  .g6v2z-title h1 {
     position: relative;
     z-index: 2;
     font-size: 32px;
   }
-  .a1meo {
+  .g6v2z {
     width: var(--max);
     display: flex;
     flex-direction: column;
@@ -348,7 +348,7 @@
     margin-top: 20px;
   }
   @media screen and (max-width: 1024px) {
-    .a1meo {
+    .g6v2z {
       width: calc(100% - 20px);
       padding: 10px;
       margin-top: 10px;
@@ -496,7 +496,7 @@
     box-sizing: border-box;
   }
 
-  .m2neb-wa-advanced-button {
+  .j48g6-wa-advanced-button {
     position: relative;
     width: 64px;
     height: 64px;
@@ -510,18 +510,18 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
-  .m2neb-wa-advanced-button:hover {
+  .j48g6-wa-advanced-button:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
   }
 
-  .m2neb-wa-advanced-icon svg {
+  .j48g6-wa-advanced-icon svg {
     width: 32px;
     height: 32px;
     fill: #fff;
   }
 
-  .m2neb-wa-advanced-pulse {
+  .j48g6-wa-advanced-pulse {
     position: absolute;
     top: -2px;
     left: -2px;
@@ -544,7 +544,7 @@
     }
   }
 
-  .m2neb-wa-advanced-panel {
+  .j48g6-wa-advanced-panel {
     position: absolute;
     bottom: 80px;
     right: 0;
@@ -558,7 +558,7 @@
     box-sizing: border-box;
   }
 
-  .m2neb-wa-advanced-header {
+  .j48g6-wa-advanced-header {
     background: #25D366;
     color: #fff;
     padding: 16px;
@@ -568,20 +568,20 @@
     position: relative;
   }
 
-  .m2neb-wa-advanced-avatar {
+  .j48g6-wa-advanced-avatar {
     position: relative;
     width: 48px;
     height: 48px;
   }
 
-  .m2neb-wa-advanced-avatar img {
+  .j48g6-wa-advanced-avatar img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
   }
 
-  .m2neb-wa-advanced-status {
+  .j48g6-wa-advanced-status {
     position: absolute;
     bottom: 2px;
     right: 2px;
@@ -591,23 +591,23 @@
     border: 2px solid #fff;
   }
 
-  .m2neb-wa-advanced-status.online {
+  .j48g6-wa-advanced-status.online {
     background: #4caf50;
   }
 
-  .m2neb-wa-advanced-info h4 {
+  .j48g6-wa-advanced-info h4 {
     margin: 0;
     font-size: 16px;
     font-weight: 600;
   }
 
-  .m2neb-wa-advanced-info p {
+  .j48g6-wa-advanced-info p {
     margin: 4px 0 0 0;
     font-size: 12px;
     opacity: 0.9;
   }
 
-  .m2neb-wa-advanced-close {
+  .j48g6-wa-advanced-close {
     position: absolute;
     top: 12px;
     right: 12px;
@@ -619,16 +619,16 @@
     opacity: 0.8;
   }
 
-  .m2neb-wa-advanced-close:hover {
+  .j48g6-wa-advanced-close:hover {
     opacity: 1;
   }
 
-  .m2neb-wa-advanced-body {
+  .j48g6-wa-advanced-body {
     padding: 16px;
     background: #f8f9fa;
   }
 
-  .m2neb-wa-advanced-message {
+  .j48g6-wa-advanced-message {
     background: #fff;
     padding: 12px 16px;
     border-radius: 8px;
@@ -639,29 +639,29 @@
     justify-content: flex-end;
   }
 
-  .m2neb-wa-advanced-message p {
+  .j48g6-wa-advanced-message p {
     font-size: 14px;
     color: #333;
     text-align: right;
     margin: 0;
   }
 
-  .m2neb-wa-advanced-time {
+  .j48g6-wa-advanced-time {
     font-size: 10px;
     color: #999;
     margin: 4px 0 0 0;
   }
 
-  .m2neb-wa-advanced-footer {
+  .j48g6-wa-advanced-footer {
     padding: 16px;
   }
 
-  .m2neb-wa-advanced-footer a {
+  .j48g6-wa-advanced-footer a {
     text-decoration: none;
     color: #fff !important;
   }
 
-  .m2neb-wa-advanced-chat-btn {
+  .j48g6-wa-advanced-chat-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -677,7 +677,7 @@
     transition: transform 0.3s ease;
   }
 
-  .m2neb-wa-advanced-chat-btn:hover {
+  .j48g6-wa-advanced-chat-btn:hover {
     transform: translateY(-2px);
   }
 
@@ -689,7 +689,7 @@
       max-width: calc(100vw - 40px);
     }
     
-    .m2neb-wa-advanced-panel {
+    .j48g6-wa-advanced-panel {
       width: calc(100vw - 40px);
       max-width: 320px;
       right: 0;

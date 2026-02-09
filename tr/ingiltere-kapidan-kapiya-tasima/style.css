@@ -1,7 +1,7 @@
 
  
 
-  .tivu7 {
+  .nher1 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .tivu7title {
+  .nher1title {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .tivu7title:has(.tivu7titlebodylang:empty),
-  .tivu7title:has(.tivu7titlebodylang ul:empty) {
+  .nher1title:has(.nher1titlebodylang:empty),
+  .nher1title:has(.nher1titlebodylang ul:empty) {
     display: none;
   }
 
-  .tivu7titlebody {
+  .nher1titlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -31,29 +31,29 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .tivu7titlebodytitle {
+  .nher1titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .tivu7titlebodylang {
+  .nher1titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .tivu7titlebodylang:empty,
-  .tivu7titlebodylang ul:empty {
+  .nher1titlebodylang:empty,
+  .nher1titlebodylang ul:empty {
     display: none;
   }
 
-  .tivu7titlebodylang ul {
+  .nher1titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .tivu7body {
+  .nher1body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@
     position: relative;
   }
 
-  .tivu7-mobile-toggle {
+  .nher1-mobile-toggle {
     display: none;
     background: #1e3046;
     color: #ffffff;
@@ -76,18 +76,18 @@
     right: 0;
   }
 
-  .tivu7-mobile-toggle span {
+  .nher1-mobile-toggle span {
     font-size: 24px;
   }
 
-  .tivu7menu {
+  .nher1menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .tivu7menulist {
+  .nher1menulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -96,7 +96,7 @@
     display: flex;
   }
 
-  .tivu7menubody {
+  .nher1menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .tivu7menulist ul {
+  .nher1menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -113,7 +113,7 @@
     padding: 0;
   }
 
-  .tivu7menulist ul a {
+  .nher1menulist ul a {
     padding: 10px 15px;
     font-size: 16px;
     color: #ffffff !important;
@@ -126,40 +126,40 @@
     margin: 0 2px;
   }
 
-  .tivu7menulist ul a:hover {
+  .nher1menulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .tivu7menulist ul a.tivu7-menu-list-active {
+  .nher1menulist ul a.nher1-menu-list-active {
     color: #000000 !important;
   }
 
-  .tivu7-menu-list-active {
+  .nher1-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .tivu7menulistbody {
+  .nher1menulistbody {
     width: 100%;
   }
 
-  .tivu7languages-mobile {
+  .nher1languages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .tivu7languages-mobile:empty,
-  .tivu7languages-mobile ul:empty {
+  .nher1languages-mobile:empty,
+  .nher1languages-mobile ul:empty {
     display: none !important;
   }
 
-  .tivu7languages-mobile ul {
+  .nher1languages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -168,7 +168,7 @@
     justify-content: center;
   }
 
-  .tivu7languages-mobile li {
+  .nher1languages-mobile li {
     list-style: none;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 8px;
@@ -183,25 +183,25 @@
     transition: all 0.3s ease;
   }
 
-  .tivu7languages-mobile li a {
+  .nher1languages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .tivu7languages-mobile li:hover {
+  .nher1languages-mobile li:hover {
     background-color: #ffffff;
     border-color: #000000;
   }
 
   @media screen and (min-width: 1024px) {
-    .tivu7bodylogo {
+    .nher1bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .tivu7title {
+    .nher1title {
     margin-bottom: -30px;
   }
 
@@ -209,77 +209,77 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .tivu7body {
+    .nher1body {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .tivu7menulist ul {
+    .nher1menulist ul {
       flex-direction: row;
     }
 
-    .tivu7bodylogo {
+    .nher1bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .tivu7titlebody {
+    .nher1titlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .tivu7titlebodytitle {
+    .nher1titlebodytitle {
       text-align: center;
       font-size: 14px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .tivu7titlebodylang {
+    .nher1titlebodylang {
       display: none;
     }
 
-    .tivu7body {
+    .nher1body {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .tivu7-mobile-toggle {
+    .nher1-mobile-toggle {
       display: inline-flex;
     }
 
-    .tivu7bodylogo {
+    .nher1bodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
-    .tivu7menulist {
+    .nher1menulist {
       display: none;
       flex-direction: column;
       width: calc(100% - 24px);
       padding: 12px;
     }
 
-    .tivu7menu.tivu7menu-open .tivu7menulist {
+    .nher1menu.nher1menu-open .nher1menulist {
       display: flex;
     }
 
-    .tivu7menu.tivu7menu-open .tivu7languages-mobile {
+    .nher1menu.nher1menu-open .nher1languages-mobile {
       display: block;
     }
 
-    .tivu7menulist ul {
+    .nher1menulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .tivu7menulist ul a {
+    .nher1menulist ul a {
       font-size: 14px;
       width: 100%;
       padding: 12px;
@@ -288,16 +288,16 @@
       border-radius: 0;
     }
 
-    .tivu7menulist ul a:last-child {
+    .nher1menulist ul a:last-child {
       border-bottom: none;
     }
 
-    .tivu7menulist ul a:hover {
+    .nher1menulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .tivu7titlebodytitle {
+    .nher1titlebodytitle {
       font-size: 12px;
     }
   }
@@ -307,7 +307,7 @@
 #content {
     justify-content: start;
   }
-.u392q-title {
+.lok3p-title {
     width: 100%;
     height: 100px;
     background-color: #e95e32;
@@ -320,7 +320,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .u392q-title::before {
+  .lok3p-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -335,12 +335,12 @@
     z-index: 1;
   }
 
-  .u392q-title h1 {
+  .lok3p-title h1 {
     position: relative;
     z-index: 2;
     font-size: 32px;
   }
-  .u392q {
+  .lok3p {
     width: var(--max);
     display: flex;
     flex-direction: column;
@@ -348,7 +348,7 @@
     margin-top: 20px;
   }
   @media screen and (max-width: 1024px) {
-    .u392q {
+    .lok3p {
       width: calc(100% - 20px);
       padding: 10px;
       margin-top: 10px;
@@ -496,7 +496,7 @@
     box-sizing: border-box;
   }
 
-  .iwee1-wa-advanced-button {
+  .otnr7-wa-advanced-button {
     position: relative;
     width: 64px;
     height: 64px;
@@ -510,18 +510,18 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
-  .iwee1-wa-advanced-button:hover {
+  .otnr7-wa-advanced-button:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
   }
 
-  .iwee1-wa-advanced-icon svg {
+  .otnr7-wa-advanced-icon svg {
     width: 32px;
     height: 32px;
     fill: #fff;
   }
 
-  .iwee1-wa-advanced-pulse {
+  .otnr7-wa-advanced-pulse {
     position: absolute;
     top: -2px;
     left: -2px;
@@ -544,7 +544,7 @@
     }
   }
 
-  .iwee1-wa-advanced-panel {
+  .otnr7-wa-advanced-panel {
     position: absolute;
     bottom: 80px;
     right: 0;
@@ -558,7 +558,7 @@
     box-sizing: border-box;
   }
 
-  .iwee1-wa-advanced-header {
+  .otnr7-wa-advanced-header {
     background: #25D366;
     color: #fff;
     padding: 16px;
@@ -568,20 +568,20 @@
     position: relative;
   }
 
-  .iwee1-wa-advanced-avatar {
+  .otnr7-wa-advanced-avatar {
     position: relative;
     width: 48px;
     height: 48px;
   }
 
-  .iwee1-wa-advanced-avatar img {
+  .otnr7-wa-advanced-avatar img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
   }
 
-  .iwee1-wa-advanced-status {
+  .otnr7-wa-advanced-status {
     position: absolute;
     bottom: 2px;
     right: 2px;
@@ -591,23 +591,23 @@
     border: 2px solid #fff;
   }
 
-  .iwee1-wa-advanced-status.online {
+  .otnr7-wa-advanced-status.online {
     background: #4caf50;
   }
 
-  .iwee1-wa-advanced-info h4 {
+  .otnr7-wa-advanced-info h4 {
     margin: 0;
     font-size: 16px;
     font-weight: 600;
   }
 
-  .iwee1-wa-advanced-info p {
+  .otnr7-wa-advanced-info p {
     margin: 4px 0 0 0;
     font-size: 12px;
     opacity: 0.9;
   }
 
-  .iwee1-wa-advanced-close {
+  .otnr7-wa-advanced-close {
     position: absolute;
     top: 12px;
     right: 12px;
@@ -619,16 +619,16 @@
     opacity: 0.8;
   }
 
-  .iwee1-wa-advanced-close:hover {
+  .otnr7-wa-advanced-close:hover {
     opacity: 1;
   }
 
-  .iwee1-wa-advanced-body {
+  .otnr7-wa-advanced-body {
     padding: 16px;
     background: #f8f9fa;
   }
 
-  .iwee1-wa-advanced-message {
+  .otnr7-wa-advanced-message {
     background: #fff;
     padding: 12px 16px;
     border-radius: 8px;
@@ -639,29 +639,29 @@
     justify-content: flex-end;
   }
 
-  .iwee1-wa-advanced-message p {
+  .otnr7-wa-advanced-message p {
     font-size: 14px;
     color: #333;
     text-align: right;
     margin: 0;
   }
 
-  .iwee1-wa-advanced-time {
+  .otnr7-wa-advanced-time {
     font-size: 10px;
     color: #999;
     margin: 4px 0 0 0;
   }
 
-  .iwee1-wa-advanced-footer {
+  .otnr7-wa-advanced-footer {
     padding: 16px;
   }
 
-  .iwee1-wa-advanced-footer a {
+  .otnr7-wa-advanced-footer a {
     text-decoration: none;
     color: #fff !important;
   }
 
-  .iwee1-wa-advanced-chat-btn {
+  .otnr7-wa-advanced-chat-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -677,7 +677,7 @@
     transition: transform 0.3s ease;
   }
 
-  .iwee1-wa-advanced-chat-btn:hover {
+  .otnr7-wa-advanced-chat-btn:hover {
     transform: translateY(-2px);
   }
 
@@ -689,7 +689,7 @@
       max-width: calc(100vw - 40px);
     }
     
-    .iwee1-wa-advanced-panel {
+    .otnr7-wa-advanced-panel {
       width: calc(100vw - 40px);
       max-width: 320px;
       right: 0;

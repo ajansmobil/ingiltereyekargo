@@ -1,7 +1,7 @@
 
  
 
-  .xrj32 {
+  .pk0v5 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .xrj32title {
+  .pk0v5title {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .xrj32title:has(.xrj32titlebodylang:empty),
-  .xrj32title:has(.xrj32titlebodylang ul:empty) {
+  .pk0v5title:has(.pk0v5titlebodylang:empty),
+  .pk0v5title:has(.pk0v5titlebodylang ul:empty) {
     display: none;
   }
 
-  .xrj32titlebody {
+  .pk0v5titlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -31,29 +31,29 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .xrj32titlebodytitle {
+  .pk0v5titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .xrj32titlebodylang {
+  .pk0v5titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .xrj32titlebodylang:empty,
-  .xrj32titlebodylang ul:empty {
+  .pk0v5titlebodylang:empty,
+  .pk0v5titlebodylang ul:empty {
     display: none;
   }
 
-  .xrj32titlebodylang ul {
+  .pk0v5titlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .xrj32body {
+  .pk0v5body {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@
     position: relative;
   }
 
-  .xrj32-mobile-toggle {
+  .pk0v5-mobile-toggle {
     display: none;
     background: #1e3046;
     color: #ffffff;
@@ -76,18 +76,18 @@
     right: 0;
   }
 
-  .xrj32-mobile-toggle span {
+  .pk0v5-mobile-toggle span {
     font-size: 24px;
   }
 
-  .xrj32menu {
+  .pk0v5menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .xrj32menulist {
+  .pk0v5menulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -96,7 +96,7 @@
     display: flex;
   }
 
-  .xrj32menubody {
+  .pk0v5menubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +104,7 @@
     justify-content: center;
   }
 
-  .xrj32menulist ul {
+  .pk0v5menulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -113,7 +113,7 @@
     padding: 0;
   }
 
-  .xrj32menulist ul a {
+  .pk0v5menulist ul a {
     padding: 10px 15px;
     font-size: 16px;
     color: #ffffff !important;
@@ -126,40 +126,40 @@
     margin: 0 2px;
   }
 
-  .xrj32menulist ul a:hover {
+  .pk0v5menulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .xrj32menulist ul a.xrj32-menu-list-active {
+  .pk0v5menulist ul a.pk0v5-menu-list-active {
     color: #000000 !important;
   }
 
-  .xrj32-menu-list-active {
+  .pk0v5-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .xrj32menulistbody {
+  .pk0v5menulistbody {
     width: 100%;
   }
 
-  .xrj32languages-mobile {
+  .pk0v5languages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .xrj32languages-mobile:empty,
-  .xrj32languages-mobile ul:empty {
+  .pk0v5languages-mobile:empty,
+  .pk0v5languages-mobile ul:empty {
     display: none !important;
   }
 
-  .xrj32languages-mobile ul {
+  .pk0v5languages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -168,7 +168,7 @@
     justify-content: center;
   }
 
-  .xrj32languages-mobile li {
+  .pk0v5languages-mobile li {
     list-style: none;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 8px;
@@ -183,25 +183,25 @@
     transition: all 0.3s ease;
   }
 
-  .xrj32languages-mobile li a {
+  .pk0v5languages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .xrj32languages-mobile li:hover {
+  .pk0v5languages-mobile li:hover {
     background-color: #ffffff;
     border-color: #000000;
   }
 
   @media screen and (min-width: 1024px) {
-    .xrj32bodylogo {
+    .pk0v5bodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .xrj32title {
+    .pk0v5title {
     margin-bottom: -30px;
   }
 
@@ -209,77 +209,77 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .xrj32body {
+    .pk0v5body {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .xrj32menulist ul {
+    .pk0v5menulist ul {
       flex-direction: row;
     }
 
-    .xrj32bodylogo {
+    .pk0v5bodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .xrj32titlebody {
+    .pk0v5titlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .xrj32titlebodytitle {
+    .pk0v5titlebodytitle {
       text-align: center;
       font-size: 14px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .xrj32titlebodylang {
+    .pk0v5titlebodylang {
       display: none;
     }
 
-    .xrj32body {
+    .pk0v5body {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .xrj32-mobile-toggle {
+    .pk0v5-mobile-toggle {
       display: inline-flex;
     }
 
-    .xrj32bodylogo {
+    .pk0v5bodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
-    .xrj32menulist {
+    .pk0v5menulist {
       display: none;
       flex-direction: column;
       width: calc(100% - 24px);
       padding: 12px;
     }
 
-    .xrj32menu.xrj32menu-open .xrj32menulist {
+    .pk0v5menu.pk0v5menu-open .pk0v5menulist {
       display: flex;
     }
 
-    .xrj32menu.xrj32menu-open .xrj32languages-mobile {
+    .pk0v5menu.pk0v5menu-open .pk0v5languages-mobile {
       display: block;
     }
 
-    .xrj32menulist ul {
+    .pk0v5menulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .xrj32menulist ul a {
+    .pk0v5menulist ul a {
       font-size: 14px;
       width: 100%;
       padding: 12px;
@@ -288,16 +288,16 @@
       border-radius: 0;
     }
 
-    .xrj32menulist ul a:last-child {
+    .pk0v5menulist ul a:last-child {
       border-bottom: none;
     }
 
-    .xrj32menulist ul a:hover {
+    .pk0v5menulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .xrj32titlebodytitle {
+    .pk0v5titlebodytitle {
       font-size: 12px;
     }
   }
@@ -307,7 +307,7 @@
 #content {
     justify-content: start;
   }
-.fe8ad-title {
+.nol7t-title {
     width: 100%;
     height: 100px;
     background-color: #e95e32;
@@ -320,7 +320,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .fe8ad-title::before {
+  .nol7t-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -335,12 +335,12 @@
     z-index: 1;
   }
 
-  .fe8ad-title h1 {
+  .nol7t-title h1 {
     position: relative;
     z-index: 2;
     font-size: 32px;
   }
-  .fe8ad {
+  .nol7t {
     width: var(--max);
     display: flex;
     flex-direction: column;
@@ -348,7 +348,7 @@
     margin-top: 20px;
   }
   @media screen and (max-width: 1024px) {
-    .fe8ad {
+    .nol7t {
       width: calc(100% - 20px);
       padding: 10px;
       margin-top: 10px;
@@ -496,7 +496,7 @@
     box-sizing: border-box;
   }
 
-  .morp4-wa-advanced-button {
+  .rraa1-wa-advanced-button {
     position: relative;
     width: 64px;
     height: 64px;
@@ -510,18 +510,18 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
-  .morp4-wa-advanced-button:hover {
+  .rraa1-wa-advanced-button:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
   }
 
-  .morp4-wa-advanced-icon svg {
+  .rraa1-wa-advanced-icon svg {
     width: 32px;
     height: 32px;
     fill: #fff;
   }
 
-  .morp4-wa-advanced-pulse {
+  .rraa1-wa-advanced-pulse {
     position: absolute;
     top: -2px;
     left: -2px;
@@ -544,7 +544,7 @@
     }
   }
 
-  .morp4-wa-advanced-panel {
+  .rraa1-wa-advanced-panel {
     position: absolute;
     bottom: 80px;
     right: 0;
@@ -558,7 +558,7 @@
     box-sizing: border-box;
   }
 
-  .morp4-wa-advanced-header {
+  .rraa1-wa-advanced-header {
     background: #25D366;
     color: #fff;
     padding: 16px;
@@ -568,20 +568,20 @@
     position: relative;
   }
 
-  .morp4-wa-advanced-avatar {
+  .rraa1-wa-advanced-avatar {
     position: relative;
     width: 48px;
     height: 48px;
   }
 
-  .morp4-wa-advanced-avatar img {
+  .rraa1-wa-advanced-avatar img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
   }
 
-  .morp4-wa-advanced-status {
+  .rraa1-wa-advanced-status {
     position: absolute;
     bottom: 2px;
     right: 2px;
@@ -591,23 +591,23 @@
     border: 2px solid #fff;
   }
 
-  .morp4-wa-advanced-status.online {
+  .rraa1-wa-advanced-status.online {
     background: #4caf50;
   }
 
-  .morp4-wa-advanced-info h4 {
+  .rraa1-wa-advanced-info h4 {
     margin: 0;
     font-size: 16px;
     font-weight: 600;
   }
 
-  .morp4-wa-advanced-info p {
+  .rraa1-wa-advanced-info p {
     margin: 4px 0 0 0;
     font-size: 12px;
     opacity: 0.9;
   }
 
-  .morp4-wa-advanced-close {
+  .rraa1-wa-advanced-close {
     position: absolute;
     top: 12px;
     right: 12px;
@@ -619,16 +619,16 @@
     opacity: 0.8;
   }
 
-  .morp4-wa-advanced-close:hover {
+  .rraa1-wa-advanced-close:hover {
     opacity: 1;
   }
 
-  .morp4-wa-advanced-body {
+  .rraa1-wa-advanced-body {
     padding: 16px;
     background: #f8f9fa;
   }
 
-  .morp4-wa-advanced-message {
+  .rraa1-wa-advanced-message {
     background: #fff;
     padding: 12px 16px;
     border-radius: 8px;
@@ -639,29 +639,29 @@
     justify-content: flex-end;
   }
 
-  .morp4-wa-advanced-message p {
+  .rraa1-wa-advanced-message p {
     font-size: 14px;
     color: #333;
     text-align: right;
     margin: 0;
   }
 
-  .morp4-wa-advanced-time {
+  .rraa1-wa-advanced-time {
     font-size: 10px;
     color: #999;
     margin: 4px 0 0 0;
   }
 
-  .morp4-wa-advanced-footer {
+  .rraa1-wa-advanced-footer {
     padding: 16px;
   }
 
-  .morp4-wa-advanced-footer a {
+  .rraa1-wa-advanced-footer a {
     text-decoration: none;
     color: #fff !important;
   }
 
-  .morp4-wa-advanced-chat-btn {
+  .rraa1-wa-advanced-chat-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -677,7 +677,7 @@
     transition: transform 0.3s ease;
   }
 
-  .morp4-wa-advanced-chat-btn:hover {
+  .rraa1-wa-advanced-chat-btn:hover {
     transform: translateY(-2px);
   }
 
@@ -689,7 +689,7 @@
       max-width: calc(100vw - 40px);
     }
     
-    .morp4-wa-advanced-panel {
+    .rraa1-wa-advanced-panel {
       width: calc(100vw - 40px);
       max-width: 320px;
       right: 0;
