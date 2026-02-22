@@ -12,11 +12,11 @@
   <meta http-equiv="Pragma" content="cache" />
   <meta http-equiv="Expires" content="3600" />
   <title>England Short Term Moving</title>
+  <meta property="og:title" content="England Short Term Moving" />
   <meta name="description" content="England Short Term Moving service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Short Term Moving." />
   <meta name="keywords" content="england cargo, england shipping, england-short-term-moving, door to door moving, international shipping" />
-  <meta property="og:title" content="England Short Term Moving" />
   <meta property="og:description" content="England Short Term Moving service. England cargo, door to door delivery. Customs and insurance. Get a quote for England Short Term Moving." />
-  <meta property="og:image" content="https://ingiltereyekargo.com/img/icon.png" />
+  <meta property="og:image" content="https://ingiltereyekargo.com/page/2q5o56jc70/tr.webp" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://ingiltereyekargo.com/en/ingiltere-kisa-sureli-tasima/" />
 
@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=amwmf" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=amwmf" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=m39tv" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=m39tv" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=amwmf" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=m39tv" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,71 +52,86 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=amwmf">
+<link rel="stylesheet" href="style.css?v=m39tv">
 </head>
 
 <body>
-  <div id="header"><div class="y10at">
-  <div class="y10attitle">
-    <div class="y10attitlebody">
-      <div class="y10attitlebodylang">
+  <div id="header"><div class="oh11g">
+  <div class="oh11gtitle">
+    <div class="oh11gtitlebody">
+      <div class="oh11gtitlebodylang">
         <ul>
-          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li>
+          <li><a href="/tr/ingiltere-kisa-sureli-tasima/">TR</a></li><li><a href="/en/ingiltere-kisa-sureli-tasima/">EN</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="y10atbody">
+  <div class="oh11gbody">
     <a href="/en/"
       ><img
-        src="/img/logo.webp?v=amwmf"
+        src="/img/logo.webp?v=m39tv"
         alt="İngiltereye kargo Logo"
-        class="y10atbodylogo"
+        class="oh11gbodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="y10at-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="oh11g-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
-  <div class="y10atmenubody">
-    <div class="y10atmenu" id="menu-2-root">
-      <div class="y10atmenulistbody">
-        <div class="y10atmenulist">
+  <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
+  <div class="oh11g-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="oh11gmenubody">
+    <div class="oh11gmenu" id="menu-2-root">
+      <div class="oh11gmenulistbody">
+        <div class="oh11gmenulist">
           <ul>
             <a href="/en/">Home </a><a href="/en/hakkimizda/">Corporate</a><a href="/en/bilgibankasi/">Knowledge Base</a>
           </ul>
-          <div class="y10atlanguages-mobile">
-            <ul>
-              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li>
-            </ul>
-          </div>
         </div>
+      </div>
+      <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
+      <div class="oh11glanguages-mobile">
+        <ul>
+          <li><a href="/tr/ingiltere-kisa-sureli-tasima/">TR</a></li><li><a href="/en/ingiltere-kisa-sureli-tasima/">EN</a></li>
+        </ul>
       </div>
     </div>
   </div>
 </div>
 
 <script>
+  /* Mobil menü aç/kapat: class wrapper (.oh11g) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      if (root.classList.contains("y10atmenu-open")) {
-        root.classList.remove("y10atmenu-open");
+      var wrapper = root.closest ? root.closest(".oh11g") : null;
+      var target = wrapper || root;
+      if (target.classList.contains("oh11gmenu-open")) {
+        target.classList.remove("oh11gmenu-open");
       } else {
-        root.classList.add("y10atmenu-open");
+        target.classList.add("oh11gmenu-open");
       }
     }
   }
 </script>
 </div>
-  <div id="content"><div class="tq5gt-title f36">
+  <div id="content"><div class="bz44e-title f36">
   <h1>England Short Term Moving</h1>
 </div>
+<div class="bz44e">
+  <div class="bz44e-menu"><a   href="/en/kurumsal" >Corporate</a><a   href="/en/bilgibankasi" >Knowledge Base</a></div>
+  <div class="bz44e-desc">
+     <div class="bz44e-img">
+    <img src="/page/2q5o56jc70/tr.webp?v=m39tv" width="100%" alt="England Short Term Moving" loading="lazy" />
+  </div>
 
-<div class="tq5gt"><h2>England Short Term Moving</h2><p><b>England Short Term Moving</b> – We offer safe and cost-effective shipping between England and Turkey. Door to door delivery, customs handling and insurance options.</p><p>Our experienced team handles house moves, international shipping and groupage cargo. Contact us for a quote.</p><h3>Why Choose Us</h3><ul><li>Door to door delivery</li><li>Customs support</li><li>Insured shipping</li><li>Competitive rates</li><li>On-time delivery</li></ul><p>For sending goods to England, house moving or commercial cargo, we are here. Expert service for England Short Term Moving.</p><p>We ship your goods safely to England. Delivery to London, Manchester, Birmingham and all UK addresses. Door to door moving from Turkey to England, groupage and container options available. Contact us for a quote.</p></div>
+    <div class="bz44e-body"><p><h2>England Short Term Moving</h2><p><b>England Short Term Moving</b> – We offer safe and cost-effective shipping between England and Turkey. Door to door delivery, customs handling and insurance options.</p><p>Our experienced team handles house moves, international shipping and groupage cargo. Contact us for a quote.</p><h3>Why Choose Us</h3><ul><li>Door to door delivery</li><li>Customs support</li><li>Insured shipping</li><li>Competitive rates</li><li>On-time delivery</li></ul><p>For sending goods to England, house moving or commercial cargo, we are here. Expert service for England Short Term Moving.</p><p>We ship your goods safely to England. Delivery to London, Manchester, Birmingham and all UK addresses. Door to door moving from Turkey to England, groupage and container options available. Contact us for a quote.</p></p></div>
+  </div>
+</div>
+
 
 </div>
   <div id="footer"><footer class="footer">
@@ -163,9 +178,9 @@
   <p>İngiltereye kargo 2025 cognite. &copy;</p>
 </footer>
 
-<div class="wa-advanced" id="fz0vzWaAdvanced">
-  <div class="fz0vz-wa-advanced-button" onclick="toggleModulexAdvanced()">
-    <div class="fz0vz-wa-advanced-icon">
+<div class="wa-advanced" id="of379WaAdvanced">
+  <div class="of379-wa-advanced-button" onclick="toggleModulexAdvanced()">
+    <div class="of379-wa-advanced-icon">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
         <path
           d="M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z"
@@ -173,39 +188,39 @@
         ></path>
       </svg>
     </div>
-    <div class="fz0vz-wa-advanced-pulse"></div>
+    <div class="of379-wa-advanced-pulse"></div>
   </div>
 
-  <div class="fz0vz-wa-advanced-panel" id="fz0vzWaPanel">
-    <div class="fz0vz-wa-advanced-header">
-      <div class="fz0vz-wa-advanced-avatar">
-        <img src="/img/vmnshv/logo.png?v=amwmf" alt="Support Agent"  loading="lazy"/>
-        <div class="fz0vz-wa-advanced-status online"></div>
+  <div class="of379-wa-advanced-panel" id="of379WaPanel">
+    <div class="of379-wa-advanced-header">
+      <div class="of379-wa-advanced-avatar">
+        <img src="/img/vmnshv/logo.png?v=m39tv" alt="Support Agent"  loading="lazy"/>
+        <div class="of379-wa-advanced-status online"></div>
       </div>
-      <div class="fz0vz-wa-advanced-info">
+      <div class="of379-wa-advanced-info">
         <h4>Customer Support</h4>
         <p>Currently online</p>
       </div>
       <button
-        class="fz0vz-wa-advanced-close"
+        class="of379-wa-advanced-close"
         onclick="closeModulexAdvanced()"
       >
         ×
       </button>
     </div>
 
-    <div class="fz0vz-wa-advanced-body">
-      <div class="fz0vz-wa-advanced-message">
+    <div class="of379-wa-advanced-body">
+      <div class="of379-wa-advanced-message">
         <p>Hello! How can I help you?</p>
-        <span class="fz0vz-wa-advanced-time">Now</span>
+        <span class="of379-wa-advanced-time">Now</span>
       </div>
     </div>
 
-    <div class="fz0vz-wa-advanced-footer">
+    <div class="of379-wa-advanced-footer">
       <a
         href="https://wa.me/905418504646"
         target="_blank"
-        class="fz0vz-wa-advanced-chat-btn"
+        class="of379-wa-advanced-chat-btn"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -229,12 +244,12 @@
 
 <script>
   function toggleModulexAdvanced() {
-    const panel = document.getElementById("fz0vzWaPanel");
+    const panel = document.getElementById("of379WaPanel");
     panel.style.display = panel.style.display === "block" ? "none" : "block";
   }
 
   function closeModulexAdvanced() {
-    document.getElementById("fz0vzWaPanel").style.display = "none";
+    document.getElementById("of379WaPanel").style.display = "none";
   }
 </script>
 </div>
@@ -248,8 +263,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=amwmf"></script>
-<script defer src="/src/cookie.js?v=amwmf"></script>
+<script defer type="text/javascript" src="/src/js.js?v=m39tv"></script>
+<script defer src="/src/cookie.js?v=m39tv"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

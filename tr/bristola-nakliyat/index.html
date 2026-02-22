@@ -12,11 +12,11 @@
   <meta http-equiv="Pragma" content="cache" />
   <meta http-equiv="Expires" content="3600" />
   <title>Bristol'a Nakliyat</title>
+  <meta property="og:title" content="Bristol'a Nakliyat" />
   <meta name="description" content="Bristol'a Nakliyat hizmeti sunuyoruz. İngiltere nakliye, kapıdan kapıya teslimat. Bristol'a Nakliyat detayları için bize yazın." />
   <meta name="keywords" content="ingiltere kargo, ingiltere nakliyat, bristola-nakliyat, eve den eve taşıma, uluslararası nakliye" />
-  <meta property="og:title" content="Bristol'a Nakliyat" />
   <meta property="og:description" content="Bristol'a Nakliyat hizmeti sunuyoruz. İngiltere nakliye, kapıdan kapıya teslimat. Bristol'a Nakliyat detayları için bize yazın." />
-  <meta property="og:image" content="https://ingiltereyekargo.com/img/icon.png" />
+  <meta property="og:image" content="https://ingiltereyekargo.com/page/zvsohxx38z/tr.webp" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://ingiltereyekargo.com/tr/bristola-nakliyat/" />
 
@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=rt3is" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=rt3is" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=v5fa1" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=v5fa1" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=rt3is" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=v5fa1" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,71 +52,86 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=rt3is">
+<link rel="stylesheet" href="style.css?v=v5fa1">
 </head>
 
 <body>
-  <div id="header"><div class="e4ko8">
-  <div class="e4ko8title">
-    <div class="e4ko8titlebody">
-      <div class="e4ko8titlebodylang">
+  <div id="header"><div class="q3apx">
+  <div class="q3apxtitle">
+    <div class="q3apxtitlebody">
+      <div class="q3apxtitlebodylang">
         <ul>
-          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li>
+          <li><a href="/tr/bristola-nakliyat/">TR</a></li><li><a href="/en/bristola-nakliyat/">EN</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="e4ko8body">
+  <div class="q3apxbody">
     <a href="/tr/"
       ><img
-        src="/img/logo.webp?v=rt3is"
+        src="/img/logo.webp?v=v5fa1"
         alt="İngiltereye kargo Logo"
-        class="e4ko8bodylogo"
+        class="q3apxbodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="e4ko8-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="q3apx-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
-  <div class="e4ko8menubody">
-    <div class="e4ko8menu" id="menu-2-root">
-      <div class="e4ko8menulistbody">
-        <div class="e4ko8menulist">
+  <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
+  <div class="q3apx-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="q3apxmenubody">
+    <div class="q3apxmenu" id="menu-2-root">
+      <div class="q3apxmenulistbody">
+        <div class="q3apxmenulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a href="/tr/bilgibankasi/">Bilgi bankası</a>
           </ul>
-          <div class="e4ko8languages-mobile">
-            <ul>
-              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li>
-            </ul>
-          </div>
         </div>
+      </div>
+      <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
+      <div class="q3apxlanguages-mobile">
+        <ul>
+          <li><a href="/tr/bristola-nakliyat/">TR</a></li><li><a href="/en/bristola-nakliyat/">EN</a></li>
+        </ul>
       </div>
     </div>
   </div>
 </div>
 
 <script>
+  /* Mobil menü aç/kapat: class wrapper (.q3apx) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      if (root.classList.contains("e4ko8menu-open")) {
-        root.classList.remove("e4ko8menu-open");
+      var wrapper = root.closest ? root.closest(".q3apx") : null;
+      var target = wrapper || root;
+      if (target.classList.contains("q3apxmenu-open")) {
+        target.classList.remove("q3apxmenu-open");
       } else {
-        root.classList.add("e4ko8menu-open");
+        target.classList.add("q3apxmenu-open");
       }
     }
   }
 </script>
 </div>
-  <div id="content"><div class="ika13-title f36">
+  <div id="content"><div class="ew0c7-title f36">
   <h1>Bristol'a Nakliyat</h1>
 </div>
+<div class="ew0c7">
+  <div class="ew0c7-menu"><a   href="/tr/kurumsal" >Kurumsal</a><a   href="/tr/bilgibankasi" >Bilgi bankası</a></div>
+  <div class="ew0c7-desc">
+     <div class="ew0c7-img">
+    <img src="/page/zvsohxx38z/tr.webp?v=v5fa1" width="100%" alt="Bristol'a Nakliyat" loading="lazy" />
+  </div>
 
-<div class="ika13"><h2>Bristol'a Nakliyat</h2><p>Bristol'a Nakliyat hizmetimizde eşyalarınızı Türkiye'den İngiltere'ye güvenle taşıyoruz. Bu hizmete özel paketleme ve takip seçenekleri sunuyoruz.</p><h3>Bristol'a Nakliyat Nasıl Yapılır?</h3><p>Önce eşya listesi ve adres bilgilerinizi alıyoruz. Sonra Bristol'a Nakliyat kapsamında size özel fiyat ve süre bildiriyoruz. Gümrük işlemleri ve sigorta dahil planlıyoruz.</p><ul><li>Bristol'a Nakliyat için özel paketleme</li><li>Kapıdan kapıya teslimat</li><li>Gümrük danışmanlığı</li><li>Sigorta seçenekleri</li></ul><p>Bristol'a Nakliyat sürecinde sorularınız için müşteri hizmetlerimiz yanınızda. İngiltere adresinize kadar takip ve teslimat garantisi veriyoruz.</p><p>Bristol'a Nakliyat taleplerinizde deneyimli ekibimiz, süre ve maliyet açısından şeffaf bir hizmet sunar. Londra, Manchester, Birmingham ve tüm İngiltere için Bristol'a Nakliyat fiyat teklifi alabilirsiniz.</p><p>Bristol'a Nakliyat taleplerinizde deneyimli ekibimiz, süre ve maliyet açısından şeffaf bir hizmet sunar. Londra, Manchester, Birmingham ve tüm İngiltere için Bristol'a Nakliyat fiyat teklifi alabilirsiniz.</p><p>Bristol'a Nakliyat taleplerinizde deneyimli ekibimiz, süre ve maliyet açısından şeffaf bir hizmet sunar. Londra, Manchester, Birmingham ve tüm İngiltere için Bristol'a Nakliyat fiyat teklifi alabilirsiniz.</p><p>Bristol'a Nakliyat taleplerinizde deneyimli ekibimiz, süre ve maliyet açısından şeffaf bir hizmet sunar. Londra, Manchester, Birmingham ve tüm İngiltere için Bristol'a Nakliyat fiyat teklifi alabilirsiniz.</p><p>Bristol'a Nakliyat taleplerinizde deneyimli ekibimiz, süre ve maliyet açısından şeffaf bir hizmet sunar. Londra, Manchester, Birmingham ve tüm İngiltere için Bristol'a Nakliyat fiyat teklifi alabilirsiniz.</p><p>Bristol'a Nakliyat taleplerinizde deneyimli ekibimiz, süre ve maliyet açısından şeffaf bir hizmet sunar. Londra, Manchester, Birmingham ve tüm İngiltere için Bristol'a Nakliyat fiyat teklifi alabilirsiniz.</p><p>Bristol'a Nakliyat taleplerinizde deneyimli ekibimiz, süre ve maliyet açısından şeffaf bir hizmet sunar. Londra, Manchester, Birmingham ve tüm İngiltere için Bristol'a Nakliyat fiyat teklifi alabilirsiniz.</p><p>Bristol'a Nakliyat taleplerinizde deneyimli ekibimiz, süre ve maliyet açısından şeffaf bir hizmet sunar. Londra, Manchester, Birmingham ve tüm İngiltere için Bristol'a Nakliyat fiyat teklifi alabilirsiniz.</p><p>Bristol'a Nakliyat taleplerinizde deneyimli ekibimiz, süre ve maliyet açısından şeffaf bir hizmet sunar. Londra, Manchester, Birmingham ve tüm İngiltere için Bristol'a Nakliyat fiyat teklifi alabilirsiniz.</p><p>Bristol'a Nakliyat taleplerinizde deneyimli ekibimiz, süre ve maliyet açısından şeffaf bir hizmet sunar. Londra, Manchester, Birmingham ve tüm İngiltere için Bristol'a Nakliyat fiyat teklifi alabilirsiniz.</p><p>Bristol'a Nakliyat taleplerinizde deneyimli ekibimiz, süre ve maliyet açısından şeffaf bir hizmet sunar. Londra, Manchester, Birmingham ve tüm İngiltere için Bristol'a Nakliyat fiyat teklifi alabilirsiniz.</p></div>
+    <div class="ew0c7-body"><p><h2>Bristol'a Nakliyat</h2><p>Bristol'a Nakliyat hizmetimizde eşyalarınızı Türkiye'den İngiltere'ye güvenle taşıyoruz. Bu hizmete özel paketleme ve takip seçenekleri sunuyoruz.</p><h3>Bristol'a Nakliyat Nasıl Yapılır?</h3><p>Önce eşya listesi ve adres bilgilerinizi alıyoruz. Sonra Bristol'a Nakliyat kapsamında size özel fiyat ve süre bildiriyoruz. Gümrük işlemleri ve sigorta dahil planlıyoruz.</p><ul><li>Bristol'a Nakliyat için özel paketleme</li><li>Kapıdan kapıya teslimat</li><li>Gümrük danışmanlığı</li><li>Sigorta seçenekleri</li></ul><p>Bristol'a Nakliyat sürecinde sorularınız için müşteri hizmetlerimiz yanınızda. İngiltere adresinize kadar takip ve teslimat garantisi veriyoruz.</p><p>Bristol'a Nakliyat taleplerinizde deneyimli ekibimiz, süre ve maliyet açısından şeffaf bir hizmet sunar. Londra, Manchester, Birmingham ve tüm İngiltere için Bristol'a Nakliyat fiyat teklifi alabilirsiniz.</p><p>Bristol'a Nakliyat taleplerinizde deneyimli ekibimiz, süre ve maliyet açısından şeffaf bir hizmet sunar. Londra, Manchester, Birmingham ve tüm İngiltere için Bristol'a Nakliyat fiyat teklifi alabilirsiniz.</p><p>Bristol'a Nakliyat taleplerinizde deneyimli ekibimiz, süre ve maliyet açısından şeffaf bir hizmet sunar. Londra, Manchester, Birmingham ve tüm İngiltere için Bristol'a Nakliyat fiyat teklifi alabilirsiniz.</p><p>Bristol'a Nakliyat taleplerinizde deneyimli ekibimiz, süre ve maliyet açısından şeffaf bir hizmet sunar. Londra, Manchester, Birmingham ve tüm İngiltere için Bristol'a Nakliyat fiyat teklifi alabilirsiniz.</p><p>Bristol'a Nakliyat taleplerinizde deneyimli ekibimiz, süre ve maliyet açısından şeffaf bir hizmet sunar. Londra, Manchester, Birmingham ve tüm İngiltere için Bristol'a Nakliyat fiyat teklifi alabilirsiniz.</p><p>Bristol'a Nakliyat taleplerinizde deneyimli ekibimiz, süre ve maliyet açısından şeffaf bir hizmet sunar. Londra, Manchester, Birmingham ve tüm İngiltere için Bristol'a Nakliyat fiyat teklifi alabilirsiniz.</p><p>Bristol'a Nakliyat taleplerinizde deneyimli ekibimiz, süre ve maliyet açısından şeffaf bir hizmet sunar. Londra, Manchester, Birmingham ve tüm İngiltere için Bristol'a Nakliyat fiyat teklifi alabilirsiniz.</p><p>Bristol'a Nakliyat taleplerinizde deneyimli ekibimiz, süre ve maliyet açısından şeffaf bir hizmet sunar. Londra, Manchester, Birmingham ve tüm İngiltere için Bristol'a Nakliyat fiyat teklifi alabilirsiniz.</p><p>Bristol'a Nakliyat taleplerinizde deneyimli ekibimiz, süre ve maliyet açısından şeffaf bir hizmet sunar. Londra, Manchester, Birmingham ve tüm İngiltere için Bristol'a Nakliyat fiyat teklifi alabilirsiniz.</p><p>Bristol'a Nakliyat taleplerinizde deneyimli ekibimiz, süre ve maliyet açısından şeffaf bir hizmet sunar. Londra, Manchester, Birmingham ve tüm İngiltere için Bristol'a Nakliyat fiyat teklifi alabilirsiniz.</p><p>Bristol'a Nakliyat taleplerinizde deneyimli ekibimiz, süre ve maliyet açısından şeffaf bir hizmet sunar. Londra, Manchester, Birmingham ve tüm İngiltere için Bristol'a Nakliyat fiyat teklifi alabilirsiniz.</p></p></div>
+  </div>
+</div>
+
 
 </div>
   <div id="footer"><footer class="footer">
@@ -163,9 +178,9 @@
   <p>İngiltereye kargo 2025 cognite. &copy;</p>
 </footer>
 
-<div class="wa-advanced" id="fi0aaWaAdvanced">
-  <div class="fi0aa-wa-advanced-button" onclick="toggleModulexAdvanced()">
-    <div class="fi0aa-wa-advanced-icon">
+<div class="wa-advanced" id="tkokhWaAdvanced">
+  <div class="tkokh-wa-advanced-button" onclick="toggleModulexAdvanced()">
+    <div class="tkokh-wa-advanced-icon">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
         <path
           d="M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z"
@@ -173,39 +188,39 @@
         ></path>
       </svg>
     </div>
-    <div class="fi0aa-wa-advanced-pulse"></div>
+    <div class="tkokh-wa-advanced-pulse"></div>
   </div>
 
-  <div class="fi0aa-wa-advanced-panel" id="fi0aaWaPanel">
-    <div class="fi0aa-wa-advanced-header">
-      <div class="fi0aa-wa-advanced-avatar">
-        <img src="/img/vmnshv/logo.png?v=rt3is" alt="Support Agent"  loading="lazy"/>
-        <div class="fi0aa-wa-advanced-status online"></div>
+  <div class="tkokh-wa-advanced-panel" id="tkokhWaPanel">
+    <div class="tkokh-wa-advanced-header">
+      <div class="tkokh-wa-advanced-avatar">
+        <img src="/img/vmnshv/logo.png?v=v5fa1" alt="Support Agent"  loading="lazy"/>
+        <div class="tkokh-wa-advanced-status online"></div>
       </div>
-      <div class="fi0aa-wa-advanced-info">
+      <div class="tkokh-wa-advanced-info">
         <h4>Müşteri Desteği</h4>
         <p>Şu anda çevrimiçi</p>
       </div>
       <button
-        class="fi0aa-wa-advanced-close"
+        class="tkokh-wa-advanced-close"
         onclick="closeModulexAdvanced()"
       >
         ×
       </button>
     </div>
 
-    <div class="fi0aa-wa-advanced-body">
-      <div class="fi0aa-wa-advanced-message">
+    <div class="tkokh-wa-advanced-body">
+      <div class="tkokh-wa-advanced-message">
         <p>Merhaba! Size nasıl yardımcı olabilirim?</p>
-        <span class="fi0aa-wa-advanced-time">Şimdi</span>
+        <span class="tkokh-wa-advanced-time">Şimdi</span>
       </div>
     </div>
 
-    <div class="fi0aa-wa-advanced-footer">
+    <div class="tkokh-wa-advanced-footer">
       <a
         href="https://wa.me/905418504646"
         target="_blank"
-        class="fi0aa-wa-advanced-chat-btn"
+        class="tkokh-wa-advanced-chat-btn"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -229,12 +244,12 @@
 
 <script>
   function toggleModulexAdvanced() {
-    const panel = document.getElementById("fi0aaWaPanel");
+    const panel = document.getElementById("tkokhWaPanel");
     panel.style.display = panel.style.display === "block" ? "none" : "block";
   }
 
   function closeModulexAdvanced() {
-    document.getElementById("fi0aaWaPanel").style.display = "none";
+    document.getElementById("tkokhWaPanel").style.display = "none";
   }
 </script>
 </div>
@@ -248,8 +263,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=rt3is"></script>
-<script defer src="/src/cookie.js?v=rt3is"></script>
+<script defer type="text/javascript" src="/src/js.js?v=v5fa1"></script>
+<script defer src="/src/cookie.js?v=v5fa1"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

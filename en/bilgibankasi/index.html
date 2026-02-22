@@ -12,9 +12,9 @@
   <meta http-equiv="Pragma" content="cache" />
   <meta http-equiv="Expires" content="3600" />
   <title>Knowledge Base</title>
+  <meta property="og:title" content="Knowledge Base" />
   <meta name="description" content="England cargo and shipping knowledge base. Door to door moving guide." />
   <meta name="keywords" content="knowledge base, england cargo, shipping guide" />
-  <meta property="og:title" content="Knowledge Base" />
   <meta property="og:description" content="England cargo and shipping knowledge base. Door to door moving guide." />
   <meta property="og:image" content="https://ingiltereyekargo.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=ix2ne" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=ix2ne" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=ty5i6" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=ty5i6" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=ix2ne" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=ty5i6" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,671 +52,676 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=ix2ne">
+<link rel="stylesheet" href="style.css?v=ty5i6">
 </head>
 
 <body>
-  <div id="header"><div class="a661a">
-  <div class="a661atitle">
-    <div class="a661atitlebody">
-      <div class="a661atitlebodylang">
+  <div id="header"><div class="xi7mr">
+  <div class="xi7mrtitle">
+    <div class="xi7mrtitlebody">
+      <div class="xi7mrtitlebodylang">
         <ul>
-          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li>
+          <li><a href="/tr/bilgibankasi/">TR</a></li><li><a href="/en/bilgibankasi/">EN</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="a661abody">
+  <div class="xi7mrbody">
     <a href="/en/"
       ><img
-        src="/img/logo.webp?v=ix2ne"
+        src="/img/logo.webp?v=ty5i6"
         alt="İngiltereye kargo Logo"
-        class="a661abodylogo"
+        class="xi7mrbodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="a661a-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="xi7mr-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
-  <div class="a661amenubody">
-    <div class="a661amenu" id="menu-2-root">
-      <div class="a661amenulistbody">
-        <div class="a661amenulist">
+  <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
+  <div class="xi7mr-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="xi7mrmenubody">
+    <div class="xi7mrmenu" id="menu-2-root">
+      <div class="xi7mrmenulistbody">
+        <div class="xi7mrmenulist">
           <ul>
-            <a href="/en/">Home </a><a href="/en/hakkimizda/">Corporate</a><a class="a661a-menu-list-active" href="/en/bilgibankasi/">Knowledge Base</a>
+            <a href="/en/">Home </a><a href="/en/hakkimizda/">Corporate</a><a class="xi7mr-menu-list-active" href="/en/bilgibankasi/">Knowledge Base</a>
           </ul>
-          <div class="a661alanguages-mobile">
-            <ul>
-              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li>
-            </ul>
-          </div>
         </div>
+      </div>
+      <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
+      <div class="xi7mrlanguages-mobile">
+        <ul>
+          <li><a href="/tr/bilgibankasi/">TR</a></li><li><a href="/en/bilgibankasi/">EN</a></li>
+        </ul>
       </div>
     </div>
   </div>
 </div>
 
 <script>
+  /* Mobil menü aç/kapat: class wrapper (.xi7mr) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      if (root.classList.contains("a661amenu-open")) {
-        root.classList.remove("a661amenu-open");
+      var wrapper = root.closest ? root.closest(".xi7mr") : null;
+      var target = wrapper || root;
+      if (target.classList.contains("xi7mrmenu-open")) {
+        target.classList.remove("xi7mrmenu-open");
       } else {
-        root.classList.add("a661amenu-open");
+        target.classList.add("xi7mrmenu-open");
       }
     }
   }
 </script>
 </div>
-  <div id="content"><h1 style="display: none;">Knowledge Base</h1>
-<div class="ck18c">
-  <div class="ck18chead">
+  <div id="content"><div class="zhvch">
+  <div class="zhvchhead">
     <div class="search-container">
       <div class="search-icon" aria-hidden="true">🔍</div>
       <input type="text" id="searchInput" placeholder="Sayfa ara..." class="search-input" aria-label="Sayfa arama">
       <div class="search-counter" id="searchCounter">0 sonuç</div>
     </div>
   </div>
-  <div class="ck18cbody" id="ck18cbody"> <a href="/en/ingiltere-eve-den-eve-tasima/" class="ck18cbodyitem" data-search="door to door moving to england">
-                      <h3 class="ck18cbodyitemtitle">
+  <div class="zhvchbody" id="zhvchbody"> <a href="/en/ingiltere-eve-den-eve-tasima/" class="zhvchbodyitem" data-search="door to door moving to england">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     Door to Door Moving to England
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-nakliyat-hizmetleri/" class="ck18cbodyitem" data-search="england shipping services">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-nakliyat-hizmetleri/" class="zhvchbodyitem" data-search="england shipping services">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Shipping Services
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-uluslararasi-nakliye/" class="ck18cbodyitem" data-search="international moving to england">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-uluslararasi-nakliye/" class="zhvchbodyitem" data-search="international moving to england">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     International Moving to England
                     </div>
   </h3>
-</a> <a href="/en/ingiltereye-esya-gonderimi/" class="ck18cbodyitem" data-search="sending goods to england">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltereye-esya-gonderimi/" class="zhvchbodyitem" data-search="sending goods to england">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     Sending Goods to England
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-kargo-fiyatlari/" class="ck18cbodyitem" data-search="england cargo prices">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-kargo-fiyatlari/" class="zhvchbodyitem" data-search="england cargo prices">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Cargo Prices
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-ev-tasima-fiyatlari/" class="ck18cbodyitem" data-search="england house moving prices">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-ev-tasima-fiyatlari/" class="zhvchbodyitem" data-search="england house moving prices">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England House Moving Prices
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-gumruk-islemleri/" class="ck18cbodyitem" data-search="england customs procedures">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-gumruk-islemleri/" class="zhvchbodyitem" data-search="england customs procedures">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Customs Procedures
                     </div>
   </h3>
-</a> <a href="/en/londraya-tasima-ve-nakliye/" class="ck18cbodyitem" data-search="moving and shipping to london">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/londraya-tasima-ve-nakliye/" class="zhvchbodyitem" data-search="moving and shipping to london">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     Moving and Shipping to London
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-deniz-yolu-tasimacilik/" class="ck18cbodyitem" data-search="england sea freight">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-deniz-yolu-tasimacilik/" class="zhvchbodyitem" data-search="england sea freight">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Sea Freight
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-hava-kargo/" class="ck18cbodyitem" data-search="england air cargo">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-hava-kargo/" class="zhvchbodyitem" data-search="england air cargo">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Air Cargo
                     </div>
   </h3>
-</a> <a href="/en/turkiye-ingiltere-nakliyat/" class="ck18cbodyitem" data-search="turkey to england shipping">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/turkiye-ingiltere-nakliyat/" class="zhvchbodyitem" data-search="turkey to england shipping">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     Turkey to England Shipping
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-evden-eve-nakliye-fiyatlari/" class="ck18cbodyitem" data-search="england door to door moving prices">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-evden-eve-nakliye-fiyatlari/" class="zhvchbodyitem" data-search="england door to door moving prices">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Door to Door Moving Prices
                     </div>
   </h3>
-</a> <a href="/en/ingiltereye-tasinmak/" class="ck18cbodyitem" data-search="moving to england">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltereye-tasinmak/" class="zhvchbodyitem" data-search="moving to england">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     Moving to England
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-esya-tasima-sirketleri/" class="ck18cbodyitem" data-search="england furniture moving companies">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-esya-tasima-sirketleri/" class="zhvchbodyitem" data-search="england furniture moving companies">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Furniture Moving Companies
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-uluslararasi-kargo/" class="ck18cbodyitem" data-search="england international cargo">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-uluslararasi-kargo/" class="zhvchbodyitem" data-search="england international cargo">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England International Cargo
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-kapidan-kapiya-tasima/" class="ck18cbodyitem" data-search="england door to door delivery">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-kapidan-kapiya-tasima/" class="zhvchbodyitem" data-search="england door to door delivery">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Door to Door Delivery
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-nakliye-firmalari/" class="ck18cbodyitem" data-search="england moving companies">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-nakliye-firmalari/" class="zhvchbodyitem" data-search="england moving companies">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Moving Companies
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-ev-esyasi-tasima/" class="ck18cbodyitem" data-search="england household goods moving">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-ev-esyasi-tasima/" class="zhvchbodyitem" data-search="england household goods moving">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Household Goods Moving
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-kargo-sureleri/" class="ck18cbodyitem" data-search="england cargo delivery times">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-kargo-sureleri/" class="zhvchbodyitem" data-search="england cargo delivery times">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Cargo Delivery Times
                     </div>
   </h3>
-</a> <a href="/en/istanbul-ingiltere-nakliyat/" class="ck18cbodyitem" data-search="istanbul to england shipping">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/istanbul-ingiltere-nakliyat/" class="zhvchbodyitem" data-search="istanbul to england shipping">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     Istanbul to England Shipping
                     </div>
   </h3>
-</a> <a href="/en/ankara-ingiltere-kargo/" class="ck18cbodyitem" data-search="ankara to england cargo">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ankara-ingiltere-kargo/" class="zhvchbodyitem" data-search="ankara to england cargo">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     Ankara to England Cargo
                     </div>
   </h3>
-</a> <a href="/en/izmir-ingiltere-tasima/" class="ck18cbodyitem" data-search="izmir to england moving">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/izmir-ingiltere-tasima/" class="zhvchbodyitem" data-search="izmir to england moving">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     Izmir to England Moving
                     </div>
   </h3>
-</a> <a href="/en/ingiltereye-araba-gonderimi/" class="ck18cbodyitem" data-search="sending car to england">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltereye-araba-gonderimi/" class="zhvchbodyitem" data-search="sending car to england">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     Sending Car to England
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-deniz-kargo/" class="ck18cbodyitem" data-search="england sea cargo">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-deniz-kargo/" class="zhvchbodyitem" data-search="england sea cargo">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Sea Cargo
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-parsiyel-kargo/" class="ck18cbodyitem" data-search="england groupage cargo">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-parsiyel-kargo/" class="zhvchbodyitem" data-search="england groupage cargo">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Groupage Cargo
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-konteyner-tasimacilik/" class="ck18cbodyitem" data-search="england container shipping">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-konteyner-tasimacilik/" class="zhvchbodyitem" data-search="england container shipping">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Container Shipping
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-lojistik-hizmetleri/" class="ck18cbodyitem" data-search="england logistics services">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-lojistik-hizmetleri/" class="zhvchbodyitem" data-search="england logistics services">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Logistics Services
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-ev-tasima-paketleri/" class="ck18cbodyitem" data-search="england house moving packages">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-ev-tasima-paketleri/" class="zhvchbodyitem" data-search="england house moving packages">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England House Moving Packages
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-ogrenci-esyasi-tasima/" class="ck18cbodyitem" data-search="england student belongings moving">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-ogrenci-esyasi-tasima/" class="zhvchbodyitem" data-search="england student belongings moving">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Student Belongings Moving
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-tir-nakliyat/" class="ck18cbodyitem" data-search="england truck shipping">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-tir-nakliyat/" class="zhvchbodyitem" data-search="england truck shipping">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Truck Shipping
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-adresine-teslimat/" class="ck18cbodyitem" data-search="delivery to england address">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-adresine-teslimat/" class="zhvchbodyitem" data-search="delivery to england address">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     Delivery to England Address
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-tasima-sigortasi/" class="ck18cbodyitem" data-search="england moving insurance">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-tasima-sigortasi/" class="zhvchbodyitem" data-search="england moving insurance">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Moving Insurance
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-gumruk-danismanligi/" class="ck18cbodyitem" data-search="england customs consulting">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-gumruk-danismanligi/" class="zhvchbodyitem" data-search="england customs consulting">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Customs Consulting
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-depolama-hizmeti/" class="ck18cbodyitem" data-search="england storage service">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-depolama-hizmeti/" class="zhvchbodyitem" data-search="england storage service">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Storage Service
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-ev-tasima-rehberi/" class="ck18cbodyitem" data-search="england house moving guide">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-ev-tasima-rehberi/" class="zhvchbodyitem" data-search="england house moving guide">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England House Moving Guide
                     </div>
   </h3>
-</a> <a href="/en/ingiltereye-goc-esyasi-tasima/" class="ck18cbodyitem" data-search="moving belongings to england">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltereye-goc-esyasi-tasima/" class="zhvchbodyitem" data-search="moving belongings to england">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     Moving Belongings to England
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-kargo-takip/" class="ck18cbodyitem" data-search="england cargo tracking">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-kargo-takip/" class="zhvchbodyitem" data-search="england cargo tracking">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Cargo Tracking
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-ekonomik-tasima/" class="ck18cbodyitem" data-search="england budget moving">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-ekonomik-tasima/" class="zhvchbodyitem" data-search="england budget moving">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Budget Moving
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-express-kargo/" class="ck18cbodyitem" data-search="england express cargo">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-express-kargo/" class="zhvchbodyitem" data-search="england express cargo">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Express Cargo
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-paletli-tasima/" class="ck18cbodyitem" data-search="england palletised shipping">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-paletli-tasima/" class="zhvchbodyitem" data-search="england palletised shipping">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Palletised Shipping
                     </div>
   </h3>
-</a> <a href="/en/manchestera-nakliye/" class="ck18cbodyitem" data-search="shipping to manchester">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/manchestera-nakliye/" class="zhvchbodyitem" data-search="shipping to manchester">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     Shipping to Manchester
                     </div>
   </h3>
-</a> <a href="/en/birminghama-tasima/" class="ck18cbodyitem" data-search="moving to birmingham">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/birminghama-tasima/" class="zhvchbodyitem" data-search="moving to birmingham">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     Moving to Birmingham
                     </div>
   </h3>
-</a> <a href="/en/leedse-kargo/" class="ck18cbodyitem" data-search="cargo to leeds">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/leedse-kargo/" class="zhvchbodyitem" data-search="cargo to leeds">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     Cargo to Leeds
                     </div>
   </h3>
-</a> <a href="/en/liverpoola-esya-gonderimi/" class="ck18cbodyitem" data-search="sending goods to liverpool">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/liverpoola-esya-gonderimi/" class="zhvchbodyitem" data-search="sending goods to liverpool">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     Sending Goods to Liverpool
                     </div>
   </h3>
-</a> <a href="/en/bristola-nakliyat/" class="ck18cbodyitem" data-search="shipping to bristol">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/bristola-nakliyat/" class="zhvchbodyitem" data-search="shipping to bristol">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     Shipping to Bristol
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-kirsal-bolge-teslimat/" class="ck18cbodyitem" data-search="england rural area delivery">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-kirsal-bolge-teslimat/" class="zhvchbodyitem" data-search="england rural area delivery">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Rural Area Delivery
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-ev-ofis-tasima/" class="ck18cbodyitem" data-search="england home office moving">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-ev-ofis-tasima/" class="zhvchbodyitem" data-search="england home office moving">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Home Office Moving
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-antika-esya-tasima/" class="ck18cbodyitem" data-search="england antique moving">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-antika-esya-tasima/" class="zhvchbodyitem" data-search="england antique moving">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Antique Moving
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-beyaz-esya-nakliye/" class="ck18cbodyitem" data-search="england white goods shipping">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-beyaz-esya-nakliye/" class="zhvchbodyitem" data-search="england white goods shipping">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England White Goods Shipping
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-kitaplik-ve-esya-tasima/" class="ck18cbodyitem" data-search="england books and belongings moving">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-kitaplik-ve-esya-tasima/" class="zhvchbodyitem" data-search="england books and belongings moving">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Books and Belongings Moving
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-tasinma-maliyeti/" class="ck18cbodyitem" data-search="england moving cost">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-tasinma-maliyeti/" class="zhvchbodyitem" data-search="england moving cost">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Moving Cost
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-nakliyat-suresi/" class="ck18cbodyitem" data-search="england shipping duration">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-nakliyat-suresi/" class="zhvchbodyitem" data-search="england shipping duration">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Shipping Duration
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-kargo-hesaplama/" class="ck18cbodyitem" data-search="england cargo calculator">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-kargo-hesaplama/" class="zhvchbodyitem" data-search="england cargo calculator">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Cargo Calculator
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-kapida-odeme-kargo/" class="ck18cbodyitem" data-search="england cash on delivery cargo">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-kapida-odeme-kargo/" class="zhvchbodyitem" data-search="england cash on delivery cargo">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Cash on Delivery Cargo
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-vergi-muafiyeti-esya/" class="ck18cbodyitem" data-search="england duty free goods">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-vergi-muafiyeti-esya/" class="zhvchbodyitem" data-search="england duty free goods">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Duty Free Goods
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-ikinci-el-esya-tasima/" class="ck18cbodyitem" data-search="england second hand goods moving">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-ikinci-el-esya-tasima/" class="zhvchbodyitem" data-search="england second hand goods moving">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Second Hand Goods Moving
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-ticari-kargo/" class="ck18cbodyitem" data-search="england commercial cargo">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-ticari-kargo/" class="zhvchbodyitem" data-search="england commercial cargo">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Commercial Cargo
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-numune-gonderimi/" class="ck18cbodyitem" data-search="england sample shipping">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-numune-gonderimi/" class="zhvchbodyitem" data-search="england sample shipping">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Sample Shipping
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-dokuman-kargo/" class="ck18cbodyitem" data-search="england document cargo">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-dokuman-kargo/" class="zhvchbodyitem" data-search="england document cargo">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Document Cargo
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-soguk-zincir-tasima/" class="ck18cbodyitem" data-search="england cold chain shipping">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-soguk-zincir-tasima/" class="zhvchbodyitem" data-search="england cold chain shipping">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Cold Chain Shipping
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-tehlikeli-madde-tasima/" class="ck18cbodyitem" data-search="england dangerous goods shipping">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-tehlikeli-madde-tasima/" class="zhvchbodyitem" data-search="england dangerous goods shipping">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Dangerous Goods Shipping
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-proje-nakliyesi/" class="ck18cbodyitem" data-search="england project moving">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-proje-nakliyesi/" class="zhvchbodyitem" data-search="england project moving">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Project Moving
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-fuara-mal-tasima/" class="ck18cbodyitem" data-search="england trade fair cargo">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-fuara-mal-tasima/" class="zhvchbodyitem" data-search="england trade fair cargo">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Trade Fair Cargo
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-sirket-tasinmasi/" class="ck18cbodyitem" data-search="england office relocation">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-sirket-tasinmasi/" class="zhvchbodyitem" data-search="england office relocation">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Office Relocation
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-depo-tasima/" class="ck18cbodyitem" data-search="england warehouse moving">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-depo-tasima/" class="zhvchbodyitem" data-search="england warehouse moving">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Warehouse Moving
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-kombine-tasimacilik/" class="ck18cbodyitem" data-search="england combined transport">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-kombine-tasimacilik/" class="zhvchbodyitem" data-search="england combined transport">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Combined Transport
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-ro-ro-tasimacilik/" class="ck18cbodyitem" data-search="england ro-ro shipping">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-ro-ro-tasimacilik/" class="zhvchbodyitem" data-search="england ro-ro shipping">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Ro-Ro Shipping
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-fcl-konteyner/" class="ck18cbodyitem" data-search="england fcl container">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-fcl-konteyner/" class="zhvchbodyitem" data-search="england fcl container">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England FCL Container
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-lcl-kargo/" class="ck18cbodyitem" data-search="england lcl cargo">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-lcl-kargo/" class="zhvchbodyitem" data-search="england lcl cargo">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England LCL Cargo
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-hava-yolu-lojistik/" class="ck18cbodyitem" data-search="england air freight logistics">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-hava-yolu-lojistik/" class="zhvchbodyitem" data-search="england air freight logistics">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Air Freight Logistics
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-karayolu-nakliyat/" class="ck18cbodyitem" data-search="england road freight">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-karayolu-nakliyat/" class="zhvchbodyitem" data-search="england road freight">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Road Freight
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-demiryolu-tasima/" class="ck18cbodyitem" data-search="england rail freight">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-demiryolu-tasima/" class="zhvchbodyitem" data-search="england rail freight">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Rail Freight
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-cok-modlu-tasima/" class="ck18cbodyitem" data-search="england multimodal transport">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-cok-modlu-tasima/" class="zhvchbodyitem" data-search="england multimodal transport">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Multimodal Transport
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-tam-zamaninda-teslimat/" class="ck18cbodyitem" data-search="england just-in-time delivery">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-tam-zamaninda-teslimat/" class="zhvchbodyitem" data-search="england just-in-time delivery">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Just-in-Time Delivery
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-ozel-esya-tasima/" class="ck18cbodyitem" data-search="england special items moving">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-ozel-esya-tasima/" class="zhvchbodyitem" data-search="england special items moving">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Special Items Moving
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-sanat-eseri-nakliye/" class="ck18cbodyitem" data-search="england artwork shipping">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-sanat-eseri-nakliye/" class="zhvchbodyitem" data-search="england artwork shipping">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Artwork Shipping
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-piyano-tasima/" class="ck18cbodyitem" data-search="england piano moving">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-piyano-tasima/" class="zhvchbodyitem" data-search="england piano moving">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Piano Moving
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-spor-ekipmani-tasima/" class="ck18cbodyitem" data-search="england sports equipment moving">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-spor-ekipmani-tasima/" class="zhvchbodyitem" data-search="england sports equipment moving">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Sports Equipment Moving
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-bahce-esyasi-nakliye/" class="ck18cbodyitem" data-search="england garden furniture shipping">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-bahce-esyasi-nakliye/" class="zhvchbodyitem" data-search="england garden furniture shipping">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Garden Furniture Shipping
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-yat-ve-tekne-tasima/" class="ck18cbodyitem" data-search="england boat and yacht shipping">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-yat-ve-tekne-tasima/" class="zhvchbodyitem" data-search="england boat and yacht shipping">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Boat and Yacht Shipping
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-motosiklet-kargo/" class="ck18cbodyitem" data-search="england motorcycle cargo">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-motosiklet-kargo/" class="zhvchbodyitem" data-search="england motorcycle cargo">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Motorcycle Cargo
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-bisiklet-tasima/" class="ck18cbodyitem" data-search="england bicycle moving">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-bisiklet-tasima/" class="zhvchbodyitem" data-search="england bicycle moving">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Bicycle Moving
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-pet-tasima/" class="ck18cbodyitem" data-search="england pet relocation">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-pet-tasima/" class="zhvchbodyitem" data-search="england pet relocation">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Pet Relocation
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-tasinma-checklist/" class="ck18cbodyitem" data-search="england moving checklist">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-tasinma-checklist/" class="zhvchbodyitem" data-search="england moving checklist">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Moving Checklist
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-gumruk-vergisi-hesaplama/" class="ck18cbodyitem" data-search="england customs duty calculator">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-gumruk-vergisi-hesaplama/" class="zhvchbodyitem" data-search="england customs duty calculator">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Customs Duty Calculator
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-vat-ve-esya/" class="ck18cbodyitem" data-search="england vat and goods">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-vat-ve-esya/" class="zhvchbodyitem" data-search="england vat and goods">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England VAT and Goods
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-brexit-sonrasi-nakliyat/" class="ck18cbodyitem" data-search="england post-brexit shipping">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-brexit-sonrasi-nakliyat/" class="zhvchbodyitem" data-search="england post-brexit shipping">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Post-Brexit Shipping
                     </div>
   </h3>
-</a> <a href="/en/ingiltereye-yeni-ev-tasinma/" class="ck18cbodyitem" data-search="moving to new home in england">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltereye-yeni-ev-tasinma/" class="zhvchbodyitem" data-search="moving to new home in england">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     Moving to New Home in England
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-kisa-sureli-tasima/" class="ck18cbodyitem" data-search="england short term moving">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-kisa-sureli-tasima/" class="zhvchbodyitem" data-search="england short term moving">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Short Term Moving
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-acil-kargo/" class="ck18cbodyitem" data-search="england urgent cargo">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-acil-kargo/" class="zhvchbodyitem" data-search="england urgent cargo">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Urgent Cargo
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-ayni-gun-teslimat/" class="ck18cbodyitem" data-search="england same day delivery">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-ayni-gun-teslimat/" class="zhvchbodyitem" data-search="england same day delivery">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Same Day Delivery
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-sehirler-arasi-nakliye/" class="ck18cbodyitem" data-search="england intercity shipping">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-sehirler-arasi-nakliye/" class="zhvchbodyitem" data-search="england intercity shipping">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Intercity Shipping
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-adres-ici-tasima/" class="ck18cbodyitem" data-search="england local moving">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-adres-ici-tasima/" class="zhvchbodyitem" data-search="england local moving">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Local Moving
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-asansorlu-tasima/" class="ck18cbodyitem" data-search="england moving with lift">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-asansorlu-tasima/" class="zhvchbodyitem" data-search="england moving with lift">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Moving with Lift
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-paketleme-hizmeti/" class="ck18cbodyitem" data-search="england packing service">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-paketleme-hizmeti/" class="zhvchbodyitem" data-search="england packing service">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Packing Service
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-montaj-ve-kurulum/" class="ck18cbodyitem" data-search="england assembly and installation">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-montaj-ve-kurulum/" class="zhvchbodyitem" data-search="england assembly and installation">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Assembly and Installation
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-geri-donus-tasima/" class="ck18cbodyitem" data-search="england return shipping">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-geri-donus-tasima/" class="zhvchbodyitem" data-search="england return shipping">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Return Shipping
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-iade-kargo/" class="ck18cbodyitem" data-search="england return cargo">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-iade-kargo/" class="zhvchbodyitem" data-search="england return cargo">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Return Cargo
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-musteri-memnuniyeti/" class="ck18cbodyitem" data-search="england customer satisfaction">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-musteri-memnuniyeti/" class="zhvchbodyitem" data-search="england customer satisfaction">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Customer Satisfaction
                     </div>
   </h3>
-</a> <a href="/en/ingiltere-nakliyat-yorumlari/" class="ck18cbodyitem" data-search="england shipping reviews">
-                      <h3 class="ck18cbodyitemtitle">
+</a> <a href="/en/ingiltere-nakliyat-yorumlari/" class="zhvchbodyitem" data-search="england shipping reviews">
+                      <h3 class="zhvchbodyitemtitle">
                       <div class="f18">
                     England Shipping Reviews
                     </div>
@@ -727,17 +732,17 @@
 
 <script>
 const searchInput = document.getElementById('searchInput');
-const ck18cbody = document.getElementById('ck18cbody');
+const zhvchbody = document.getElementById('zhvchbody');
 const searchCounter = document.getElementById('searchCounter');
 const maxItems = 25;
 let currentVisibleCount = 0;
 let allItems = [];
 let isSearching = false;
 
-if (searchInput && ck18cbody && searchCounter) {
+if (searchInput && zhvchbody && searchCounter) {
   // Tüm öğeleri al ve ilk 25'i göster
   function initializeItems() {
-    allItems = Array.from(ck18cbody.querySelectorAll('.ck18cbodyitem'));
+    allItems = Array.from(zhvchbody.querySelectorAll('.zhvchbodyitem'));
     currentVisibleCount = 0;
     loadMoreItems();
   }
@@ -887,9 +892,9 @@ if (searchInput && ck18cbody && searchCounter) {
   <p>İngiltereye kargo 2025 cognite. &copy;</p>
 </footer>
 
-<div class="wa-advanced" id="qb9w5WaAdvanced">
-  <div class="qb9w5-wa-advanced-button" onclick="toggleModulexAdvanced()">
-    <div class="qb9w5-wa-advanced-icon">
+<div class="wa-advanced" id="hlpwgWaAdvanced">
+  <div class="hlpwg-wa-advanced-button" onclick="toggleModulexAdvanced()">
+    <div class="hlpwg-wa-advanced-icon">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
         <path
           d="M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z"
@@ -897,39 +902,39 @@ if (searchInput && ck18cbody && searchCounter) {
         ></path>
       </svg>
     </div>
-    <div class="qb9w5-wa-advanced-pulse"></div>
+    <div class="hlpwg-wa-advanced-pulse"></div>
   </div>
 
-  <div class="qb9w5-wa-advanced-panel" id="qb9w5WaPanel">
-    <div class="qb9w5-wa-advanced-header">
-      <div class="qb9w5-wa-advanced-avatar">
-        <img src="/img/vmnshv/logo.png?v=ix2ne" alt="Support Agent"  loading="lazy"/>
-        <div class="qb9w5-wa-advanced-status online"></div>
+  <div class="hlpwg-wa-advanced-panel" id="hlpwgWaPanel">
+    <div class="hlpwg-wa-advanced-header">
+      <div class="hlpwg-wa-advanced-avatar">
+        <img src="/img/vmnshv/logo.png?v=ty5i6" alt="Support Agent"  loading="lazy"/>
+        <div class="hlpwg-wa-advanced-status online"></div>
       </div>
-      <div class="qb9w5-wa-advanced-info">
+      <div class="hlpwg-wa-advanced-info">
         <h4>Customer Support</h4>
         <p>Currently online</p>
       </div>
       <button
-        class="qb9w5-wa-advanced-close"
+        class="hlpwg-wa-advanced-close"
         onclick="closeModulexAdvanced()"
       >
         ×
       </button>
     </div>
 
-    <div class="qb9w5-wa-advanced-body">
-      <div class="qb9w5-wa-advanced-message">
+    <div class="hlpwg-wa-advanced-body">
+      <div class="hlpwg-wa-advanced-message">
         <p>Hello! How can I help you?</p>
-        <span class="qb9w5-wa-advanced-time">Now</span>
+        <span class="hlpwg-wa-advanced-time">Now</span>
       </div>
     </div>
 
-    <div class="qb9w5-wa-advanced-footer">
+    <div class="hlpwg-wa-advanced-footer">
       <a
         href="https://wa.me/905418504646"
         target="_blank"
-        class="qb9w5-wa-advanced-chat-btn"
+        class="hlpwg-wa-advanced-chat-btn"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -953,12 +958,12 @@ if (searchInput && ck18cbody && searchCounter) {
 
 <script>
   function toggleModulexAdvanced() {
-    const panel = document.getElementById("qb9w5WaPanel");
+    const panel = document.getElementById("hlpwgWaPanel");
     panel.style.display = panel.style.display === "block" ? "none" : "block";
   }
 
   function closeModulexAdvanced() {
-    document.getElementById("qb9w5WaPanel").style.display = "none";
+    document.getElementById("hlpwgWaPanel").style.display = "none";
   }
 </script>
 </div>
@@ -972,8 +977,8 @@ if (searchInput && ck18cbody && searchCounter) {
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=ix2ne"></script>
-<script defer src="/src/cookie.js?v=ix2ne"></script>
+<script defer type="text/javascript" src="/src/js.js?v=ty5i6"></script>
+<script defer src="/src/cookie.js?v=ty5i6"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

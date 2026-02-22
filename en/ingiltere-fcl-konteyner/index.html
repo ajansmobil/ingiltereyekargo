@@ -12,11 +12,11 @@
   <meta http-equiv="Pragma" content="cache" />
   <meta http-equiv="Expires" content="3600" />
   <title>England FCL Container</title>
+  <meta property="og:title" content="England FCL Container" />
   <meta name="description" content="England FCL Container service. England cargo, door to door delivery. Customs and insurance. Get a quote for England FCL Container." />
   <meta name="keywords" content="england cargo, england shipping, england-fcl-container, door to door moving, international shipping" />
-  <meta property="og:title" content="England FCL Container" />
   <meta property="og:description" content="England FCL Container service. England cargo, door to door delivery. Customs and insurance. Get a quote for England FCL Container." />
-  <meta property="og:image" content="https://ingiltereyekargo.com/img/icon.png" />
+  <meta property="og:image" content="https://ingiltereyekargo.com/page/l5y8yr2e45/tr.webp" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://ingiltereyekargo.com/en/ingiltere-fcl-konteyner/" />
 
@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=fovws" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=fovws" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=wtb4f" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=wtb4f" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=fovws" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=wtb4f" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,71 +52,86 @@
   
   
   
-<link rel="stylesheet" href="style.css?v=fovws">
+<link rel="stylesheet" href="style.css?v=wtb4f">
 </head>
 
 <body>
-  <div id="header"><div class="hga5m">
-  <div class="hga5mtitle">
-    <div class="hga5mtitlebody">
-      <div class="hga5mtitlebodylang">
+  <div id="header"><div class="a6c6k">
+  <div class="a6c6ktitle">
+    <div class="a6c6ktitlebody">
+      <div class="a6c6ktitlebodylang">
         <ul>
-          <li><a href="/tr/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li>
+          <li><a href="/tr/ingiltere-fcl-konteyner/">TR</a></li><li><a href="/en/ingiltere-fcl-konteyner/">EN</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="hga5mbody">
+  <div class="a6c6kbody">
     <a href="/en/"
       ><img
-        src="/img/logo.webp?v=fovws"
+        src="/img/logo.webp?v=wtb4f"
         alt="İngiltereye kargo Logo"
-        class="hga5mbodylogo"
+        class="a6c6kbodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="hga5m-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="a6c6k-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
-  <div class="hga5mmenubody">
-    <div class="hga5mmenu" id="menu-2-root">
-      <div class="hga5mmenulistbody">
-        <div class="hga5mmenulist">
+  <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
+  <div class="a6c6k-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="a6c6kmenubody">
+    <div class="a6c6kmenu" id="menu-2-root">
+      <div class="a6c6kmenulistbody">
+        <div class="a6c6kmenulist">
           <ul>
             <a href="/en/">Home </a><a href="/en/hakkimizda/">Corporate</a><a href="/en/bilgibankasi/">Knowledge Base</a>
           </ul>
-          <div class="hga5mlanguages-mobile">
-            <ul>
-              <li><a href="/tr/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li>
-            </ul>
-          </div>
         </div>
+      </div>
+      <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
+      <div class="a6c6klanguages-mobile">
+        <ul>
+          <li><a href="/tr/ingiltere-fcl-konteyner/">TR</a></li><li><a href="/en/ingiltere-fcl-konteyner/">EN</a></li>
+        </ul>
       </div>
     </div>
   </div>
 </div>
 
 <script>
+  /* Mobil menü aç/kapat: class wrapper (.a6c6k) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      if (root.classList.contains("hga5mmenu-open")) {
-        root.classList.remove("hga5mmenu-open");
+      var wrapper = root.closest ? root.closest(".a6c6k") : null;
+      var target = wrapper || root;
+      if (target.classList.contains("a6c6kmenu-open")) {
+        target.classList.remove("a6c6kmenu-open");
       } else {
-        root.classList.add("hga5mmenu-open");
+        target.classList.add("a6c6kmenu-open");
       }
     }
   }
 </script>
 </div>
-  <div id="content"><div class="dnyjo-title f36">
+  <div id="content"><div class="w661p-title f36">
   <h1>England FCL Container</h1>
 </div>
+<div class="w661p">
+  <div class="w661p-menu"><a   href="/en/kurumsal" >Corporate</a><a   href="/en/bilgibankasi" >Knowledge Base</a></div>
+  <div class="w661p-desc">
+     <div class="w661p-img">
+    <img src="/page/l5y8yr2e45/tr.webp?v=wtb4f" width="100%" alt="England FCL Container" loading="lazy" />
+  </div>
 
-<div class="dnyjo"><h2>England FCL Container</h2><p><b>England FCL Container</b> – We offer safe and cost-effective shipping between England and Turkey. Door to door delivery, customs handling and insurance options.</p><p>Our experienced team handles house moves, international shipping and groupage cargo. Contact us for a quote.</p><h3>Why Choose Us</h3><ul><li>Door to door delivery</li><li>Customs support</li><li>Insured shipping</li><li>Competitive rates</li><li>On-time delivery</li></ul><p>For sending goods to England, house moving or commercial cargo, we are here. Expert service for England FCL Container.</p><p>We ship your goods safely to England. Delivery to London, Manchester, Birmingham and all UK addresses. Door to door moving from Turkey to England, groupage and container options available. Contact us for a quote.</p></div>
+    <div class="w661p-body"><p><h2>England FCL Container</h2><p><b>England FCL Container</b> – We offer safe and cost-effective shipping between England and Turkey. Door to door delivery, customs handling and insurance options.</p><p>Our experienced team handles house moves, international shipping and groupage cargo. Contact us for a quote.</p><h3>Why Choose Us</h3><ul><li>Door to door delivery</li><li>Customs support</li><li>Insured shipping</li><li>Competitive rates</li><li>On-time delivery</li></ul><p>For sending goods to England, house moving or commercial cargo, we are here. Expert service for England FCL Container.</p><p>We ship your goods safely to England. Delivery to London, Manchester, Birmingham and all UK addresses. Door to door moving from Turkey to England, groupage and container options available. Contact us for a quote.</p></p></div>
+  </div>
+</div>
+
 
 </div>
   <div id="footer"><footer class="footer">
@@ -163,9 +178,9 @@
   <p>İngiltereye kargo 2025 cognite. &copy;</p>
 </footer>
 
-<div class="wa-advanced" id="b7eloWaAdvanced">
-  <div class="b7elo-wa-advanced-button" onclick="toggleModulexAdvanced()">
-    <div class="b7elo-wa-advanced-icon">
+<div class="wa-advanced" id="tod0wWaAdvanced">
+  <div class="tod0w-wa-advanced-button" onclick="toggleModulexAdvanced()">
+    <div class="tod0w-wa-advanced-icon">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
         <path
           d="M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z"
@@ -173,39 +188,39 @@
         ></path>
       </svg>
     </div>
-    <div class="b7elo-wa-advanced-pulse"></div>
+    <div class="tod0w-wa-advanced-pulse"></div>
   </div>
 
-  <div class="b7elo-wa-advanced-panel" id="b7eloWaPanel">
-    <div class="b7elo-wa-advanced-header">
-      <div class="b7elo-wa-advanced-avatar">
-        <img src="/img/vmnshv/logo.png?v=fovws" alt="Support Agent"  loading="lazy"/>
-        <div class="b7elo-wa-advanced-status online"></div>
+  <div class="tod0w-wa-advanced-panel" id="tod0wWaPanel">
+    <div class="tod0w-wa-advanced-header">
+      <div class="tod0w-wa-advanced-avatar">
+        <img src="/img/vmnshv/logo.png?v=wtb4f" alt="Support Agent"  loading="lazy"/>
+        <div class="tod0w-wa-advanced-status online"></div>
       </div>
-      <div class="b7elo-wa-advanced-info">
+      <div class="tod0w-wa-advanced-info">
         <h4>Customer Support</h4>
         <p>Currently online</p>
       </div>
       <button
-        class="b7elo-wa-advanced-close"
+        class="tod0w-wa-advanced-close"
         onclick="closeModulexAdvanced()"
       >
         ×
       </button>
     </div>
 
-    <div class="b7elo-wa-advanced-body">
-      <div class="b7elo-wa-advanced-message">
+    <div class="tod0w-wa-advanced-body">
+      <div class="tod0w-wa-advanced-message">
         <p>Hello! How can I help you?</p>
-        <span class="b7elo-wa-advanced-time">Now</span>
+        <span class="tod0w-wa-advanced-time">Now</span>
       </div>
     </div>
 
-    <div class="b7elo-wa-advanced-footer">
+    <div class="tod0w-wa-advanced-footer">
       <a
         href="https://wa.me/905418504646"
         target="_blank"
-        class="b7elo-wa-advanced-chat-btn"
+        class="tod0w-wa-advanced-chat-btn"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -229,12 +244,12 @@
 
 <script>
   function toggleModulexAdvanced() {
-    const panel = document.getElementById("b7eloWaPanel");
+    const panel = document.getElementById("tod0wWaPanel");
     panel.style.display = panel.style.display === "block" ? "none" : "block";
   }
 
   function closeModulexAdvanced() {
-    document.getElementById("b7eloWaPanel").style.display = "none";
+    document.getElementById("tod0wWaPanel").style.display = "none";
   }
 </script>
 </div>
@@ -248,8 +263,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=fovws"></script>
-<script defer src="/src/cookie.js?v=fovws"></script>
+<script defer type="text/javascript" src="/src/js.js?v=wtb4f"></script>
+<script defer src="/src/cookie.js?v=wtb4f"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

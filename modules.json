@@ -107,7 +107,7 @@
       "name": "Bilgi Ara?",
       "path": "page-list-text",
       "local": "body",
-      "category": "page list",
+      "category": "page-list",
       "id": "sa503p",
       "desing": {
         "page": "products",
@@ -128,16 +128,16 @@
     {
       "index": 6,
       "name": "Page Desing 5",
-      "path": "page-text",
+      "path": "page-desing-4",
       "local": "body",
       "category": "page",
       "id": "guyi6e",
       "desing": {
-        "height": "100",
+        "height": "200",
         "opacity": "0.5",
         "font-size": "32",
-        "backgroundcolor": "#e95e32",
-        "textcolor": "#fff",
+        "backgroundcolor": "#000",
+        "menu-active": "#1e3046",
         "category": "page"
       },
       "version": "1.0.0",

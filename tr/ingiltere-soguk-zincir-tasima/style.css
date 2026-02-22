@@ -1,7 +1,7 @@
 
  
 
-  .wo3jn {
+  .zuppu {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .wo3jntitle {
+  .zupputitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .wo3jntitle:has(.wo3jntitlebodylang:empty),
-  .wo3jntitle:has(.wo3jntitlebodylang ul:empty) {
+  .zupputitle:has(.zupputitlebodylang:empty),
+  .zupputitle:has(.zupputitlebodylang ul:empty) {
     display: none;
   }
 
-  .wo3jntitlebody {
+  .zupputitlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -31,29 +31,57 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .wo3jntitlebodytitle {
+  .zupputitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .wo3jntitlebodylang {
+  .zupputitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .wo3jntitlebodylang:empty,
-  .wo3jntitlebodylang ul:empty {
+  .zupputitlebodylang:empty,
+  .zupputitlebodylang ul:empty {
     display: none;
   }
 
-  .wo3jntitlebodylang ul {
+  .zupputitlebodylang ul {
     display: flex;
-    gap: 5px;
+    gap: 8px;
   }
 
-  .wo3jnbody {
+  /* Dil seçici: TR / EN metin, bordür tema rengiyle uyumlu (renk uyumsuzluğu yok) */
+  .zupputitlebodylang li {
+    list-style: none;
+  }
+
+  .zupputitlebodylang li a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 26px;
+    padding: 6px 12px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: #1e3046 !important;
+    text-decoration: none;
+    border: 1px solid color-mix(in srgb, #1e3046 40%, transparent);
+    border-radius: 8px;
+    transition: border-color 0.2s ease, background 0.2s ease, color 0.2s ease;
+    cursor: pointer;
+  }
+
+  .zupputitlebodylang li a:hover {
+    border-color: #000000;
+    background: #ffffff;
+    color: #000000 !important;
+  }
+
+  .zuppubody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -62,7 +90,8 @@
     position: relative;
   }
 
-  .wo3jn-mobile-toggle {
+  /* Mobil hamburger butonu: onclick olduğu için cursor: pointer zorunlu (kural) */
+  .zuppu-mobile-toggle {
     display: none;
     background: #1e3046;
     color: #ffffff;
@@ -76,18 +105,18 @@
     right: 0;
   }
 
-  .wo3jn-mobile-toggle span {
+  .zuppu-mobile-toggle span {
     font-size: 24px;
   }
 
-  .wo3jnmenu {
+  .zuppumenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .wo3jnmenulist {
+  .zuppumenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -96,7 +125,7 @@
     display: flex;
   }
 
-  .wo3jnmenubody {
+  .zuppumenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -104,7 +133,7 @@
     justify-content: center;
   }
 
-  .wo3jnmenulist ul {
+  .zuppumenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -113,7 +142,7 @@
     padding: 0;
   }
 
-  .wo3jnmenulist ul a {
+  .zuppumenulist ul a {
     padding: 10px 15px;
     font-size: 16px;
     color: #ffffff !important;
@@ -126,40 +155,40 @@
     margin: 0 2px;
   }
 
-  .wo3jnmenulist ul a:hover {
+  .zuppumenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .wo3jnmenulist ul a.wo3jn-menu-list-active {
+  .zuppumenulist ul a.zuppu-menu-list-active {
     color: #000000 !important;
   }
 
-  .wo3jn-menu-list-active {
+  .zuppu-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .wo3jnmenulistbody {
+  .zuppumenulistbody {
     width: 100%;
   }
 
-  .wo3jnlanguages-mobile {
+  .zuppulanguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .wo3jnlanguages-mobile:empty,
-  .wo3jnlanguages-mobile ul:empty {
+  .zuppulanguages-mobile:empty,
+  .zuppulanguages-mobile ul:empty {
     display: none !important;
   }
 
-  .wo3jnlanguages-mobile ul {
+  .zuppulanguages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -168,40 +197,59 @@
     justify-content: center;
   }
 
-  .wo3jnlanguages-mobile li {
+  /* Dil seçici: TR / EN metin, bordür ve arka plan tema ile uyumlu */
+  .zuppulanguages-mobile li {
     list-style: none;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 8px;
-    aspect-ratio: 1/1;
-    width: 35px;
-    height: 35px;
+    border: 1px solid color-mix(in srgb, #ffffff 35%, transparent);
+    padding: 0;
+    min-width: 44px;
+    min-height: 44px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.05);
-    transition: all 0.3s ease;
+    border-radius: 10px;
+    background: color-mix(in srgb, #ffffff 8%, transparent);
+    transition: border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
   }
 
-  .wo3jnlanguages-mobile li a {
+  .zuppulanguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px 14px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    color: #ffffff !important;
+    text-decoration: none;
+    cursor: pointer;
   }
 
-  .wo3jnlanguages-mobile li:hover {
+  .zuppulanguages-mobile li:hover {
     background-color: #ffffff;
     border-color: #000000;
+    box-shadow: 0 2px 8px color-mix(in srgb, #000000 25%, transparent);
+  }
+
+  .zuppulanguages-mobile li:hover a {
+    color: #000000 !important;
+  }
+
+  /* Mobil drawer için backdrop: masaüstünde görünmez */
+  .zuppu-menu-backdrop {
+    display: none;
   }
 
   @media screen and (min-width: 1024px) {
-    .wo3jnbodylogo {
+    .zuppubodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .wo3jntitle {
+    .zupputitle {
     margin-bottom: -30px;
   }
 
@@ -209,125 +257,259 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .wo3jnbody {
+    .zuppubody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .wo3jnmenulist ul {
+    .zuppumenulist ul {
       flex-direction: row;
     }
 
-    .wo3jnbodylogo {
+    .zuppubodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .wo3jntitlebody {
+    .zupputitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .wo3jntitlebodytitle {
+    .zupputitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
   }
 
+    /* Mobil: app tarzı sağdan kayan drawer menü */
   @media screen and (max-width: 768px) {
-    .wo3jntitlebodylang {
+    .zupputitlebodylang {
       display: none;
     }
 
-    .wo3jnbody {
+    .zuppubody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .wo3jn-mobile-toggle {
+    .zuppu-mobile-toggle {
       display: inline-flex;
     }
 
-    .wo3jnbodylogo {
+    .zuppubodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
-    .wo3jnmenulist {
-      display: none;
-      flex-direction: column;
-      width: calc(100% - 24px);
-      padding: 12px;
+    /* Backdrop: sadece menü açıkken görünür; tıklanınca menü kapanır (onclick ile) */
+    .zuppu-menu-backdrop {
+      display: block;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.4);
+      z-index: 999;
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      transition: opacity 0.25s ease, visibility 0.25s ease;
+      cursor: pointer;
     }
 
-    .wo3jnmenu.wo3jnmenu-open .wo3jnmenulist {
+    .zuppu.zuppumenu-open .zuppu-menu-backdrop {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+    }
+
+    /* Drawer: sağdan kayan panel, fixed, tam yükseklik; kapalıyken ekran dışında */
+    .zuppumenubody {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 85%;
+      max-width: 320px;
+      height: 100vh;
+      max-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      justify-content: flex-start;
+      box-sizing: border-box;
+      z-index: 1000;
+      transform: translateX(100%);
+      transition: transform 0.3s ease;
+      box-shadow: -4px 0 24px rgba(0, 0, 0, 0.15);
+      overflow-y: auto;
+    }
+
+    .zuppu.zuppumenu-open .zuppumenubody {
+      transform: translateX(0);
+    }
+
+    .zuppumenu {
+      width: 100%;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    .zuppumenulistbody {
+      flex: 1;
+      overflow-y: auto;
+    }
+
+    .zuppumenulist {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 16px 12px;
+      box-sizing: border-box;
+      border-radius: 0;
+      box-shadow: none;
+    }
+
+    .zuppu.zuppumenu-open .zuppumenulist {
       display: flex;
     }
 
-    .wo3jnmenu.wo3jnmenu-open .wo3jnlanguages-mobile {
-      display: block;
+    /* Mobil kural: lang sayfanın (drawer) en altında ve ortada */
+    .zuppu.zuppumenu-open .zuppulanguages-mobile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding: 16px 12px;
+      box-sizing: border-box;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      flex-shrink: 0;
     }
 
-    .wo3jnmenulist ul {
+    .zuppu.zuppumenu-open .zuppulanguages-mobile ul {
+      justify-content: center;
+    }
+
+    .zuppumenulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .wo3jnmenulist ul a {
-      font-size: 14px;
+    .zuppumenulist ul a {
+      font-size: 15px;
       width: 100%;
-      padding: 12px;
+      padding: 14px 12px;
       text-align: left;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.08);
       border-radius: 0;
+      cursor: pointer;
+      box-sizing: border-box;
     }
 
-    .wo3jnmenulist ul a:last-child {
+    .zuppumenulist ul a:last-child {
       border-bottom: none;
     }
 
-    .wo3jnmenulist ul a:hover {
+    .zuppumenulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .wo3jntitlebodytitle {
+    .zupputitlebodytitle {
       font-size: 12px;
     }
   }
 
 
-
-#content {
+  #content {
     justify-content: start;
   }
-.albwg-title {
+
+  .xqe04 {
+    width: var(--max);
+    margin-top: 20px;
+    gap: 10px;
+    float: left;
+  }
+
+  .xqe04-menu {
+    width: 200px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    float: left;
+  }
+
+  .xqe04-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    float: right;
+  }
+
+  .xqe04-menu > a {
+    background-color: #fff;
+    padding: 10px;
+    float: left;
+    border-radius: 5px;
+  }
+
+  .xqe04-menu > .active,
+  .xqe04-menu > a:hover {
+    background-color: #1e3046;
+    color: #fff;
+    display: flex;
+  }
+
+  .xqe04-desc-menu {
+    width: 200px;
+    background-color: #1e3046;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+  }
+
+  .xqe04-desc-menu > div {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 5px;
+  }
+
+  .xqe04-desc-body {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .xqe04-title {
     width: 100%;
-    height: 100px;
-    background-color: #e95e32;
+    height: 200px;
+    background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    color: #fff !important;
+    color: #fff;
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .albwg-title::before {
+  .xqe04-title::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("/page/8chexxecfi/bg/{{bgimg}}");
+    background-image: url("/page/guyi6e/bg/{{bgimg}}");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -335,23 +517,59 @@
     z-index: 1;
   }
 
-  .albwg-title h1 {
+  .xqe04-title h1 {
     position: relative;
     z-index: 2;
     font-size: 32px;
+    margin: 0;
   }
-  .albwg {
-    width: var(--max);
+
+  .xqe04-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-top: 20px;
   }
+
+  .xqe04-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .xqe04-img img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .xqe04-desc {
+      width: calc(var(--max) - 240px);
+    }
+  }
+
   @media screen and (max-width: 1024px) {
-    .albwg {
-      width: calc(100% - 20px);
-      padding: 10px;
-      margin-top: 10px;
+    .xqe04 {
+      flex-direction: column;
+      width: calc(100% - 10px);
+      padding: 5px;
+      gap: 20px;
+    }
+
+    .xqe04-img {
+      width: 100%;
+    }
+
+    .xqe04-body {
+      width: 100%;
+    }
+
+    .xqe04-menu {
+      display: none;
+    }
+
+    .xqe04-desc {
+      width: 100% !important;
     }
   }
 
@@ -496,7 +714,7 @@
     box-sizing: border-box;
   }
 
-  .xebc2-wa-advanced-button {
+  .wuah4-wa-advanced-button {
     position: relative;
     width: 64px;
     height: 64px;
@@ -510,18 +728,18 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
-  .xebc2-wa-advanced-button:hover {
+  .wuah4-wa-advanced-button:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
   }
 
-  .xebc2-wa-advanced-icon svg {
+  .wuah4-wa-advanced-icon svg {
     width: 32px;
     height: 32px;
     fill: #fff;
   }
 
-  .xebc2-wa-advanced-pulse {
+  .wuah4-wa-advanced-pulse {
     position: absolute;
     top: -2px;
     left: -2px;
@@ -544,7 +762,7 @@
     }
   }
 
-  .xebc2-wa-advanced-panel {
+  .wuah4-wa-advanced-panel {
     position: absolute;
     bottom: 80px;
     right: 0;
@@ -558,7 +776,7 @@
     box-sizing: border-box;
   }
 
-  .xebc2-wa-advanced-header {
+  .wuah4-wa-advanced-header {
     background: #25D366;
     color: #fff;
     padding: 16px;
@@ -568,20 +786,20 @@
     position: relative;
   }
 
-  .xebc2-wa-advanced-avatar {
+  .wuah4-wa-advanced-avatar {
     position: relative;
     width: 48px;
     height: 48px;
   }
 
-  .xebc2-wa-advanced-avatar img {
+  .wuah4-wa-advanced-avatar img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
   }
 
-  .xebc2-wa-advanced-status {
+  .wuah4-wa-advanced-status {
     position: absolute;
     bottom: 2px;
     right: 2px;
@@ -591,23 +809,23 @@
     border: 2px solid #fff;
   }
 
-  .xebc2-wa-advanced-status.online {
+  .wuah4-wa-advanced-status.online {
     background: #4caf50;
   }
 
-  .xebc2-wa-advanced-info h4 {
+  .wuah4-wa-advanced-info h4 {
     margin: 0;
     font-size: 16px;
     font-weight: 600;
   }
 
-  .xebc2-wa-advanced-info p {
+  .wuah4-wa-advanced-info p {
     margin: 4px 0 0 0;
     font-size: 12px;
     opacity: 0.9;
   }
 
-  .xebc2-wa-advanced-close {
+  .wuah4-wa-advanced-close {
     position: absolute;
     top: 12px;
     right: 12px;
@@ -619,16 +837,16 @@
     opacity: 0.8;
   }
 
-  .xebc2-wa-advanced-close:hover {
+  .wuah4-wa-advanced-close:hover {
     opacity: 1;
   }
 
-  .xebc2-wa-advanced-body {
+  .wuah4-wa-advanced-body {
     padding: 16px;
     background: #f8f9fa;
   }
 
-  .xebc2-wa-advanced-message {
+  .wuah4-wa-advanced-message {
     background: #fff;
     padding: 12px 16px;
     border-radius: 8px;
@@ -639,29 +857,29 @@
     justify-content: flex-end;
   }
 
-  .xebc2-wa-advanced-message p {
+  .wuah4-wa-advanced-message p {
     font-size: 14px;
     color: #333;
     text-align: right;
     margin: 0;
   }
 
-  .xebc2-wa-advanced-time {
+  .wuah4-wa-advanced-time {
     font-size: 10px;
     color: #999;
     margin: 4px 0 0 0;
   }
 
-  .xebc2-wa-advanced-footer {
+  .wuah4-wa-advanced-footer {
     padding: 16px;
   }
 
-  .xebc2-wa-advanced-footer a {
+  .wuah4-wa-advanced-footer a {
     text-decoration: none;
     color: #fff !important;
   }
 
-  .xebc2-wa-advanced-chat-btn {
+  .wuah4-wa-advanced-chat-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -677,7 +895,7 @@
     transition: transform 0.3s ease;
   }
 
-  .xebc2-wa-advanced-chat-btn:hover {
+  .wuah4-wa-advanced-chat-btn:hover {
     transform: translateY(-2px);
   }
 
@@ -689,7 +907,7 @@
       max-width: calc(100vw - 40px);
     }
     
-    .xebc2-wa-advanced-panel {
+    .wuah4-wa-advanced-panel {
       width: calc(100vw - 40px);
       max-width: 320px;
       right: 0;
