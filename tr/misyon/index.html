@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=h1el0" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=h1el0" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=l2y0t" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=l2y0t" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=h1el0" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=l2y0t" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -50,47 +50,45 @@
 }
 </script>
   
-  
-  
-<link rel="stylesheet" href="style.css?v=h1el0">
+<link rel="stylesheet" href="style.css?v=l2y0t">
 </head>
 
 <body>
-  <div id="header"><div class="xvk8q">
-  <div class="xvk8qtitle">
-    <div class="xvk8qtitlebody">
-      <div class="xvk8qtitlebodylang">
+  <div id="header"><div class="unk6p">
+  <div class="unk6ptitle">
+    <div class="unk6ptitlebody">
+      <div class="unk6ptitlebodylang">
         <ul>
           <li><a href="/tr/misyon/">TR</a></li><li><a href="/en/misyon/">EN</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="xvk8qbody">
+  <div class="unk6pbody">
     <a href="/tr/"
       ><img
-        src="/img/logo.webp?v=h1el0"
+        src="/img/logo.webp?v=l2y0t"
         alt="İngiltereye kargo Logo"
-        class="xvk8qbodylogo"
+        class="unk6pbodylogo"
         loading="lazy"
     /></a>
-    <button type="button" class="xvk8q-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
+    <button type="button" class="unk6p-mobile-toggle" onclick="menu2_toggle()" aria-label="Menüyü aç/kapat">
       <span class="material-symbols-outlined" aria-hidden="true">menu</span>
     </button>
   </div>
   <!-- Mobil: dış tıklamada menüyü kapatmak için yarı saydam arka plan (app drawer tarzı) -->
-  <div class="xvk8q-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
-  <div class="xvk8qmenubody">
-    <div class="xvk8qmenu" id="menu-2-root">
-      <div class="xvk8qmenulistbody">
-        <div class="xvk8qmenulist">
+  <div class="unk6p-menu-backdrop" onclick="menu2_toggle()" aria-hidden="true"></div>
+  <div class="unk6pmenubody">
+    <div class="unk6pmenu" id="menu-2-root">
+      <div class="unk6pmenulistbody">
+        <div class="unk6pmenulist">
           <ul>
             <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a href="/tr/bilgibankasi/">Bilgi bankası</a>
           </ul>
         </div>
       </div>
       <!-- Mobil kural: lang drawer'ın en altında ve ortada -->
-      <div class="xvk8qlanguages-mobile">
+      <div class="unk6planguages-mobile">
         <ul>
           <li><a href="/tr/misyon/">TR</a></li><li><a href="/en/misyon/">EN</a></li>
         </ul>
@@ -100,42 +98,42 @@
 </div>
 
 <script>
-  /* Mobil menü aç/kapat: class wrapper (.xvk8q) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
+  /* Mobil menü aç/kapat: class wrapper (.unk6p) üzerinde tutulur; mobilde menü paneli buna göre gösterilir/gizlenir */
   if (typeof menu2_toggle === "undefined") {
     function menu2_toggle() {
       var root = document.getElementById("menu-2-root");
       if (!root) {
         return;
       }
-      var wrapper = root.closest ? root.closest(".xvk8q") : null;
+      var wrapper = root.closest ? root.closest(".unk6p") : null;
       var target = wrapper || root;
-      if (target.classList.contains("xvk8qmenu-open")) {
-        target.classList.remove("xvk8qmenu-open");
+      if (target.classList.contains("unk6pmenu-open")) {
+        target.classList.remove("unk6pmenu-open");
       } else {
-        target.classList.add("xvk8qmenu-open");
+        target.classList.add("unk6pmenu-open");
       }
     }
   }
 </script>
 </div>
-  <div id="content"><div class="trv4k-title f36">
+  <div id="content"><div class="i13wc-title f36">
   <h1>Misyon</h1>
 </div>
-<div class="trv4k">
-  <div class="trv4k-menu-btn">
+<div class="i13wc">
+  <div class="i13wc-menu-btn">
     <span>Menü</span>
-    <span class="material-symbols-outlined trv4k-icon">menu</span>
+    <span class="material-symbols-outlined i13wc-icon">menu</span>
   </div>
-  <div class="trv4k-menu-overlay" id="trv4k-menu-overlay" aria-hidden="true"></div>
-  <div class="trv4k-menu" id="trv4k-menu">
-    <button class="trv4k-menu-close" type="button" aria-label="Menüyü Kapat" aria-controls="trv4k-menu">
+  <div class="i13wc-menu-overlay" id="i13wc-menu-overlay" aria-hidden="true"></div>
+  <div class="i13wc-menu" id="i13wc-menu">
+    <button class="i13wc-menu-close" type="button" aria-label="Menüyü Kapat" aria-controls="i13wc-menu">
       <span class="material-symbols-outlined" aria-hidden="true">close</span>
     </button>
-    <a class="trv4k-menu-link" href="/tr/hakkimizda/">Hakkımızda</a><a class="trv4k-menu-link active" href="/tr/misyon/">Misyon</a><a class="trv4k-menu-link" href="/tr/vizyon/">Vizyon</a><a class="trv4k-menu-link" href="/tr/kalite-politikamiz/">Kalite Politikamız</a><a class="trv4k-menu-link" href="/tr/gizlilik-politikasi/">Gizlilik Politikası</a><a class="trv4k-menu-link" href="/tr/kisisel-veriler/">Kişisel Veriler</a><a class="trv4k-menu-link" href="/tr/kullanici-haklari/">Kullanıcı Hakları</a><a class="trv4k-menu-link" href="/tr/yasal-uyari/">Yasal Uyarı</a>
+    <a class="i13wc-menu-link" href="/tr/hakkimizda/">Hakkımızda</a><a class="i13wc-menu-link active" href="/tr/misyon/">Misyon</a><a class="i13wc-menu-link" href="/tr/vizyon/">Vizyon</a><a class="i13wc-menu-link" href="/tr/kalite-politikamiz/">Kalite Politikamız</a><a class="i13wc-menu-link" href="/tr/gizlilik-politikasi/">Gizlilik Politikası</a><a class="i13wc-menu-link" href="/tr/kisisel-veriler/">Kişisel Veriler</a><a class="i13wc-menu-link" href="/tr/kullanici-haklari/">Kullanıcı Hakları</a><a class="i13wc-menu-link" href="/tr/yasal-uyari/">Yasal Uyarı</a>
   </div>
-  <div class="trv4k-desc">
+  <div class="i13wc-desc">
     
-    <div class="trv4k-body"><h2 style="font-size: 24px;">Misyonumuz</h2>
+    <div class="i13wc-body"><h2 style="font-size: 24px;">Misyonumuz</h2>
     <p style=" font-size: 16px;">
         Misyonumuz, çevre dostu uygulamalarla, sürdürülebilir bir gelecek için katkıda bulunmaktır. Çalışma şeklimiz, doğaya zarar vermeden, en iyi sonuçları elde etmek üzerine kuruludur. Bu bağlamda, teknolojinin sunduğu yeniliklerden yararlanarak, enerji verimliliğini artırmaya ve kaynakları en verimli şekilde kullanmaya özen gösteriyoruz. Bu sayede, sadece müşterilerimize değil, aynı zamanda topluma ve çevreye de olumlu bir etki yaratmayı amaçlıyoruz. İleriye dönük hedeflerimiz, bu misyon doğrultusunda daha fazla proje geliştirmek ve daha fazla insanın hayatına dokunmaktır.
     </p></div>
@@ -144,10 +142,10 @@
 
 <script>
   setTimeout(function() {
-    var menuToggleBtn = document.querySelector(".trv4k-menu-btn");
-    var menu = document.querySelector(".trv4k-menu");
-    var overlay = document.querySelector(".trv4k-menu-overlay");
-    var closeButton = document.querySelector(".trv4k-menu-close");
+    var menuToggleBtn = document.querySelector(".i13wc-menu-btn");
+    var menu = document.querySelector(".i13wc-menu");
+    var overlay = document.querySelector(".i13wc-menu-overlay");
+    var closeButton = document.querySelector(".i13wc-menu-close");
     
     if (!menuToggleBtn || !menu) {
       return;
@@ -217,7 +215,7 @@
     // Menü içindeki linklere tıklanınca kapat
     menu.addEventListener("click", function (event) {
       var link = event.target.closest("a");
-      var closeBtn = event.target.closest(".trv4k-menu-close");
+      var closeBtn = event.target.closest(".i13wc-menu-close");
       if (link && !closeBtn) {
         closeMenu();
       }
@@ -265,15 +263,15 @@
     handleBreakpoint();
 
     // Alt menü toggle fonksiyonları
-    document.querySelectorAll(".trv4k-top").forEach(function (button) {
+    document.querySelectorAll(".i13wc-top").forEach(function (button) {
       button.addEventListener("click", function (e) {
         e.stopPropagation();
-        var group = this.closest(".trv4k-menu-group");
+        var group = this.closest(".i13wc-menu-group");
         if (!group) return;
-        var sub = group.querySelector(".trv4k-sub");
+        var sub = group.querySelector(".i13wc-sub");
         var isOpen = group.classList.toggle("open");
         this.classList.toggle("active", isOpen);
-        var icon = this.querySelector(".trv4k-icon");
+        var icon = this.querySelector(".i13wc-icon");
         if (icon) {
           icon.textContent = isOpen ? "expand_less" : "expand_more";
         }
@@ -330,9 +328,9 @@
   <p>İngiltereye kargo 2025 cognite. &copy;</p>
 </footer>
 
-<div class="wa-advanced" id="nnmprWaAdvanced">
-  <div class="nnmpr-wa-advanced-button" onclick="toggleModulexAdvanced()">
-    <div class="nnmpr-wa-advanced-icon">
+<div class="wa-advanced" id="ybeqvWaAdvanced">
+  <div class="ybeqv-wa-advanced-button" onclick="toggleModulexAdvanced()">
+    <div class="ybeqv-wa-advanced-icon">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
         <path
           d="M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z"
@@ -340,39 +338,39 @@
         ></path>
       </svg>
     </div>
-    <div class="nnmpr-wa-advanced-pulse"></div>
+    <div class="ybeqv-wa-advanced-pulse"></div>
   </div>
 
-  <div class="nnmpr-wa-advanced-panel" id="nnmprWaPanel">
-    <div class="nnmpr-wa-advanced-header">
-      <div class="nnmpr-wa-advanced-avatar">
-        <img src="/img/vmnshv/logo.png?v=h1el0" alt="Support Agent"  loading="lazy"/>
-        <div class="nnmpr-wa-advanced-status online"></div>
+  <div class="ybeqv-wa-advanced-panel" id="ybeqvWaPanel">
+    <div class="ybeqv-wa-advanced-header">
+      <div class="ybeqv-wa-advanced-avatar">
+        <img src="/img/vmnshv/logo.png?v=l2y0t" alt="Support Agent"  loading="lazy"/>
+        <div class="ybeqv-wa-advanced-status online"></div>
       </div>
-      <div class="nnmpr-wa-advanced-info">
+      <div class="ybeqv-wa-advanced-info">
         <h4>Müşteri Desteği</h4>
         <p>Şu anda çevrimiçi</p>
       </div>
       <button
-        class="nnmpr-wa-advanced-close"
+        class="ybeqv-wa-advanced-close"
         onclick="closeModulexAdvanced()"
       >
         ×
       </button>
     </div>
 
-    <div class="nnmpr-wa-advanced-body">
-      <div class="nnmpr-wa-advanced-message">
+    <div class="ybeqv-wa-advanced-body">
+      <div class="ybeqv-wa-advanced-message">
         <p>Merhaba! Size nasıl yardımcı olabilirim?</p>
-        <span class="nnmpr-wa-advanced-time">Şimdi</span>
+        <span class="ybeqv-wa-advanced-time">Şimdi</span>
       </div>
     </div>
 
-    <div class="nnmpr-wa-advanced-footer">
+    <div class="ybeqv-wa-advanced-footer">
       <a
-        href="https://wa.me/905418504646"
+        href="https://wa.me/908508002727"
         target="_blank"
-        class="nnmpr-wa-advanced-chat-btn"
+        class="ybeqv-wa-advanced-chat-btn"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -396,27 +394,23 @@
 
 <script>
   function toggleModulexAdvanced() {
-    const panel = document.getElementById("nnmprWaPanel");
+    const panel = document.getElementById("ybeqvWaPanel");
     panel.style.display = panel.style.display === "block" ? "none" : "block";
   }
 
   function closeModulexAdvanced() {
-    document.getElementById("nnmprWaPanel").style.display = "none";
+    document.getElementById("ybeqvWaPanel").style.display = "none";
   }
 </script>
 </div>
 </body>
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link rel="preload"
-  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-  as="style" onload="this.onload=null;this.rel='stylesheet'" />
+<link rel="preload" href="/src/material-symbols-outlined.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
 
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=h1el0"></script>
-<script defer src="/src/cookie.js?v=h1el0"></script>
+<script defer type="text/javascript" src="/src/js.js?v=l2y0t"></script>
+<script defer src="/src/cookie.js?v=l2y0t"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

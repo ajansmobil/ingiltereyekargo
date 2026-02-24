@@ -1,7 +1,7 @@
 
  
 
-  .j7za0 {
+  .apctp {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .j7za0title {
+  .apctptitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .j7za0title:has(.j7za0titlebodylang:empty),
-  .j7za0title:has(.j7za0titlebodylang ul:empty) {
+  .apctptitle:has(.apctptitlebodylang:empty),
+  .apctptitle:has(.apctptitlebodylang ul:empty) {
     display: none;
   }
 
-  .j7za0titlebody {
+  .apctptitlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -31,34 +31,34 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .j7za0titlebodytitle {
+  .apctptitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .j7za0titlebodylang {
+  .apctptitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .j7za0titlebodylang:empty,
-  .j7za0titlebodylang ul:empty {
+  .apctptitlebodylang:empty,
+  .apctptitlebodylang ul:empty {
     display: none;
   }
 
-  .j7za0titlebodylang ul {
+  .apctptitlebodylang ul {
     display: flex;
     gap: 8px;
   }
 
   /* Dil seçici: TR / EN metin, bordür tema rengiyle uyumlu (renk uyumsuzluğu yok) */
-  .j7za0titlebodylang li {
+  .apctptitlebodylang li {
     list-style: none;
   }
 
-  .j7za0titlebodylang li a {
+  .apctptitlebodylang li a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -75,13 +75,13 @@
     cursor: pointer;
   }
 
-  .j7za0titlebodylang li a:hover {
+  .apctptitlebodylang li a:hover {
     border-color: #000000;
     background: #ffffff;
     color: #000000 !important;
   }
 
-  .j7za0body {
+  .apctpbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -91,7 +91,7 @@
   }
 
   /* Mobil hamburger butonu: onclick olduğu için cursor: pointer zorunlu (kural) */
-  .j7za0-mobile-toggle {
+  .apctp-mobile-toggle {
     display: none;
     background: #1e3046;
     color: #ffffff;
@@ -105,18 +105,18 @@
     right: 0;
   }
 
-  .j7za0-mobile-toggle span {
+  .apctp-mobile-toggle span {
     font-size: 24px;
   }
 
-  .j7za0menu {
+  .apctpmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .j7za0menulist {
+  .apctpmenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -125,7 +125,7 @@
     display: flex;
   }
 
-  .j7za0menubody {
+  .apctpmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -133,7 +133,7 @@
     justify-content: center;
   }
 
-  .j7za0menulist ul {
+  .apctpmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -142,7 +142,7 @@
     padding: 0;
   }
 
-  .j7za0menulist ul a {
+  .apctpmenulist ul a {
     padding: 10px 15px;
     font-size: 16px;
     color: #ffffff !important;
@@ -155,40 +155,40 @@
     margin: 0 2px;
   }
 
-  .j7za0menulist ul a:hover {
+  .apctpmenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .j7za0menulist ul a.j7za0-menu-list-active {
+  .apctpmenulist ul a.apctp-menu-list-active {
     color: #000000 !important;
   }
 
-  .j7za0-menu-list-active {
+  .apctp-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .j7za0menulistbody {
+  .apctpmenulistbody {
     width: 100%;
   }
 
-  .j7za0languages-mobile {
+  .apctplanguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .j7za0languages-mobile:empty,
-  .j7za0languages-mobile ul:empty {
+  .apctplanguages-mobile:empty,
+  .apctplanguages-mobile ul:empty {
     display: none !important;
   }
 
-  .j7za0languages-mobile ul {
+  .apctplanguages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -198,7 +198,7 @@
   }
 
   /* Dil seçici: TR / EN metin, bordür ve arka plan tema ile uyumlu */
-  .j7za0languages-mobile li {
+  .apctplanguages-mobile li {
     list-style: none;
     border: 1px solid color-mix(in srgb, #ffffff 35%, transparent);
     padding: 0;
@@ -212,7 +212,7 @@
     transition: border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
   }
 
-  .j7za0languages-mobile li a {
+  .apctplanguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -227,29 +227,29 @@
     cursor: pointer;
   }
 
-  .j7za0languages-mobile li:hover {
+  .apctplanguages-mobile li:hover {
     background-color: #ffffff;
     border-color: #000000;
     box-shadow: 0 2px 8px color-mix(in srgb, #000000 25%, transparent);
   }
 
-  .j7za0languages-mobile li:hover a {
+  .apctplanguages-mobile li:hover a {
     color: #000000 !important;
   }
 
   /* Mobil drawer için backdrop: masaüstünde görünmez */
-  .j7za0-menu-backdrop {
+  .apctp-menu-backdrop {
     display: none;
   }
 
   @media screen and (min-width: 1024px) {
-    .j7za0bodylogo {
+    .apctpbodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .j7za0title {
+    .apctptitle {
     margin-bottom: -30px;
   }
 
@@ -257,30 +257,30 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .j7za0body {
+    .apctpbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .j7za0menulist ul {
+    .apctpmenulist ul {
       flex-direction: row;
     }
 
-    .j7za0bodylogo {
+    .apctpbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .j7za0titlebody {
+    .apctptitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .j7za0titlebodytitle {
+    .apctptitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
@@ -288,28 +288,28 @@
 
     /* Mobil: app tarzı sağdan kayan drawer menü */
   @media screen and (max-width: 768px) {
-    .j7za0titlebodylang {
+    .apctptitlebodylang {
       display: none;
     }
 
-    .j7za0body {
+    .apctpbody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .j7za0-mobile-toggle {
+    .apctp-mobile-toggle {
       display: inline-flex;
     }
 
-    .j7za0bodylogo {
+    .apctpbodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
     /* Backdrop: sadece menü açıkken görünür; tıklanınca menü kapanır (onclick ile) */
-    .j7za0-menu-backdrop {
+    .apctp-menu-backdrop {
       display: block;
       position: fixed;
       inset: 0;
@@ -322,14 +322,14 @@
       cursor: pointer;
     }
 
-    .j7za0.j7za0menu-open .j7za0-menu-backdrop {
+    .apctp.apctpmenu-open .apctp-menu-backdrop {
       opacity: 1;
       visibility: visible;
       pointer-events: auto;
     }
 
     /* Drawer: sağdan kayan panel, fixed, tam yükseklik; kapalıyken ekran dışında */
-    .j7za0menubody {
+    .apctpmenubody {
       position: fixed;
       top: 0;
       right: 0;
@@ -349,22 +349,22 @@
       overflow-y: auto;
     }
 
-    .j7za0.j7za0menu-open .j7za0menubody {
+    .apctp.apctpmenu-open .apctpmenubody {
       transform: translateX(0);
     }
 
-    .j7za0menu {
+    .apctpmenu {
       width: 100%;
       flex-direction: column;
       height: 100%;
     }
 
-    .j7za0menulistbody {
+    .apctpmenulistbody {
       flex: 1;
       overflow-y: auto;
     }
 
-    .j7za0menulist {
+    .apctpmenulist {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -374,12 +374,12 @@
       box-shadow: none;
     }
 
-    .j7za0.j7za0menu-open .j7za0menulist {
+    .apctp.apctpmenu-open .apctpmenulist {
       display: flex;
     }
 
     /* Mobil kural: lang sayfanın (drawer) en altında ve ortada */
-    .j7za0.j7za0menu-open .j7za0languages-mobile {
+    .apctp.apctpmenu-open .apctplanguages-mobile {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -391,16 +391,16 @@
       flex-shrink: 0;
     }
 
-    .j7za0.j7za0menu-open .j7za0languages-mobile ul {
+    .apctp.apctpmenu-open .apctplanguages-mobile ul {
       justify-content: center;
     }
 
-    .j7za0menulist ul {
+    .apctpmenulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .j7za0menulist ul a {
+    .apctpmenulist ul a {
       font-size: 15px;
       width: 100%;
       padding: 14px 12px;
@@ -411,16 +411,16 @@
       box-sizing: border-box;
     }
 
-    .j7za0menulist ul a:last-child {
+    .apctpmenulist ul a:last-child {
       border-bottom: none;
     }
 
-    .j7za0menulist ul a:hover {
+    .apctpmenulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .j7za0titlebodytitle {
+    .apctptitlebodytitle {
       font-size: 12px;
     }
   }
@@ -430,14 +430,14 @@
     justify-content: start;
   }
 
-  .modpu {
+  .as298 {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
     float: left;
   }
 
-  .modpu-menu {
+  .as298-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
@@ -448,28 +448,28 @@
     float: left;
   }
 
-  .modpu-desc {
+  .as298-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .modpu-menu > a {
+  .as298-menu > a {
     background-color: #fff;
     padding: 10px;
     float: left;
     border-radius: 5px;
   }
 
-  .modpu-menu > .active,
-  .modpu-menu > a:hover {
+  .as298-menu > .active,
+  .as298-menu > a:hover {
     background-color: #1e3046;
     color: #fff;
     display: flex;
   }
 
-  .modpu-desc-menu {
+  .as298-desc-menu {
     width: 200px;
     background-color: #1e3046;
     display: flex;
@@ -477,19 +477,19 @@
     border-radius: 5px;
   }
 
-  .modpu-desc-menu > div {
+  .as298-desc-menu > div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .modpu-desc-body {
+  .as298-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .modpu-title {
+  .as298-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -502,7 +502,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .modpu-title::before {
+  .as298-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -517,58 +517,58 @@
     z-index: 1;
   }
 
-  .modpu-title h1 {
+  .as298-title h1 {
     position: relative;
     z-index: 2;
     font-size: 32px;
     margin: 0;
   }
 
-  .modpu-body {
+  .as298-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
 
-  .modpu-img {
+  .as298-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
   }
 
-  .modpu-img img {
+  .as298-img img {
     width: 100%;
     border-radius: 10px;
   }
 
   @media screen and (min-width: 1024px) {
-    .modpu-desc {
+    .as298-desc {
       width: calc(var(--max) - 240px);
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .modpu {
+    .as298 {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
       gap: 20px;
     }
 
-    .modpu-img {
+    .as298-img {
       width: 100%;
     }
 
-    .modpu-body {
+    .as298-body {
       width: 100%;
     }
 
-    .modpu-menu {
+    .as298-menu {
       display: none;
     }
 
-    .modpu-desc {
+    .as298-desc {
       width: 100% !important;
     }
   }
@@ -714,7 +714,7 @@
     box-sizing: border-box;
   }
 
-  .r6761-wa-advanced-button {
+  .fpkjm-wa-advanced-button {
     position: relative;
     width: 64px;
     height: 64px;
@@ -728,18 +728,18 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
-  .r6761-wa-advanced-button:hover {
+  .fpkjm-wa-advanced-button:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
   }
 
-  .r6761-wa-advanced-icon svg {
+  .fpkjm-wa-advanced-icon svg {
     width: 32px;
     height: 32px;
     fill: #fff;
   }
 
-  .r6761-wa-advanced-pulse {
+  .fpkjm-wa-advanced-pulse {
     position: absolute;
     top: -2px;
     left: -2px;
@@ -762,7 +762,7 @@
     }
   }
 
-  .r6761-wa-advanced-panel {
+  .fpkjm-wa-advanced-panel {
     position: absolute;
     bottom: 80px;
     right: 0;
@@ -776,7 +776,7 @@
     box-sizing: border-box;
   }
 
-  .r6761-wa-advanced-header {
+  .fpkjm-wa-advanced-header {
     background: #25D366;
     color: #fff;
     padding: 16px;
@@ -786,20 +786,20 @@
     position: relative;
   }
 
-  .r6761-wa-advanced-avatar {
+  .fpkjm-wa-advanced-avatar {
     position: relative;
     width: 48px;
     height: 48px;
   }
 
-  .r6761-wa-advanced-avatar img {
+  .fpkjm-wa-advanced-avatar img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
   }
 
-  .r6761-wa-advanced-status {
+  .fpkjm-wa-advanced-status {
     position: absolute;
     bottom: 2px;
     right: 2px;
@@ -809,23 +809,23 @@
     border: 2px solid #fff;
   }
 
-  .r6761-wa-advanced-status.online {
+  .fpkjm-wa-advanced-status.online {
     background: #4caf50;
   }
 
-  .r6761-wa-advanced-info h4 {
+  .fpkjm-wa-advanced-info h4 {
     margin: 0;
     font-size: 16px;
     font-weight: 600;
   }
 
-  .r6761-wa-advanced-info p {
+  .fpkjm-wa-advanced-info p {
     margin: 4px 0 0 0;
     font-size: 12px;
     opacity: 0.9;
   }
 
-  .r6761-wa-advanced-close {
+  .fpkjm-wa-advanced-close {
     position: absolute;
     top: 12px;
     right: 12px;
@@ -837,16 +837,16 @@
     opacity: 0.8;
   }
 
-  .r6761-wa-advanced-close:hover {
+  .fpkjm-wa-advanced-close:hover {
     opacity: 1;
   }
 
-  .r6761-wa-advanced-body {
+  .fpkjm-wa-advanced-body {
     padding: 16px;
     background: #f8f9fa;
   }
 
-  .r6761-wa-advanced-message {
+  .fpkjm-wa-advanced-message {
     background: #fff;
     padding: 12px 16px;
     border-radius: 8px;
@@ -857,29 +857,29 @@
     justify-content: flex-end;
   }
 
-  .r6761-wa-advanced-message p {
+  .fpkjm-wa-advanced-message p {
     font-size: 14px;
     color: #333;
     text-align: right;
     margin: 0;
   }
 
-  .r6761-wa-advanced-time {
+  .fpkjm-wa-advanced-time {
     font-size: 10px;
     color: #999;
     margin: 4px 0 0 0;
   }
 
-  .r6761-wa-advanced-footer {
+  .fpkjm-wa-advanced-footer {
     padding: 16px;
   }
 
-  .r6761-wa-advanced-footer a {
+  .fpkjm-wa-advanced-footer a {
     text-decoration: none;
     color: #fff !important;
   }
 
-  .r6761-wa-advanced-chat-btn {
+  .fpkjm-wa-advanced-chat-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -895,7 +895,7 @@
     transition: transform 0.3s ease;
   }
 
-  .r6761-wa-advanced-chat-btn:hover {
+  .fpkjm-wa-advanced-chat-btn:hover {
     transform: translateY(-2px);
   }
 
@@ -907,7 +907,7 @@
       max-width: calc(100vw - 40px);
     }
     
-    .r6761-wa-advanced-panel {
+    .fpkjm-wa-advanced-panel {
       width: calc(100vw - 40px);
       max-width: 320px;
       right: 0;

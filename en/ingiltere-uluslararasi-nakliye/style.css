@@ -1,7 +1,7 @@
 
  
 
-  .a57a9 {
+  .ntaeo {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     justify-content: center;
   }
 
-  .a57a9title {
+  .ntaeotitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@
     z-index: 1;
   }
 
-  .a57a9title:has(.a57a9titlebodylang:empty),
-  .a57a9title:has(.a57a9titlebodylang ul:empty) {
+  .ntaeotitle:has(.ntaeotitlebodylang:empty),
+  .ntaeotitle:has(.ntaeotitlebodylang ul:empty) {
     display: none;
   }
 
-  .a57a9titlebody {
+  .ntaeotitlebody {
     color: #ffffff;
     width: var(--max);
     display: flex;
@@ -31,34 +31,34 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .a57a9titlebodytitle {
+  .ntaeotitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .a57a9titlebodylang {
+  .ntaeotitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .a57a9titlebodylang:empty,
-  .a57a9titlebodylang ul:empty {
+  .ntaeotitlebodylang:empty,
+  .ntaeotitlebodylang ul:empty {
     display: none;
   }
 
-  .a57a9titlebodylang ul {
+  .ntaeotitlebodylang ul {
     display: flex;
     gap: 8px;
   }
 
   /* Dil seçici: TR / EN metin, bordür tema rengiyle uyumlu (renk uyumsuzluğu yok) */
-  .a57a9titlebodylang li {
+  .ntaeotitlebodylang li {
     list-style: none;
   }
 
-  .a57a9titlebodylang li a {
+  .ntaeotitlebodylang li a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -75,13 +75,13 @@
     cursor: pointer;
   }
 
-  .a57a9titlebodylang li a:hover {
+  .ntaeotitlebodylang li a:hover {
     border-color: #000000;
     background: #ffffff;
     color: #000000 !important;
   }
 
-  .a57a9body {
+  .ntaeobody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -91,7 +91,7 @@
   }
 
   /* Mobil hamburger butonu: onclick olduğu için cursor: pointer zorunlu (kural) */
-  .a57a9-mobile-toggle {
+  .ntaeo-mobile-toggle {
     display: none;
     background: #1e3046;
     color: #ffffff;
@@ -105,18 +105,18 @@
     right: 0;
   }
 
-  .a57a9-mobile-toggle span {
+  .ntaeo-mobile-toggle span {
     font-size: 24px;
   }
 
-  .a57a9menu {
+  .ntaeomenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .a57a9menulist {
+  .ntaeomenulist {
     width: calc(100% - 20px);
     background-color: #1e3046;
     padding: 10px;
@@ -125,7 +125,7 @@
     display: flex;
   }
 
-  .a57a9menubody {
+  .ntaeomenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
@@ -133,7 +133,7 @@
     justify-content: center;
   }
 
-  .a57a9menulist ul {
+  .ntaeomenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -142,7 +142,7 @@
     padding: 0;
   }
 
-  .a57a9menulist ul a {
+  .ntaeomenulist ul a {
     padding: 10px 15px;
     font-size: 16px;
     color: #ffffff !important;
@@ -155,40 +155,40 @@
     margin: 0 2px;
   }
 
-  .a57a9menulist ul a:hover {
+  .ntaeomenulist ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .a57a9menulist ul a.a57a9-menu-list-active {
+  .ntaeomenulist ul a.ntaeo-menu-list-active {
     color: #000000 !important;
   }
 
-  .a57a9-menu-list-active {
+  .ntaeo-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .a57a9menulistbody {
+  .ntaeomenulistbody {
     width: 100%;
   }
 
-  .a57a9languages-mobile {
+  .ntaeolanguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .a57a9languages-mobile:empty,
-  .a57a9languages-mobile ul:empty {
+  .ntaeolanguages-mobile:empty,
+  .ntaeolanguages-mobile ul:empty {
     display: none !important;
   }
 
-  .a57a9languages-mobile ul {
+  .ntaeolanguages-mobile ul {
     display: flex;
     gap: 8px;
     margin: 0;
@@ -198,7 +198,7 @@
   }
 
   /* Dil seçici: TR / EN metin, bordür ve arka plan tema ile uyumlu */
-  .a57a9languages-mobile li {
+  .ntaeolanguages-mobile li {
     list-style: none;
     border: 1px solid color-mix(in srgb, #ffffff 35%, transparent);
     padding: 0;
@@ -212,7 +212,7 @@
     transition: border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
   }
 
-  .a57a9languages-mobile li a {
+  .ntaeolanguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -227,29 +227,29 @@
     cursor: pointer;
   }
 
-  .a57a9languages-mobile li:hover {
+  .ntaeolanguages-mobile li:hover {
     background-color: #ffffff;
     border-color: #000000;
     box-shadow: 0 2px 8px color-mix(in srgb, #000000 25%, transparent);
   }
 
-  .a57a9languages-mobile li:hover a {
+  .ntaeolanguages-mobile li:hover a {
     color: #000000 !important;
   }
 
   /* Mobil drawer için backdrop: masaüstünde görünmez */
-  .a57a9-menu-backdrop {
+  .ntaeo-menu-backdrop {
     display: none;
   }
 
   @media screen and (min-width: 1024px) {
-    .a57a9bodylogo {
+    .ntaeobodylogo {
       height: 100px;
       max-width: 90vw;
       max-height: 100px;
     }
 
-    .a57a9title {
+    .ntaeotitle {
     margin-bottom: -30px;
   }
 
@@ -257,30 +257,30 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .a57a9body {
+    .ntaeobody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: center;
     }
 
-    .a57a9menulist ul {
+    .ntaeomenulist ul {
       flex-direction: row;
     }
 
-    .a57a9bodylogo {
+    .ntaeobodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .a57a9titlebody {
+    .ntaeotitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .a57a9titlebodytitle {
+    .ntaeotitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
@@ -288,28 +288,28 @@
 
     /* Mobil: app tarzı sağdan kayan drawer menü */
   @media screen and (max-width: 768px) {
-    .a57a9titlebodylang {
+    .ntaeotitlebodylang {
       display: none;
     }
 
-    .a57a9body {
+    .ntaeobody {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .a57a9-mobile-toggle {
+    .ntaeo-mobile-toggle {
       display: inline-flex;
     }
 
-    .a57a9bodylogo {
+    .ntaeobodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
     /* Backdrop: sadece menü açıkken görünür; tıklanınca menü kapanır (onclick ile) */
-    .a57a9-menu-backdrop {
+    .ntaeo-menu-backdrop {
       display: block;
       position: fixed;
       inset: 0;
@@ -322,14 +322,14 @@
       cursor: pointer;
     }
 
-    .a57a9.a57a9menu-open .a57a9-menu-backdrop {
+    .ntaeo.ntaeomenu-open .ntaeo-menu-backdrop {
       opacity: 1;
       visibility: visible;
       pointer-events: auto;
     }
 
     /* Drawer: sağdan kayan panel, fixed, tam yükseklik; kapalıyken ekran dışında */
-    .a57a9menubody {
+    .ntaeomenubody {
       position: fixed;
       top: 0;
       right: 0;
@@ -349,22 +349,22 @@
       overflow-y: auto;
     }
 
-    .a57a9.a57a9menu-open .a57a9menubody {
+    .ntaeo.ntaeomenu-open .ntaeomenubody {
       transform: translateX(0);
     }
 
-    .a57a9menu {
+    .ntaeomenu {
       width: 100%;
       flex-direction: column;
       height: 100%;
     }
 
-    .a57a9menulistbody {
+    .ntaeomenulistbody {
       flex: 1;
       overflow-y: auto;
     }
 
-    .a57a9menulist {
+    .ntaeomenulist {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -374,12 +374,12 @@
       box-shadow: none;
     }
 
-    .a57a9.a57a9menu-open .a57a9menulist {
+    .ntaeo.ntaeomenu-open .ntaeomenulist {
       display: flex;
     }
 
     /* Mobil kural: lang sayfanın (drawer) en altında ve ortada */
-    .a57a9.a57a9menu-open .a57a9languages-mobile {
+    .ntaeo.ntaeomenu-open .ntaeolanguages-mobile {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -391,16 +391,16 @@
       flex-shrink: 0;
     }
 
-    .a57a9.a57a9menu-open .a57a9languages-mobile ul {
+    .ntaeo.ntaeomenu-open .ntaeolanguages-mobile ul {
       justify-content: center;
     }
 
-    .a57a9menulist ul {
+    .ntaeomenulist ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .a57a9menulist ul a {
+    .ntaeomenulist ul a {
       font-size: 15px;
       width: 100%;
       padding: 14px 12px;
@@ -411,16 +411,16 @@
       box-sizing: border-box;
     }
 
-    .a57a9menulist ul a:last-child {
+    .ntaeomenulist ul a:last-child {
       border-bottom: none;
     }
 
-    .a57a9menulist ul a:hover {
+    .ntaeomenulist ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    .a57a9titlebodytitle {
+    .ntaeotitlebodytitle {
       font-size: 12px;
     }
   }
@@ -430,14 +430,14 @@
     justify-content: start;
   }
 
-  .pucn0 {
+  .wb0gr {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
     float: left;
   }
 
-  .pucn0-menu {
+  .wb0gr-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
@@ -448,28 +448,28 @@
     float: left;
   }
 
-  .pucn0-desc {
+  .wb0gr-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .pucn0-menu > a {
+  .wb0gr-menu > a {
     background-color: #fff;
     padding: 10px;
     float: left;
     border-radius: 5px;
   }
 
-  .pucn0-menu > .active,
-  .pucn0-menu > a:hover {
+  .wb0gr-menu > .active,
+  .wb0gr-menu > a:hover {
     background-color: #1e3046;
     color: #fff;
     display: flex;
   }
 
-  .pucn0-desc-menu {
+  .wb0gr-desc-menu {
     width: 200px;
     background-color: #1e3046;
     display: flex;
@@ -477,19 +477,19 @@
     border-radius: 5px;
   }
 
-  .pucn0-desc-menu > div {
+  .wb0gr-desc-menu > div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .pucn0-desc-body {
+  .wb0gr-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .pucn0-title {
+  .wb0gr-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -502,7 +502,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .pucn0-title::before {
+  .wb0gr-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -517,58 +517,58 @@
     z-index: 1;
   }
 
-  .pucn0-title h1 {
+  .wb0gr-title h1 {
     position: relative;
     z-index: 2;
     font-size: 32px;
     margin: 0;
   }
 
-  .pucn0-body {
+  .wb0gr-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
 
-  .pucn0-img {
+  .wb0gr-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
   }
 
-  .pucn0-img img {
+  .wb0gr-img img {
     width: 100%;
     border-radius: 10px;
   }
 
   @media screen and (min-width: 1024px) {
-    .pucn0-desc {
+    .wb0gr-desc {
       width: calc(var(--max) - 240px);
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .pucn0 {
+    .wb0gr {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
       gap: 20px;
     }
 
-    .pucn0-img {
+    .wb0gr-img {
       width: 100%;
     }
 
-    .pucn0-body {
+    .wb0gr-body {
       width: 100%;
     }
 
-    .pucn0-menu {
+    .wb0gr-menu {
       display: none;
     }
 
-    .pucn0-desc {
+    .wb0gr-desc {
       width: 100% !important;
     }
   }
@@ -714,7 +714,7 @@
     box-sizing: border-box;
   }
 
-  .sossq-wa-advanced-button {
+  .oehut-wa-advanced-button {
     position: relative;
     width: 64px;
     height: 64px;
@@ -728,18 +728,18 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
-  .sossq-wa-advanced-button:hover {
+  .oehut-wa-advanced-button:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
   }
 
-  .sossq-wa-advanced-icon svg {
+  .oehut-wa-advanced-icon svg {
     width: 32px;
     height: 32px;
     fill: #fff;
   }
 
-  .sossq-wa-advanced-pulse {
+  .oehut-wa-advanced-pulse {
     position: absolute;
     top: -2px;
     left: -2px;
@@ -762,7 +762,7 @@
     }
   }
 
-  .sossq-wa-advanced-panel {
+  .oehut-wa-advanced-panel {
     position: absolute;
     bottom: 80px;
     right: 0;
@@ -776,7 +776,7 @@
     box-sizing: border-box;
   }
 
-  .sossq-wa-advanced-header {
+  .oehut-wa-advanced-header {
     background: #25D366;
     color: #fff;
     padding: 16px;
@@ -786,20 +786,20 @@
     position: relative;
   }
 
-  .sossq-wa-advanced-avatar {
+  .oehut-wa-advanced-avatar {
     position: relative;
     width: 48px;
     height: 48px;
   }
 
-  .sossq-wa-advanced-avatar img {
+  .oehut-wa-advanced-avatar img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
   }
 
-  .sossq-wa-advanced-status {
+  .oehut-wa-advanced-status {
     position: absolute;
     bottom: 2px;
     right: 2px;
@@ -809,23 +809,23 @@
     border: 2px solid #fff;
   }
 
-  .sossq-wa-advanced-status.online {
+  .oehut-wa-advanced-status.online {
     background: #4caf50;
   }
 
-  .sossq-wa-advanced-info h4 {
+  .oehut-wa-advanced-info h4 {
     margin: 0;
     font-size: 16px;
     font-weight: 600;
   }
 
-  .sossq-wa-advanced-info p {
+  .oehut-wa-advanced-info p {
     margin: 4px 0 0 0;
     font-size: 12px;
     opacity: 0.9;
   }
 
-  .sossq-wa-advanced-close {
+  .oehut-wa-advanced-close {
     position: absolute;
     top: 12px;
     right: 12px;
@@ -837,16 +837,16 @@
     opacity: 0.8;
   }
 
-  .sossq-wa-advanced-close:hover {
+  .oehut-wa-advanced-close:hover {
     opacity: 1;
   }
 
-  .sossq-wa-advanced-body {
+  .oehut-wa-advanced-body {
     padding: 16px;
     background: #f8f9fa;
   }
 
-  .sossq-wa-advanced-message {
+  .oehut-wa-advanced-message {
     background: #fff;
     padding: 12px 16px;
     border-radius: 8px;
@@ -857,29 +857,29 @@
     justify-content: flex-end;
   }
 
-  .sossq-wa-advanced-message p {
+  .oehut-wa-advanced-message p {
     font-size: 14px;
     color: #333;
     text-align: right;
     margin: 0;
   }
 
-  .sossq-wa-advanced-time {
+  .oehut-wa-advanced-time {
     font-size: 10px;
     color: #999;
     margin: 4px 0 0 0;
   }
 
-  .sossq-wa-advanced-footer {
+  .oehut-wa-advanced-footer {
     padding: 16px;
   }
 
-  .sossq-wa-advanced-footer a {
+  .oehut-wa-advanced-footer a {
     text-decoration: none;
     color: #fff !important;
   }
 
-  .sossq-wa-advanced-chat-btn {
+  .oehut-wa-advanced-chat-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -895,7 +895,7 @@
     transition: transform 0.3s ease;
   }
 
-  .sossq-wa-advanced-chat-btn:hover {
+  .oehut-wa-advanced-chat-btn:hover {
     transform: translateY(-2px);
   }
 
@@ -907,7 +907,7 @@
       max-width: calc(100vw - 40px);
     }
     
-    .sossq-wa-advanced-panel {
+    .oehut-wa-advanced-panel {
       width: calc(100vw - 40px);
       max-width: 320px;
       right: 0;

@@ -25,6 +25,5 @@
     "pt": false
   },
   "logo": "logo.webp",
-  "multi": false,
-  "firebaseCollection": ""
+  "multi": false
 }
